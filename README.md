@@ -9,5 +9,7 @@ HOW IT WAS RESOLVED?
 After several attempts, I was able to solve the conflict these following commands:
 
 git remote -v - This command was used to view the URLs of the remote repo.
+
 git remote rm - This command was used to remove the repo URLs 
+
 And then a new repo was created and push again with git push origin HEAD
