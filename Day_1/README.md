@@ -11,5 +11,5 @@ i. Introduction To Javascript
      - Internal Script
      - External Script
      - Multi-External Script
-   vi. Variables
-   vii. Data Types in Javascript
+ ii. Variables
+ iii. Data Types in Javascript
