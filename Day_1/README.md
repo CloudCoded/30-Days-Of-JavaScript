@@ -2,14 +2,14 @@ What I Learn On The 8th-Feb-2023
 
 i. Introduction To Javascript
    
-   . I learnt how to install node.js, tho I had prior knowledge on the installation
-   . How to create javascript code on google chrome console
-   . Console.log() function
-   . Comments in javascript
-   . Ways of adding javascript to the webpage:
+    i. I learnt how to install node.js, tho I had prior knowledge on the installation
+    ii. How to create javascript code on google chrome console
+    iii. Console.log() function
+    iv. Comments in javascript
+    v. Ways of adding javascript to the webpage:
      - Inline Script
      - Internal Script
      - External Script
      - Multi-External Script
-   . Variables
-   . Data Types in Javascript
+   vi. Variables
+   vii. Data Types in Javascript
