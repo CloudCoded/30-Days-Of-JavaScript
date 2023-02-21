@@ -1,0 +1,45 @@
+On The 17th Of February 2023 I Learned The Following:
+
+BOOLEAN => A boolean data type represent one of two values (TRUE OR FALSE)
+
+TRUTHY VALUES
+1. All numbers(positive and negative) are true except zero
+2. All strings are true except empty string('')
+3. The boolean true
+
+FALSY VALUES
+1. 0
+2. 0n
+3. Undefined, NaN, The boolean false, '' etc.
+
+OPERATORS => Assignment, Arithmetic, Comparison, Logical, Increment, Ternary Operators
+
+1. Assignment Operator: Example of assignment operators are(=, +=, -=, *=, /=, %=, **=). These are used to assign values
+2. Arithmetic Operator: These are mathematical operator(+, -, *, /, %, **)
+3. Comparison Operator: This operator is used to compare values(==, ===, !=, >, <, =>, <=)
+4. Logical Operator: The following symbols are the common logical operators, &&(ampersand), ||(pipe, or), & !(negation). The && operator gets true only if the two operands are true. The || operator gets true if one of the operand is true. The ! operator negates true to false and false to true.
+5. Increment Operator: In Js, this operator is used to increase value stored in a variable while decrement operator is the opposite (count++, count--)
+6. Ternary Operator: It allows us to write a conditional statement instead of using if/else statement.
+7. Operator Precedence: It determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence. e.g console.log(3 + 4 * 5), the higher precedence here is (4 * 5). 
+
+
+WINDOWS METHOD:
+1. Window alert() => It display an alert box with a specified message and an OK button. It is a builtin method, e.g alert(message)
+2. Window prompt() => It display a prompt box with an input on the browser to take input values & data stored in a variable.
+3. Window confirm() => It displays a dialog box with a specified message, along with an OK and CANCEL button. It is often used to ask permission from a user to execute something.
+
+
+DATA OBJECT
+
+In JS, current time & date is created using JS Date Object. The methods we use to get date & time info from a date object values are started with a word (get) because it provide the info:
+1. getFullYear()
+2. getMonth()
+3. getDate()
+4. getHour()
+5. getDay()
+6. getTime()
+7. getSeconds()
+8. getMinutes()
+9. getMilliseconds()
+10. Creating a time => const now = new Date()
+                        console.log(now)

@@ -18,24 +18,7 @@ Quesrtion 3: Clean the following text and find the most frequent word (hint, use
 */
 
 const cleared = sentence.replace(/[^\s\w]/gi, '') // remove non-alphanumeric characters
-const words = cleared.split(' '); //split into words
-const freq = {};
-for(let i = 0; i < words.length; i++) {
-    if(freq[word[i]]) {
-        freq[word[i]]++;
-    } else{
-        freq[word[i]] = 1;
-    }
-} 
-let mostFrequent = '';
-let maxFreq = 0;
-for (const word in freq){
-    if (freq[word] > maxFreq) {
-        maxFreq = freq[word];
-        mostFrequent = word;
-    }
-}
-console.log(mostFrequent);
+console.log(cleared)
 
 
 /*
