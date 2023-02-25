@@ -3,7 +3,7 @@ Question 1: Get user input using prompt(“Enter your age:”). If user is 18 or
 */
 
 //prompt box
-let urAge = prompt('Enter your age: ');
+let urAge = parseInt(prompt('Enter your age: '));
 
 //if else statement
 if(urAge >= 18){
@@ -25,8 +25,10 @@ const diff = parseInt(yourAge) - parseInt(myAge);
 //comparison
 if(yourAge > myAge){
 console.log(`You are ${diff} years older than me.`);
-} else {
-    console.log('I am older')
+} else if(yourAge === myAge) {
+    console.log('We are age mate');
+} else{
+    console.log('I am older');
 }
 
 /*
@@ -55,7 +57,8 @@ isGreater ? console.log(`{a} is greater than ${b}`) : console.log(`${a} is less 
 Question 4: Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 */
 
-let num = prompt('Enter a number: ');
+let num = parseInt(prompt('Enter a number: '));
+
 
 //Using the modulus operator to check if a num is even or odd
 if(num % 2 == 0){
