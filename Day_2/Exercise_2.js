@@ -83,6 +83,13 @@ let accessStr = 'JavaScript';
 let firstStr = accessStr[0]; //The firstStr is declared  and used to access the above value with random number in the [] bracket
 console.log(firstStr); //console will print out the accessed char
 
+//Or
+
+let word = 'JavaScript';
+let wordLength = word.length;
+let randomWord = Math.floor(Math.random() * wordLength);
+console.log(randomWord);
+
 /*
 Question 11: Use console.log() and escape characters to print the following pattern.
 */
