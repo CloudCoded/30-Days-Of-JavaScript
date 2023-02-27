@@ -62,9 +62,9 @@ Question 3:Check if a day is weekend day or a working day. Your script will take
 //Answer
 let day = prompt('What is the day today: ').toLowerCase();
 let today = day[0].toUpperCase() + day.slice(1);
-if(day === 'Monday'.toLowerCase() || day === 'Tuesday'.toLowerCase() || day === 'Wednesday'.toLowerCase() || day === 'Thursday'.toLowerCase() || day === 'Friday'.toLowerCase()){
+if(day === 'monday' || day === 'tuesday' || day === 'wednesday' || day === 'thursday' || day === 'friday'){
     console.log(today + ' is a working day');
-} else if(day === 'Saturday'.toLowerCase() || day === 'Sunday'.toLowerCase()){
+} else if(day === 'saturday' || day === 'sunday'){
     console.log(`${today} is a weekend`);
 } else {
     console.log('Day is not valid');
