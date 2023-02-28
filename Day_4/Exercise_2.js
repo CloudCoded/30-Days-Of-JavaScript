@@ -70,4 +70,36 @@ if(day === 'monday' || day === 'tuesday' || day === 'wednesday' || day === 'thur
     console.log('Day is not valid');
 }
 
+//Or
+
+let whatDay = prompt('Enter day: ').toLowerCase(); //INPUT DAY CONVERTED TO LOWERCASE
+let dayy = whatDay[0].toUpperCase() + whatDay.slice(1); //THE FIRST INDEX OF INPUT DAY CONVERTED TO UPPERCASE AND THE LOWERCASE CHARACTERS, THE FIRST ONE SLICED FROM THE CHARACTERS
+
+switch (whatDay){ //THE SWITCH TAKES THE INPUT DAY AS AN ARGUMENT FOLLOW BY THE CASE BLOG. 
+    case 'monday':
+        console.log(`${dayy} is a working day`);
+        break; //THE BREAK STATEMENT IS TO TERMINATE EXECUTION IF THE CODE IS TRUE AND DOES NOT GO BEYOND
+    case 'tuesday':
+        console.log(`${dayy} is a working day`);
+        break;
+    case 'wednesday':
+        console.log(`${dayy} is a working day`);
+        break;
+    case 'thursday':
+        console.log(`${dayy} is a working day`);
+        break;
+    case 'friday':
+        console.log(`${dayy} is a working day`);
+        break;
+    case 'saturday':
+        console.log(`${dayy} is a working day`);
+        break;
+    case 'sunday':
+        console.log(`${dayy} is a weekend`)
+        break;
+    default:
+        console.log(`${dayy} is not valid`);
+}
+
+
 
