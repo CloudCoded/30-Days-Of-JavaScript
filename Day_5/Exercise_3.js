@@ -58,5 +58,10 @@ console.log(comValueMax);
 
 //Check main.js => countries.js
 
-// Find the middle country(ies) in the countries array
+//2. Find the middle country(ies) in the countries array
 //Check main.js => countries.js
+
+
+//Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+//Check main.js => countries.js
+
