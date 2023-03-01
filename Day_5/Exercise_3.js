@@ -20,3 +20,9 @@ let maxAge = Math.max.apply(Math, sortAges); //Math.min method uses the apply me
 console.log(sortAges); //output sorted array
 console.log(minAge); //min age 19
 console.log(maxAge); //max age 26
+
+//Answer => Find the median age(one middle item or two middle items divided by two)
+let medianAge = ages.slice(4, 6); //[20, 25]
+medianAge = (20 + 25) / 2 // middle items divide by 2 = 22.5
+
+//Answer => Find the average age(all items divided by number of items)
