@@ -22,7 +22,34 @@ console.log(minAge); //min age 19
 console.log(maxAge); //max age 26
 
 //Answer => Find the median age(one middle item or two middle items divided by two)
-let medianAge = ages.slice(4, 6); //[20, 25]
-medianAge = (20 + 25) / 2 // middle items divide by 2 = 22.5
+const aages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+ages.sort(function(a, b) {
+  return a - b;
+});
+
+const length = ages.length;
+const middle = Math.floor(length / 2);
+
+if (length % 2 === 0) {
+  const median = (ages[middle - 1] + ages[middle]) / 2;
+  console.log(median); // Output: 24
+} else {
+  const median = ages[middle];
+  console.log(median); // Output: 24
+}
+
 
 //Answer => Find the average age(all items divided by number of items)
+let sum = 0
+for(i = 0; i < ages.length; i++){
+    sum += ages[i]
+}
+const average = sum / ages.length;
+console.log(average); //22.8
+
+//Answer => Compare the value of (min - average) and (max - average), use abs() method
+const comValueMin = Math.abs(Math.floor(19 - 22.8)); //Math.abs to return the absolute number and floor to round up the number
+const comValueMax = Math.abs(Math.floor(26- 22.8));
+
+console.log(comValueMin);
+console.log(comValueMax);
