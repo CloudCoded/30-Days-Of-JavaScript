@@ -24,7 +24,7 @@ const countries = [
   // 1.Slice the first ten countries from the countries array
   console.log(countries.slice(0, 9))
 
-  // Find the middle country(ies) in the countries array
+  // 2.Find the middle country(ies) in the countries array
   const length = countries.length; //gives the length of the array
   const middle = Math.floor(length / 2) //divides the array into two and return the absolute num 
 
@@ -35,3 +35,15 @@ const countries = [
     const middleCountry = countries[middle]
     console.log(middleCountry); // else if there's a reminder then that will be the middle country and will print it
   }
+
+  //3.Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+  const lengthOfArr = countries.length; //gives the length of the array
+  const divide = Math.round(length / 2) //divides the array into two and return the absolute num 
+
+  if(length % 2 === 0){ 
+    console.log('countries are even');
+  } else{
+    const addCountry = countries.push('Qatar')
+    console.log(addCountry);
+  }
+  console.log(countries);
