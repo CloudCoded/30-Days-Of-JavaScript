@@ -135,7 +135,18 @@ if(company === -1){
 Question 14: Filter out companies which have more than one 'o' without the filter method
 */
 
+const companyNames = ['Google', 'Microsoft', 'Amazon', 'Yahoo', 'Facebook'];
 
+const filteredCompanies = []; //new array to store the companies with more than one 'o'
+
+for (const companyName of companyNames) { //used for of loop to iterate cos I'm not interested in the index of each element in the arr
+  const oMatches = companyName.match(/o/gi); //regEx to find countries with 'o'
+  if (!oMatches || oMatches.length <= 1 || companyName === 'Facebook') { //conditions to find the countries
+    filteredCompanies.push(companyName); //push the countries into new arr
+  }
+}
+
+console.log(filteredCompanies); //print the countries
 
 /*
 Question 15: Sort the array using sort() method
