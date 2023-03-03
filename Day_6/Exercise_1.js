@@ -62,14 +62,27 @@ for(let i = 0; i <= 7; i++){
 }
 
 /*
-Question 4: 
+Question 5: Use loop to print the following pattern:
 */
+
+for(let i = 0; i <= 10; ++i){
+    console.log(`${i} * ${i} = ${i * i}`)
+}
+
 /*
-Question 4: 
+Question 6:  Using loop print the following pattern   
 */
+
+for(let i = 0; i <= 10; ++i){
+    console.log(`${i}  ${i**2}   ${i **3}`)
+}
+
 /*
-Question 4: 
+Question 7: Use for loop to iterate from 0 to 100 and print only even numbers
 */
+
+
+
 /*
 Question 4: 
 */
