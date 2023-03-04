@@ -164,5 +164,16 @@ const longestCountry2 = countries.reduce((a, b) => (a.length > b.length ? a : b)
 
 
 /*
-Question 1: 
+Question 10: Using the above countries array, find the country containing only 5 characters.
 */
+
+
+//declared a variable called countryWithFiveChars to store the name of the country containing only 5 characters
+const countriesWithFiveChars = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length === 5) {
+    countriesWithFiveChars.push(countries[i]); // If a country name with a length of 5 is found, we push it to the countriesWithFiveChars array using the push() method.
+  }
+}
+
