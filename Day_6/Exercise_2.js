@@ -69,11 +69,44 @@ const countries = [
   console.log(countries);
 
 /*
-Question 1: 
+Question 5:Using the above countries array, create an array for countries length'.  
 */
+
+for(let i = 0; i <= countries; i++) {
+    countries[i] = countries[i].length;
+}
+console.log(countries);
+
 /*
-Question 1: 
+Question 6: Use the countries array to create the following array of arrays:
+
+  [
+  ['Albania', 'ALB', 7],
+  ['Bolivia', 'BOL', 7],
+  ['Canada', 'CAN', 6],
+  ['Denmark', 'DEN', 7],
+  ['Ethiopia', 'ETH', 8],
+  ['Finland', 'FIN', 7],
+  ['Germany', 'GER', 7],
+  ['Hungary', 'HUN', 7],
+  ['Ireland', 'IRE', 7],
+  ['Iceland', 'ICE', 7],
+  ['Japan', 'JAP', 5],
+  ['Kenya', 'KEN', 5]
+]
 */
+
+const result = [];
+
+for (let i = 0; i < countries.length; i++) {
+  const name = countries[i];
+  const code = name.substring(0, 3).toUpperCase();
+  const length = name.length;
+  result.push([name, code, length]);
+}
+
+console.log(result);
+
 /*
 Question 1: 
 */
