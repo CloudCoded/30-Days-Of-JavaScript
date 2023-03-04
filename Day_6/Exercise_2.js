@@ -111,7 +111,19 @@ console.log(result);
 Question 7: In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
 */
 
+let countriesWithLand = [];
 
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].toLowerCase().includes('land')) {
+    countriesWithLand.push(countries[i]);
+  }
+}
+
+if (countriesWithLand.length > 0) {
+  console.log(countriesWithLand);
+} else {
+  console.log('All these countries are without land');
+}
 
 /*
 Question 8: 
@@ -132,8 +144,25 @@ if (countriesEndsWithIA.length > 0) {
 }
 
 /*
-Question 1: 
+Question 9: Using the above countries array, find the country containing the biggest number of characters.
 */
+
+const longestCountry = countries.reduce(compareLengths); //The reduce() method iterates over each element of the countries array, comparing the length of the current country name with the length of the previous one
+
+function compareLengths(a, b) { //function named compareLengths takes two arguments(accumulator and current element)
+  if (a.length > b.length) { //if statement to compare the lengths
+    return a; 
+  } else {
+    return b;
+  }
+}
+
+//Or
+
+const longestCountry2 = countries.reduce((a, b) => (a.length > b.length ? a : b));
+//The arrow function takes two parameters (the accumulator and the current element) and uses a ternary operator to compare the length of the two country names.
+
+
 /*
 Question 1: 
 */
