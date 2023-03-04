@@ -183,3 +183,12 @@ console.log(numbersArray);
 Question 15: Develop a small script which generate a six characters random id:
 */
 
+let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+let id = "";
+
+for (let i = 0; i < 6; i++) {
+  let randomIndex = Math.floor(Math.random() * characters.length);
+  id += characters[randomIndex];
+}
+
+console.log(id);
