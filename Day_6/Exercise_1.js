@@ -98,11 +98,88 @@ for (let i = 0; i <= 100; i++) {
 }
 
 /*
-Question 4: 
+Question 9: Use for loop to iterate from 0 to 100 and print only prime numbers
 */
+
+
+
 /*
-Question 4: 
+Question 10: 
 */
+
+let sum = 0;
+for (let i = 0; i <= 100; i++) {
+  sum += i;
+}
+console.log(`The sum of all numbers from 0 to 100 is: ${sum}`);
+
+
 /*
-Question 4: 
+Question 11: 
 */
+
+let sumEvens = 0;
+let sumOdds = 0;
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    sumEvens += i;
+  } else {
+    sumOdds += i;
+  }
+}
+
+console.log(`The sum of all even numbers from 0 to 100 is: ${sumEvens}`);
+console.log(`The sum of all odd numbers from 0 to 100 is: ${sumOdds}`);
+
+
+/*
+Question 12: 
+*/
+
+let evensSum = 0;
+let oddsSum = 0;
+let evensArray = [];
+let oddsArray = [];
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    evensSum += i;
+    evensArray.push(i);
+  } else {
+    oddsSum += i;
+    oddsArray.push(i);
+  }
+}
+
+console.log("Sum of evens: ", evensSum);
+console.log("Sum of odds: ", oddsSum);
+console.log("Array of evens: ", evensArray);
+console.log("Array of odds: ", oddsArray);
+
+
+/*
+Question 13: Develop a small script which generate array of 5 random numbers
+*/
+
+
+
+/*
+Question 14: Develop a small script which generate array of 5 random numbers and the numbers must be unique
+*/
+
+let numbersArray = [];
+
+while (numbersArray.length < 5) {
+  let randomNumber = Math.floor(Math.random() * 100) + 1;
+  if (!numbersArray.includes(randomNumber)) {
+    numbersArray.push(randomNumber);
+  }
+}
+
+console.log(numbersArray);
+
+/*
+Question 15: Develop a small script which generate a six characters random id:
+*/
+
