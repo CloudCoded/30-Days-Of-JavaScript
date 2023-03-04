@@ -37,8 +37,37 @@ let color = `rgb(${r}, ${g}, ${b})`;
 console.log(color);
 
 /*
-Question 1: 
+Question 4: Using the above countries array, create the following new array.
 */
+
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+
+  const newArr = [];
+  for(const country of countries){
+    newArr.push(countries.toUpperCase())
+  }
+  console.log(newArr)
+
+  //or
+
+  for (let i = 0; i < countries.length; i++) {
+    countries[i] = countries[i].toUpperCase();
+  }
+  
+  console.log(countries);
+
 /*
 Question 1: 
 */
