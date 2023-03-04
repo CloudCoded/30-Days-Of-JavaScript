@@ -17,7 +17,7 @@ for (let i = 0; i < idLength; i++) {
 console.log(id);
 
 /*
-Question 2: 
+Question 2: Write a script which generates a random hexadecimal number.
 */
 
 let hex = Math.floor(Math.random() * 16777215).toString(16); //The number 16,777,215 is the total possible combinations of RGB(255,255,255) && Hexadecimal is base 16
