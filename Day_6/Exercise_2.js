@@ -108,6 +108,30 @@ for (let i = 0; i < countries.length; i++) {
 console.log(result);
 
 /*
+Question 7: In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
+*/
+
+
+
+/*
+Question 8: 
+*/
+
+const countriesEndsWithIA = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].endsWith('ia')) {
+    countriesEndsWithIA.push(countries[i]);
+  }
+}
+
+if (countriesEndsWithIA.length > 0) {
+  console.log(countriesEndsWithIA);
+} else {
+  console.log('These are countries ends without ia');
+}
+
+/*
 Question 1: 
 */
 /*
