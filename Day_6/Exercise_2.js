@@ -236,8 +236,32 @@ for(const item of array){
 }
 
 /*
-Question 11:
+Question 15: This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method
 */
+
+const arr = ['banana', 'orange', 'mango', 'lemon']
+
+const reversedArray = [];
+
+for (let i = arr.length - 1; i >= 0; i--) {
+  reversedArray.push(arr[i]);
+}
+
+console.log(reversedArray);
+
+
 /*
-Question 11:
+Question 16: Print all the elements of array as shown below.
+
+  const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+  HTML
+  CSS
+  JS
+  REACT
+  NODE
+  EXPRESS
+  MONGODB
 */
