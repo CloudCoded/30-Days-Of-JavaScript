@@ -265,3 +265,9 @@ Question 16: Print all the elements of array as shown below.
   EXPRESS
   MONGODB
 */
+
+for (const stack of fullStack) {
+    for (const tech of stack) {
+      console.log(tech);
+    }
+  }
