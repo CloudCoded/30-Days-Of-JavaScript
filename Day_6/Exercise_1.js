@@ -24,6 +24,7 @@ do{
 /*
 Question 2: Iterate 10 to 0 using for loop, do the same using while and do while loop
 */
+
 //Answer => for loop
 for (let i = 10; i >= 0; i--){
     console.log(i)
@@ -46,6 +47,8 @@ do{
 /*
 Question 3: Iterate 0 to n using for loop
 */
+
+//Answer
 let n = 10 // replace 10 with actual value of n
 for(let i = 0; i <= n; i++){
     console.log(i)
@@ -55,6 +58,7 @@ for(let i = 0; i <= n; i++){
 Question 4: Write a loop that makes the following pattern # using console.log():
 */
 
+//Answer
 let pattern = ''
 for(let i = 0; i <= 7; i++){
     pattern = pattern + '#'
@@ -65,6 +69,7 @@ for(let i = 0; i <= 7; i++){
 Question 5: Use loop to print the following pattern:
 */
 
+//Answer
 for(let i = 0; i <= 10; ++i){
     console.log(`${i} * ${i} = ${i * i}`)
 }
@@ -73,6 +78,7 @@ for(let i = 0; i <= 10; ++i){
 Question 6:  Using loop print the following pattern   
 */
 
+//Answer
 for(let i = 0; i <= 10; ++i){
     console.log(`${i}  ${i**2}   ${i **3}`)
 }
@@ -81,6 +87,7 @@ for(let i = 0; i <= 10; ++i){
 Question 7: Use for loop to iterate from 0 to 100 and print only even numbers
 */
 
+//Answer
 for(let i = 0; i <= 100; ++i){
     if (i % 2 === 0) {
         console.log(i)
@@ -91,6 +98,7 @@ for(let i = 0; i <= 100; ++i){
 Question 8: Use for loop to iterate from 0 to 100 and print only odd numbers
 */
 
+//Answer
 for (let i = 0; i <= 100; i++) {
     if (i % 2 === 1) {
         console.log(i)
@@ -104,9 +112,10 @@ Question 9: Use for loop to iterate from 0 to 100 and print only prime numbers
 
 
 /*
-Question 10: 
+Question 10: Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 */
 
+//Answer
 let sum = 0;
 for (let i = 0; i <= 100; i++) {
   sum += i;
@@ -115,9 +124,10 @@ console.log(`The sum of all numbers from 0 to 100 is: ${sum}`);
 
 
 /*
-Question 11: 
+Question 11: Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 */
 
+//Answer
 let sumEvens = 0;
 let sumOdds = 0;
 
@@ -134,7 +144,7 @@ console.log(`The sum of all odd numbers from 0 to 100 is: ${sumOdds}`);
 
 
 /*
-Question 12: 
+Question 12: Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. Print sum of evens and sum of odds as array
 */
 
 let evensSum = 0;
@@ -183,6 +193,7 @@ console.log(numbersArray);
 Question 15: Develop a small script which generate a six characters random id:
 */
 
+//Answer
 let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 let id = "";
 
