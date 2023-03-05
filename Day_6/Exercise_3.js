@@ -40,3 +40,10 @@ if (countriesWithLand.length > 0) {
 } else {
   console.log('All these countries are without land');
 }
+
+/*
+Question 5: Find the country containing the hightest number of characters in the countries array
+*/
+
+const longestCountry2 = countries.reduce((a, b) => (a.length > b.length ? a : b));
+
