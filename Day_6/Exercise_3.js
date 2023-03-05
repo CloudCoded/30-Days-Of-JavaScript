@@ -47,3 +47,17 @@ Question 5: Find the country containing the hightest number of characters in the
 
 const longestCountry2 = countries.reduce((a, b) => (a.length > b.length ? a : b));
 
+/*
+Question 6: Extract all the countries containing only four characters from the countries array and print it as array
+*/
+
+const countriesWithFourChars = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length === 4) {
+    countriesWithFiveChars.push(countries[i]); // If a country name with a length of 5 is found, we push it to the countriesWithFiveChars array using the push() method.
+  } else{
+    console.log('none of the countries has four letters')
+  }
+}
+
