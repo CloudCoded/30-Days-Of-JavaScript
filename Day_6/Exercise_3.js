@@ -55,9 +55,24 @@ const countriesWithFourChars = [];
 
 for (let i = 0; i < countries.length; i++) {
   if (countries[i].length === 4) {
-    countriesWithFiveChars.push(countries[i]); // If a country name with a length of 5 is found, we push it to the countriesWithFiveChars array using the push() method.
+    countriesWithFiveChars.push(countries[i]); // If a country name with a length of 4 is found, we push it to the countriesWithFiveChars array using the push() method.
   } else{
     console.log('none of the countries has four letters')
   }
 }
+
+/*
+Question 7: Extract all the countries containing two or more words from the countries array and print it as array
+*/
+
+const countriesWithTwoOrThreeChars = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length === 2 || countries[i].length === 3) {
+    countriesWithFiveChars.push(countries[i]); // If a country name with a length of 2 or 3 is found, we push it to the countriesWithFiveChars array using the push() method.
+  } else{
+    console.log('none of the countries has just two or three letters')
+  }
+}
+
 
