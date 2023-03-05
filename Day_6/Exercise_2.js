@@ -177,3 +177,43 @@ for (let i = 0; i < countries.length; i++) {
   }
 }
 
+/*
+Question 11: Find the longest word in the webTechs array
+*/
+
+const LongestWord = webTechs.reduce(checkLength);
+
+function checkLength(a, b){
+    if(a.length > b.length){
+        return a;
+    } else{
+        return b;
+    }
+}
+
+//or
+
+const checkLength2 = webTechs.reduce((a, b) => (a.length > b.length ? a : b));
+
+/*
+Question 12: Use the webTechs array to create the following array of arrays:
+
+[["HTML", 4], ["CSS", 3],["JavaScript", 10],["React", 5],["Redux", 5],["Node", 4],["MongoDB", 7]]
+*/
+
+const webTechs = ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node', 'MongoDB'];
+const webTechsCount = [];
+
+for (let i = 0; i < webTechs.length; i++) {
+  webTechsCount.push([webTechs[i], webTechs[i].length]);
+}
+
+console.log(webTechsCount);
+
+
+/*
+Question 13: 
+*/
+/*
+Question 11:
+*/
