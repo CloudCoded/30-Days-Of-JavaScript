@@ -172,7 +172,16 @@ console.log("Array of odds: ", oddsArray);
 Question 13: Develop a small script which generate array of 5 random numbers
 */
 
+//Answer
+let numbersArr = [];
 
+while (numbersArr.length < 5) {
+  let randomNumber = Math.floor(Math.random() * 100) + 1;
+    numbersArr.push(randomNumber);
+  
+}
+
+console.log(numbersArr);
 
 /*
 Question 14: Develop a small script which generate array of 5 random numbers and the numbers must be unique
