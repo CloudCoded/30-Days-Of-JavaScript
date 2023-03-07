@@ -18,9 +18,11 @@ JavaScript was initially created to "make web pages alive". JavaScript is a cros
     We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this // is also a comment.
 
     v. Ways of adding javascript to the webpage:
-     - Inline Script => 
-     - Internal Script
-     - External Script
+     - INLINE SCRIPT => An inline script is a script that is not loaded from an external file, but embedded inside HTML. A script tag without a src (ie. with code directly in the HTML document) is referred to as an inline script. 
+
+     - INTERNAL SCRIPT => The internal script can be written in the head or the body, but it is preferred to put it on the body of the HTML document.
+
+     - External Script => 
      - Multi-External Script
 
 ii. Variables
