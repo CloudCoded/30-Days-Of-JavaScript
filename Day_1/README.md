@@ -73,20 +73,21 @@ In JavaScript and also other programming languages, there are different types of
      `We can also create a string using a backtick`
      'A string could be just as small as one character or as big as many pages'
      'Any data type under a single quote, double quote or backtick is a string'
-Booleans
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
 
-A boolean data type is either a true or false value.
+     Booleans
+     A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
 
-Example:
+     A boolean data type is either a true or false value.
 
-true // if the light is on, the value is true
-false // if the light is off, the value is false
-Undefined
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+     Example:
 
-let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+     true // if the light is on, the value is true
+     false // if the light is off, the value is false
+     Undefined
+     In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+
+     let firstName
+     console.log(firstName) // undefined, because it is not assigned to a value yet
 Null
 Null in JavaScript means an empty value.
 
