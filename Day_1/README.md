@@ -22,9 +22,36 @@ JavaScript was initially created to "make web pages alive". JavaScript is a cros
 
      - INTERNAL SCRIPT => The internal script can be written in the head or the body, but it is preferred to put it on the body of the HTML document.
 
-     - External Script => 
-     - Multi-External Script
+     - External Script => Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body. First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files.
 
-ii. Variables
+     - Multi-External Script => It means we can link more than .js extension to our html page
+
+ii. VARIABLES
+     
+     Variables are containers of data. Variables are used to store data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use var, let, or const keywords.
+
+     For a variable that changes at a different time, we use let. If the data does not change at all, we use const. For example, PI, country name, gravity do not change, and we can use const.
+
+     The following are examples of valid JavaScript variables.
+
+     firstName
+     lastName
+     country
+     city
+     capitalCity
+     age
+     isMarried
+
+     first_name
+     last_name
+     is_married
+     capital_city
+
+     num1
+     num_1
+     _num_1
+     $num1
+     year2020
+     year_2020
  
 iii. Data Types in Javascript
