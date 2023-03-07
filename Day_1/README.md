@@ -93,11 +93,13 @@ In JavaScript and also other programming languages, there are different types of
      Null in JavaScript means an empty value.
 
      let emptyValue = null
-     Checking Data Types
+
+
+     CHECKING DATA TYPES
      To check the data type of a certain variable, we use the typeof operator. See the following example.
 
-console.log(typeof 'Asabeneh') // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean
-console.log(typeof null) // object type
-console.log(typeof undefined) // undefined
+     console.log(typeof 'Asabeneh') // string
+     console.log(typeof 5) // number
+     console.log(typeof true) // boolean
+     console.log(typeof null) // object type
+     console.log(typeof undefined) // undefined
