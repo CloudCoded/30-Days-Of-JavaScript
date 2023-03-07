@@ -61,21 +61,18 @@ In JavaScript and also other programming languages, there are different types of
      Numbers
      Integers: Integer (negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
      Float-point numbers: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
-Strings
-A collection of one or more characters between two single quotes, double quotes, or backticks.
 
-Example:
+     Strings
+     A collection of one or more characters between two single quotes, double quotes, or backticks.
 
-'a'
-'Asabeneh'
-"Asabeneh"
-'Finland'
-'JavaScript is a beautiful programming language'
-'I love teaching'
-'I hope you are enjoying the first day'
-`We can also create a string using a backtick`
-'A string could be just as small as one character or as big as many pages'
-'Any data type under a single quote, double quote or backtick is a string'
+     Example:
+
+
+     'Asabeneh'
+     "Asabeneh" 
+     `We can also create a string using a backtick`
+     'A string could be just as small as one character or as big as many pages'
+     'Any data type under a single quote, double quote or backtick is a string'
 Booleans
 A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
 
