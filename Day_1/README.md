@@ -87,13 +87,14 @@ In JavaScript and also other programming languages, there are different types of
      In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
 
      let firstName
-     console.log(firstName) // undefined, because it is not assigned to a value yet
-Null
-Null in JavaScript means an empty value.
+     console.log(firstName) // undefined, because it is not assigned to a value 
+     
+     Null
+     Null in JavaScript means an empty value.
 
-let emptyValue = null
-Checking Data Types
-To check the data type of a certain variable, we use the typeof operator. See the following example.
+     let emptyValue = null
+     Checking Data Types
+     To check the data type of a certain variable, we use the typeof operator. See the following example.
 
 console.log(typeof 'Asabeneh') // string
 console.log(typeof 5) // number
