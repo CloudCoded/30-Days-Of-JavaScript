@@ -84,19 +84,7 @@ Question 8: Reverse the countries array and capitalize each country and stored i
 */
 
 //Answer
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ].reverse()
+countries.slice().reverse()
 
   for (const country of countries) {
      console.log(country.toUpperCase());
