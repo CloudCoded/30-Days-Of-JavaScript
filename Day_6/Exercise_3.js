@@ -3,7 +3,8 @@ Question 1: Copy countries array(Avoid mutation)
 */
 
 //Answer
-console.log(countries.slice(0, countries.length));
+let copyCountries = countries.slice(0, countries.length);
+console.log(copyCountries);
 
 /*
 Question 2: Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
