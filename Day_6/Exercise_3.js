@@ -27,7 +27,7 @@ Question 4: Extract all the countries contain the word 'land' from the countries
 
 //Answer
 
-let countriesWithLand = [];
+const countriesWithLand = [];
 
 for (let i = 0; i < countries.length; i++) {
   if (countries[i].toLowerCase().includes('land')) {
