@@ -93,13 +93,16 @@ What I Learn On The 8th-Feb-2023
 <li>Undefined</li>
 <p>In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function<br> is not returning anything, it returns undefined.</p>
 
+      Example: 
+
       let firstName
       console.log(firstName) // undefined, because it is not assigned to a value 
      
-     Null
-     Null in JavaScript means an empty value.
+<li>Null</li>
+<p>Null in JavaScript means an empty value.</p>
 
-     let emptyValue = null
+      Example: 
+      let emptyValue = null
 
 
      CHECKING DATA TYPES
