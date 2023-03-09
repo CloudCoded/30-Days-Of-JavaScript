@@ -141,3 +141,41 @@ What I Learn On The 12th-Feb-2023
      let numInt = +num
 
      console.log(numInt) // 10
+
+
+##### STRING TO FLOAT
+<p>We can convert string float number to a float number. Any float number inside a quote is a string float number. An example of a string float number: '9.81', '3.14', '1.44', etc. We can convert string float to number using the following methods: </p>
+
+<ul>
+ <li>parseFloat ()</li>
+ <li>Number ()</li>
+ <li>Plus sign(+)</li>
+</ul>
+
+     let num = '9.81'
+     let numFloat = parseFloat(num)
+
+     console.log(numFloat) // 9.81
+
+     let num = '9.81'
+     let numFloat = Number(num)
+
+     console.log(numFloat) // 9.81
+
+     let num = '9.81'
+     let numFloat = +num
+
+     console.log(numFloat) // 9.81
+
+
+##### FLOAT TO INT
+<p>We can convert float numbers to integers. We use the following method to convert float to int: </p>
+
+<ul>
+ <li>parseInt</li>
+</ul>
+
+     let num = 9.81
+     let numInt = parseInt(num)
+
+     console.log(numInt) // 9
