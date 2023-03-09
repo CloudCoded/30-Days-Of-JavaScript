@@ -1,6 +1,6 @@
 What I Learn On The 8th-Feb-2023
 
-<h1>INTRODUCTION TO JAVASCRIPT</h1>
+# INTRODUCTION TO JAVASCRIPT
 
 <p>JavaScript was initially created to "make web pages alive". JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than downloading files (such as realtime collaboration between multiple computers).</p>
    <ul>
@@ -10,10 +10,10 @@ What I Learn On The 8th-Feb-2023
      <li>Console.log() function: To write our first JavaScript code, we used a built-in function console.log(). We passed an argument as input data, and the function displays the output. </li>
    <li> The console.log() function can take multiple parameters separated by commas.</li>
    
-          ```
+          
           The syntax looks like as follows:
           console.log(param1, param2, param3)
-          ```
+          
    
    
    Comments in javascript
