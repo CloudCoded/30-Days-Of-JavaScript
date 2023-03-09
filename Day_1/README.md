@@ -28,13 +28,15 @@ What I Learn On The 8th-Feb-2023
     </li>
     <li> External Script: Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body. First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files.
     </li>
-     - Multi-External Script => It means we can link more than .js extension to our html page
+    <li>Multi-External Script => It means we can link more than .js extension to our html page</li>
   </ul>
-ii. VARIABLES
-     
-     Variables are containers of data. Variables are used to store data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use var, let, or const keywords.
 
-     For a variable that changes at a different time, we use let. If the data does not change at all, we use const. For example, PI, country name, gravity do not change, and we can use const.
+
+   # VARIABLES
+     
+<p> Variables are containers of data. Variables are used to store data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use var, let, or const keywords.</p>
+
+<p>For a variable that changes at a different time, we use let. If the data does not change at all, we use const. For example, PI, country name, gravity do not change, and we can use const.</p>
 
      The following are examples of valid JavaScript variables.
 
@@ -57,10 +59,11 @@ ii. VARIABLES
      $num1
      year2020
      year_2020
- 
-INTRODUCTION TO DATA TYPES:
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: String, Number, Boolean, undefined, Null, and Symbol.
+ 
+# INTRODUCTION TO DATA TYPES:
+
+<p>In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: String, Number, Boolean, undefined, Null, and Symbol.</p>
 
      Numbers
      Integers: Integer (negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
