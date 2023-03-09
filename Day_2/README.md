@@ -128,7 +128,8 @@ What I Learn On The 12th-Feb-2023
  <li>Plus sign(+)</li>
 </ul>
 
-
+     
+     
      let num = '10'
      let numInt = parseInt(num)
      console.log(numInt) // 10
@@ -153,6 +154,7 @@ What I Learn On The 12th-Feb-2023
  <li>Plus sign(+)</li>
 </ul>
 
+    
 
      let num = '9.81'
      let numFloat = parseFloat(num)
@@ -177,6 +179,7 @@ What I Learn On The 12th-Feb-2023
  <li>parseInt</li>
 </ul>
 
+     
 
      let num = 9.81
      let numInt = parseInt(num)
