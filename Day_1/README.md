@@ -9,9 +9,11 @@ What I Learn On The 8th-Feb-2023
     </li>
      <li>Console.log() function: To write our first JavaScript code, we used a built-in function console.log(). We passed an argument as input data, and the function displays the output. </li>
    <li> The console.log() function can take multiple parameters separated by commas.</li>
+   ```javascript
       The syntax looks like as follows:
       console.log(param1, param2, param3)
-     Comments in javascript
+      Comments in javascript
+   ```
 
     We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this // is also a comment.
 
