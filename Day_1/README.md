@@ -16,11 +16,11 @@ What I Learn On The 8th-Feb-2023
           
    </ul>
    
-   # COMMENTS IN JAVASCRIPT
+   ## COMMENTS IN JAVASCRIPT
 
 <p>We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this // is also a comment.</p>
 
-  # WAYS OF ADDING JAVASCRIPT TO THE WEBPAGE
+  ## WAYS OF ADDING JAVASCRIPT TO THE WEBPAGE
   <ul>
     <li> INLINE SCRIPT: An inline script is a script that is not loaded from an external file, but embedded inside HTML. A script tag without a src (ie. with code directly in the HTML document) is referred to as an inline script. 
     </li>
@@ -32,7 +32,7 @@ What I Learn On The 8th-Feb-2023
   </ul>
 
 
-   # VARIABLES
+   ## VARIABLES
      
 <p> Variables are containers of data. Variables are used to store data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use var, let, or const keywords.</p>
 
@@ -61,7 +61,7 @@ What I Learn On The 8th-Feb-2023
      year_2020
 
  
-# INTRODUCTION TO DATA TYPES:
+## INTRODUCTION TO DATA TYPES:
 
 <p>In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: String, Number, Boolean, undefined, Null, and Symbol.</p>
 
@@ -105,11 +105,11 @@ What I Learn On The 8th-Feb-2023
       let emptyValue = null
 
 
-     CHECKING DATA TYPES
-     To check the data type of a certain variable, we use the typeof operator. See the following example.
+## CHECKING DATA TYPES
+<p> To check the data type of a certain variable, we use the typeof operator. See the following example:</p>
 
-     console.log(typeof 'Asabeneh') // string
-     console.log(typeof 5) // number
-     console.log(typeof true) // boolean
-     console.log(typeof null) // object type
-     console.log(typeof undefined) // undefined
+      console.log(typeof 'Asabeneh') // string
+      console.log(typeof 5) // number
+      console.log(typeof true) // boolean
+      console.log(typeof null) // object type
+      console.log(typeof undefined) // undefined
