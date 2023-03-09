@@ -70,7 +70,7 @@ What I Learn On The 8th-Feb-2023
      Float-point numbers: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
 <li>Strings</li>
-     A collection of one or more characters between two single quotes, double quotes, or backticks.
+<p> A collection of one or more characters between two single quotes, double quotes, or backticks.</p>
 
      Example:
 
@@ -81,10 +81,8 @@ What I Learn On The 8th-Feb-2023
      'A string could be just as small as one character or as big as many pages'
      'Any data type under a single quote, double quote or backtick is a string'
 
-     Booleans
-     A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
-
-     A boolean data type is either a true or false value.
+<li>Booleans</li>
+<p> A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.<br>A boolean data type is either a true or false value.</p>
 
      Example:
 
