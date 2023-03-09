@@ -66,8 +66,9 @@ What I Learn On The 8th-Feb-2023
 <p>In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: String, Number, Boolean, undefined, Null, and Symbol.</p>
 
 <li>Numbers</li>
-     Integers: Integer (negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
-     Float-point numbers: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+
+       Integers: Integer (negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
+       Float-point numbers: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
 <li>Strings</li>
 <p> A collection of one or more characters between two single quotes, double quotes, or backticks.</p>
@@ -88,11 +89,12 @@ What I Learn On The 8th-Feb-2023
 
      true // if the light is on, the value is true
      false // if the light is off, the value is false
-     Undefined
-     In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
 
-     let firstName
-     console.log(firstName) // undefined, because it is not assigned to a value 
+<li>Undefined</li>
+<p>In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function<br> is not returning anything, it returns undefined.</p>
+
+      let firstName
+      console.log(firstName) // undefined, because it is not assigned to a value 
      
      Null
      Null in JavaScript means an empty value.
