@@ -69,7 +69,7 @@ What I Learn On The 8th-Feb-2023
      Integers: Integer (negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
      Float-point numbers: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-     Strings
+<li>Strings</li>
      A collection of one or more characters between two single quotes, double quotes, or backticks.
 
      Example:
