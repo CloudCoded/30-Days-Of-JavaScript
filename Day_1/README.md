@@ -1,8 +1,8 @@
 What I Learn On The 8th-Feb-2023
 
-i. INTRODUCTION TO JAVASCRIPT
+<h1>INTRODUCTION TO JAVASCRIPT</h1>
 
-JavaScript was initially created to "make web pages alive". JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than downloading files (such as realtime collaboration between multiple computers).
+<p>JavaScript was initially created to "make web pages alive". JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than downloading files (such as realtime collaboration between multiple computers).</p>
    
     i. Node.js => To install node click visit www.node.js   
     ii. How to create javascript code on google chrome console
