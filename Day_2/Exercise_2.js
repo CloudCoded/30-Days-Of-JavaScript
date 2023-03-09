@@ -79,9 +79,9 @@ Question 10: Access the 'JavaScript' string characters using a random number.
 */
 
 //The value 'JavaScript' is attributed to the variable accessStr 
-let accessStr = 'JavaScript';
-let firstStr = accessStr[0]; //The firstStr is declared  and used to access the above value with random number in the [] bracket
-console.log(firstStr); //console will print out the accessed char
+//let accessStr = 'JavaScript';
+//let firstStr = accessStr[0]; //The firstStr is declared  and used to access the above value with random number in the [] bracket
+//console.log(firstStr); //console will print out the accessed char
 
 //Or
 

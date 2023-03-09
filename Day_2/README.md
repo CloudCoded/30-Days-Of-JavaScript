@@ -1,32 +1,51 @@
 What I Learn On The 12th-Feb-2023
 
-Data Types: Primitive and Non-primitive Data Types
+# DATA TYPES
 
-Primitive Data Types are: immutable
-Number
-String
-Boolean
-Undefined
-Null
-Symbol
+## PRIMITIVE DATA TYPES
+<p> These data types are immutable. They are as follow: </p>
+<ul>
+  <li>Number</li>
+  <li>String</li>
+  <li>Boolean</li>
+  <li>Undefined</li>
+  <li>Null</li>
+  <li>Symbol</li>
+</ul>
 
-Non-Primitives are: Mutable
-Array
-Object
+## NON-PRIMITIVES 
+<p> These data types are mutable. They are as follow: </p>
+<ul>
+ <li>Array</li>
+ <li>Object</li>
+</ul>
+<hr>
 
 
-Number: Numbers are integers and decimal values which can do arithmetic operations(Math Object: In js, the math object provides lots of methods to work with  numbers e.g math.random, math.floor, math.min, math.ceil, math.max, math.log, math.pow, math.sqrt etc.)
+## MATH OBJECT
+<P>In JavaScript, the math object provides lots of methods to work with  numbers. These methods are: </p> 
+<ul>
+ <li> Math.random () </li> 
+ <li> Math.floor () </li>
+ <li> Math.min () </li> 
+ <li> Math.ceil ()</li> 
+ <li> Math.max ()</li> 
+ <li> Math.log ()</li> 
+ <li> Math.pow ()</li> 
+ <li> Math.sqrt () etc. </li>
 
 
-Strings: Strings are text, which are under single, double, or backticks(interpolate str). Str concatenate means connecting or joining of two or more strings together and this is done in different ways. A string could be single char or a paragraph or page(long literal string) or we use backticks(template string => ${})
 
-Escape Sequences in Strings: In JS, \ followed by some characters is an escape sequence. for example:
+## ESCAPE SEQUENCES
+<p> In JS, \ followed by some characters is an escape sequence. </p>
+ 
+     for example:
 
-\n: new line
-\t: Tab, means 8 spaces
-\\: Back slash
-\': Single quote (')
-\": Double quote (")
+     \n: new line
+     \t: Tab, means 8 spaces
+     \\: Back slash
+     \': Single quote (')
+     \": Double quote (")
 
 What I also learn today are:
 
