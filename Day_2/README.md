@@ -47,7 +47,49 @@ What I Learn On The 12th-Feb-2023
      \': Single quote (')
      \": Double quote (")
 
-What I also learn today are:
 
-String methods
+
+## STRING METHODS
+<p>Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. </p>
+
+<p>Here are the commonly used JavaScript String methods: </p>
+<table border="0">
+ <tbody>
+   <tr>
+     <th>Method</th>
+     <th>Description</th>
+   </tr>
+   <tr>
+     <th>Method</th>
+     <th>Description</th>
+   </tr>
+   <tr>
+     <td>charAt(index)</td>
+     <td>returns the character at the specified index</td>
+   </tr>
+   <tr>
+     <td>concat()</td>
+     <td>joins two or more strings</td>
+   </tr>
+   <tr>
+     <td>replace()</td>
+     <td>replaces a string with another string</td>
+   </tr>
+   <tr>
+     <td>split()</td>
+     <td>converts the string to an array of strings</td>
+   </tr>
+   <tr>
+     <td>replace()</td>
+     <td>replaces a string with another string</td>
+   </tr>
+   <tr>
+     <td>replace()</td>
+     <td>replaces a string with another string</td>
+   </tr>
+ </tbody>
+</table>
+
+
+
 Checking data types and casting(changing).
