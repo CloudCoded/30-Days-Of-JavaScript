@@ -116,4 +116,28 @@ What I Learn On The 12th-Feb-2023
 
 
 
-Checking data types and casting(changing).
+## DATA TYPES CASTING
+<p>Casting: Converting one data type to another data type. We use parseInt(), parseFloat(), Number(), + sign, str() When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.</p>
+
+##### STRING TO INT
+<p>We can convert string number to a number. Any number inside a quote is a string number. An example of a string number: '10', '5', etc. We can convert string to number using the following methods:</p>
+
+<ul>
+ <li>parseInt ()</li>
+ <li>Number ()</li>
+ <li>Plus sign(+)</li>
+</ul>
+
+     let num = '10'
+     let numInt = parseInt(num)
+     console.log(numInt) // 10
+
+     let num = '10'
+     let numInt = Number(num)
+
+     console.log(numInt) // 10
+
+     let num = '10'
+     let numInt = +num
+
+     console.log(numInt) // 10
