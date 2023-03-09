@@ -80,12 +80,36 @@ What I Learn On The 12th-Feb-2023
      <td>converts the string to an array of strings</td>
    </tr>
    <tr>
-     <td>replace()</td>
-     <td>replaces a string with another string</td>
+     <td>substr(start, length)</td>
+     <td>returns a part of a string</td>
    </tr>
    <tr>
-     <td>replace()</td>
-     <td>replaces a string with another string</td>
+     <td>substring(start, end)</td>
+     <td>returns a part of a string</td>
+   </tr>
+   <tr>
+     <td>slice(start, end)</td>
+     <td>returns a part of a string</td>
+   </tr>
+   <tr>
+     <td>toLowerCase()</td>
+     <td>returns the passed string in lower case</td>
+   </tr>
+   <tr>
+     <td>toUpperCase()</td>
+     <td>returns the passed string in upper case</td>
+   </tr>
+   <tr>
+     <td>trim()</td>
+     <td>removes whitespace from strings</td>
+   </tr>
+   <tr>
+     <td>includes()</td>
+     <td>searches for a string and returns a boolean value</td>
+   </tr>
+   <tr>
+     <td>search()</td>
+     <td>searches for a string and returns a position of a match. check out https://developer.mozilla.org/ for more information on string methods</td>
    </tr>
  </tbody>
 </table>
