@@ -30,11 +30,16 @@ On The 17th Of February 2023 I Learned The Following:
  <li>Operator Precedence: It determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence. e.g console.log(3 + 4 * 5), the higher precedence here is (4 * 5).</li>
 </ol>
 
+<hr>
 
-WINDOWS METHOD:
-1. Window alert() => It display an alert box with a specified message and an OK button. It is a builtin method, e.g alert(message)
-2. Window prompt() => It display a prompt box with an input on the browser to take input values & data stored in a variable.
-3. Window confirm() => It displays a dialog box with a specified message, along with an OK and CANCEL button. It is often used to ask permission from a user to execute something.
+
+## WINDOWS METHOD
+<ol>
+ <li>Window alert() 
+ <p> It display an alert box with a specified message and an OK button. It is a builtin method, e.g alert(message)</p>
+ </li>
+Window prompt() => It display a prompt box with an input on the browser to take input values & data stored in a variable.
+ Window confirm() => It displays a dialog box with a specified message, along with an OK and CANCEL button. It is often used to ask permission from a user to execute something.
 
 
 DATA OBJECT
