@@ -38,8 +38,13 @@ On The 17th Of February 2023 I Learned The Following:
  <li>Window alert() 
  <p> It display an alert box with a specified message and an OK button. It is a builtin method, e.g alert(message)</p>
  </li>
-Window prompt() => It display a prompt box with an input on the browser to take input values & data stored in a variable.
- Window confirm() => It displays a dialog box with a specified message, along with an OK and CANCEL button. It is often used to ask permission from a user to execute something.
+ <li>Window prompt() 
+ <p>It display a prompt box with an input on the browser to take input values & data stored in a variable.</p>
+ </li>
+ <li>Window confirm()
+ <p> It displays a dialog box with a specified message, along with an OK and CANCEL button. It is often used to ask permission from a user to execute something.</p>
+ </li>
+</ol>
 
 
 DATA OBJECT
