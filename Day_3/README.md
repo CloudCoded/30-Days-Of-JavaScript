@@ -55,9 +55,9 @@ On The 17th Of February 2023 I Learned The Following:
 <ul>
 <li>getFullYear()</li>
 <li> getMonth()</li>
-3. getDate()
-4. getHour()
-5. getDay()
+<li>getDate()</li>
+<li>getHour()</li>
+<li> getDay()</li>
 6. getTime()
 7. getSeconds()
 8. getMinutes()
