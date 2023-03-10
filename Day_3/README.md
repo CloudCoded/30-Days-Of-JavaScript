@@ -61,6 +61,9 @@ On The 17th Of February 2023 I Learned The Following:
 <li>getTime()</li>
 <li> getSeconds()</li>
 <li> getMinutes()</li>
-9. getMilliseconds()
-10. Creating a time => const now = new Date()
-                        console.log(now)
+<li> getMilliseconds()</li>
+<li> Creating a time: </li> 
+
+         const now = new Date()
+         console.log(now)
+</ul>
