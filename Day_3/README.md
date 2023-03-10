@@ -58,9 +58,9 @@ On The 17th Of February 2023 I Learned The Following:
 <li>getDate()</li>
 <li>getHour()</li>
 <li> getDay()</li>
-6. getTime()
-7. getSeconds()
-8. getMinutes()
+<li>getTime()</li>
+<li> getSeconds()</li>
+<li> getMinutes()</li>
 9. getMilliseconds()
 10. Creating a time => const now = new Date()
                         console.log(now)
