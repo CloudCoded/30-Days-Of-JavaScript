@@ -56,19 +56,19 @@ console.log(parseInt('9.8') === 10) //The parseInt() prototype will convert the 
 
 
         //FALSY VALUES
-        const name = 'ola';
+        const myName = 'ola';
 
-        if(name.includes('A')){
+        if(myName.includes('A')){
             console.log(true);
         } else {
             console.log(false);
         }//1. The includes() check if 'A' is in the string and will returns false because all the chars are smallletters
 
-        if(name.startsWith('O')){
+        if(mynName.startsWith('O')){
             console.log(true);
         } else{
             console.log(false);
-        }//2. This statment will return false because the string value assigned to const name are all small chars
+        }//2. This statment will return false because the string value assigned to const myName are all small chars
 
         function falStat(getNumber){
             return(getNumber ? true : false)
