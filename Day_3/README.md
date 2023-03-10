@@ -46,11 +46,14 @@ On The 17th Of February 2023 I Learned The Following:
  </li>
 </ol>
 
+<hr>
 
-DATA OBJECT
 
-In JS, current time & date is created using JS Date Object. The methods we use to get date & time info from a date object values are started with a word (get) because it provide the info:
-1. getFullYear()
+## DATA OBJECT
+
+<p>In JavaScript, current time & date is created using JavaScript Date Object. The methods we use to get date & time info from a date object values are started with a word (get) because it provide the info: </p>
+<ul>
+<li>getFullYear()</li>
 2. getMonth()
 3. getDate()
 4. getHour()
