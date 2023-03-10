@@ -54,7 +54,7 @@ On The 17th Of February 2023 I Learned The Following:
 <p>In JavaScript, current time & date is created using JavaScript Date Object. The methods we use to get date & time info from a date object values are started with a word (get) because it provide the info: </p>
 <ul>
 <li>getFullYear()</li>
-2. getMonth()
+<li> getMonth()</li>
 3. getDate()
 4. getHour()
 5. getDay()
