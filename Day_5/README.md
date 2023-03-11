@@ -7,56 +7,64 @@ What I Learned On 27th Feb 2023
 <p><b><i>Why working on the task I learned about Math.min.apply(Math, arr) or Math.min(...arr) // Math.max.apply(Math, arr) or Math.max(...arr) to print the min and max number in an array respectively. The Math.abs() static method returns the absolute value of a number e.g -5 will return 5</i></b></p>
 
 
-Methods to manipulate array
-There are different methods to manipulate an array. These are some of the available methods to deal with arrays:Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift
+## METHODS TO MANIPULATE ARRAY
+<p>There are different methods to manipulate an array. These are some of the available methods to deal with arrays: <br> Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift</p>
+
+<ul><li> Fill:
+ <p>Fill all the array elements with a static value</p>
+  </li>
+    
+     const eightXvalues = Array(8).fill('X') // it creates eight element values filled with 'X'
+     console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
 
 
-1. fill: Fill all the array elements with a static value
+<li> concat:
+<p>To concatenate two arrays.</p>
+</li>
 
-const eightXvalues = Array(8).fill('X') // it creates eight element values filled with 'X'
-console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
+     const firstList = [1, 2, 3]
+     const secondList = [4, 5, 6]
+     const thirdList = firstList.concat(secondList)
 
-
-2. concat:To concatenate two arrays.
-
-const firstList = [1, 2, 3]
-const secondList = [4, 5, 6]
-const thirdList = firstList.concat(secondList)
-
-console.log(thirdList) // [1, 2, 3, 4, 5, 6]
+     console.log(thirdList) // [1, 2, 3, 4, 5, 6]
 
 
-3. Length:To know the size of the array
+<li> Length:
+<p>To know the size of the array</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5]
-console.log(numbers.length) // -> 5 is the size of the array
-
-
-4. indexOf:To check if an item exist in an array. If it exists it returns the index else it returns -1.
-
-const numbers = [1, 2, 3, 4, 5]
-
-console.log(numbers.indexOf(5)) // -> 4
-console.log(numbers.indexOf(0)) // -> -1
-console.log(numbers.indexOf(1)) // -> 0
-console.log(numbers.indexOf(6)) // -> -1
+     const numbers = [1, 2, 3, 4, 5]
+     console.log(numbers.length) // -> 5 is the size of the array
 
 
-5. Check items in a list
-// let us check if a banana exist in the array
+<li> indexOf:
+<p>To check if an item exist in an array. If it exists it returns the index else it returns -1.</p>
+</li>
 
-const fruits = ['banana', 'orange', 'mango', 'lemon']
-let index = fruits.indexOf('banana')  // 0
+     const numbers = [1, 2, 3, 4, 5]
 
-if(index === -1){
-   console.log('This fruit does not exist in the array')  
-} else {
-    console.log('This fruit does exist in the array')
-}
-// This fruit does exist in the array
+     console.log(numbers.indexOf(5)) // -> 4
+     console.log(numbers.indexOf(0)) // -> -1
+     console.log(numbers.indexOf(1)) // -> 0
+     console.log(numbers.indexOf(6)) // -> -1
 
-// we can use also ternary here
-index === -1 ? console.log('This fruit does not exist in the array'): console.log('This fruit does exist in the array')
+
+<p> Check items in a list</p>
+
+     // let us check if a banana exist in the array
+
+     const fruits = ['banana', 'orange', 'mango', 'lemon']
+     let index = fruits.indexOf('banana')  // 0
+
+     if(index === -1){
+     console.log('This fruit does not exist in the array')  
+     } else {
+     console.log('This fruit does exist in the array')
+     }
+     // This fruit does exist in the array
+
+     // we can use also ternary here
+     index === -1 ? console.log('This fruit does not exist in the array'): console.log('This fruit does exist in the array')
 
 
 6. lastIndexOf: It gives the position of the last item in the array. If it exist, it returns the index else it returns -1.
