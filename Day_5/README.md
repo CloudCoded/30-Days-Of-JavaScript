@@ -105,13 +105,15 @@ What I Learned On 27th Feb 2023
      console.log(Array.isArray(number)) // false
 
 
-9. toString:Converts array to string
+<li> toString:
+<p>Converts array to string</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5]
-console.log(numbers.toString()) // 1,2,3,4,5
+     const numbers = [1, 2, 3, 4, 5]
+     console.log(numbers.toString()) // 1,2,3,4,5
 
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
+     const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+     console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
 
 
 
