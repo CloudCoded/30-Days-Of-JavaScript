@@ -18,5 +18,7 @@ There are multiple different types of conditionals in JavaScript including
 
 ## if else
 <p>If condition is true the first block will be executed, if not the else condition will be executed.</p>
- ```cxnmxm```
- else if else, switch, ternary operator
+
+## if, else if, else
+<p>On our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use else if when we have multiple conditions.</p>
+ switch, ternary operator
