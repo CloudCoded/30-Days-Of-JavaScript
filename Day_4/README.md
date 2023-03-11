@@ -12,4 +12,11 @@ There are multiple different types of conditionals in JavaScript including
  <li><i>switch</i> Statement</li>
  <li><i>ternary operator<i></li>
 </ul>
-ii. if, if else, if else if else, switch, ternary operator
+
+# if
+<p>In JavaScript and other programming languages the key word if is to used check if a condition is true and to execute the block code.</p>
+     // syntax
+     if (condition) {
+         //this part of code runs for truthy condition
+     }
+if else, if else if else, switch, ternary operator
