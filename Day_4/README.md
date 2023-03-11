@@ -8,8 +8,8 @@ There are multiple different types of conditionals in JavaScript including
 <ul>
  <li><i>if</i>Statement</li>
  <li><i>else</i>Statement</li>
- <li></li>
- <li></li>
- <li></li>
+ <li><i>else if</i>Statement</li>
+ <li><i>switch</i>Statement</li>
+ <li><i>ternary operator<i></li>
 </ul>
 ii. if, if else, if else if else, switch, ternary operator
