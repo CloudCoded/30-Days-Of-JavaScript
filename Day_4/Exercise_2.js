@@ -73,7 +73,7 @@ if(day === 'monday' || day === 'tuesday' || day === 'wednesday' || day === 'thur
 //Or
 
 let whatDay = prompt('Enter day: ').toLowerCase(); //INPUT DAY CONVERTED TO LOWERCASE
-let dayy = whatDay[0].toUpperCase() + whatDay.slice(1); //THE FIRST INDEX OF INPUT DAY CONVERTED TO UPPERCASE AND THE LOWERCASE CHARACTERS, THE FIRST ONE SLICED FROM THE CHARACTERS
+let dayy = whatDay[0].toUpperCase() + whatDay.slice(1); //THE FIRST INDEX OF INPUT DAY CONVERTED TO UPPERCASE PLUS THE LOWERCASE OTHER CHARACTERS, THE FIRST ONE SLICED FROM THE CHARACTERS
 
 switch (whatDay){ //THE SWITCH TAKES THE INPUT DAY AS AN ARGUMENT FOLLOW BY THE CASE BLOG. 
     case 'monday':
