@@ -6,6 +6,10 @@ What I learned on 25th of feb 2023
 There are multiple different types of conditionals in JavaScript including
 </p>
 <ul>
-
+ <li><i>if</i>Statement</li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
 </ul>
 ii. if, if else, if else if else, switch, ternary operator
