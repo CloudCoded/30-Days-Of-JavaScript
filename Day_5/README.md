@@ -196,17 +196,19 @@ What I Learned On 27th Feb 2023
 
 
 
-17. sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with a call back function in the coming sections.
+<li> Sort:
+<p>Arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with a call back function in the coming sections.</p>
+</li>
 
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
-]
+     const webTechs = [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'React',
+        'Redux',
+        'Node',
+        'MongoDB'
+     ]
 
 webTechs.sort()
 console.log(webTechs) // ["CSS", "HTML", "JavaScript", "MongoDB", "Node", "React", "Redux"]
