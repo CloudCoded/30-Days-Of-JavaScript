@@ -7,7 +7,7 @@ There are multiple different types of conditionals in JavaScript including
 </p>
 <ul>
  <li><i>if</i>Statement</li>
- <li></li>
+ <li><i>else</i>Statement</li>
  <li></li>
  <li></li>
  <li></li>
