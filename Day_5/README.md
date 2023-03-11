@@ -67,36 +67,42 @@ What I Learned On 27th Feb 2023
      index === -1 ? console.log('This fruit does not exist in the array'): console.log('This fruit does exist in the array')
 
 
-6. lastIndexOf: It gives the position of the last item in the array. If it exist, it returns the index else it returns -1.
+<li> lastIndexOf:
+<p> It gives the position of the last item in the array. If it exist, it returns the index else it returns -1.</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5, 3, 1, 2]
+     const numbers = [1, 2, 3, 4, 5, 3, 1, 2]
 
-console.log(numbers.lastIndexOf(2)) // 7
-console.log(numbers.lastIndexOf(0)) // -1
-console.log(numbers.lastIndexOf(1)) //  6
-console.log(numbers.lastIndexOf(4)) //  3
-console.log(numbers.lastIndexOf(6)) // -1
-
-
-
-7. includes:To check if an item exist in an array. If it exist it returns the true else it returns false.
-
-const numbers = [1, 2, 3, 4, 5]
-
-console.log(numbers.includes(5)) // true
-console.log(numbers.includes(0)) // false
-console.log(numbers.includes(1)) // true
-console.log(numbers.includes(6)) // false
+     console.log(numbers.lastIndexOf(2)) // 7
+     console.log(numbers.lastIndexOf(0)) // -1
+     console.log(numbers.lastIndexOf(1)) //  6
+     console.log(numbers.lastIndexOf(4)) //  3
+     console.log(numbers.lastIndexOf(6)) // -1
 
 
 
-8. Array.isArray:To check if the data type is an array
+<li> includes:
+<p>To check if an item exist in an array. If it exist it returns the true else it returns false.</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5]
-console.log(Array.isArray(numbers)) // true
+     const numbers = [1, 2, 3, 4, 5]
 
-const number = 100
-console.log(Array.isArray(number)) // false
+     console.log(numbers.includes(5)) // true
+     console.log(numbers.includes(0)) // false
+     console.log(numbers.includes(1)) // true
+     console.log(numbers.includes(6)) // false
+
+
+
+<li> Array.isArray:
+<p>To check if the data type is an array</p>
+</li>
+
+     const numbers = [1, 2, 3, 4, 5]
+     console.log(Array.isArray(numbers)) // true
+
+     const number = 100
+     console.log(Array.isArray(number)) // false
 
 
 9. toString:Converts array to string
