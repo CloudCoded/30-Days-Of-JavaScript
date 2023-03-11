@@ -117,43 +117,52 @@ What I Learned On 27th Feb 2023
 
 
 
-10. join: It is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
+<li> join:
+<p> It is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5]
-console.log(numbers.join()) // 1,2,3,4,5
-
-
-
-11. Splice method in array
-Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
-
-  const numbers = [1, 2, 3, 4, 5]
-  numbers.splice()
-  console.log(numbers)                // -> remove all items
-  const numbers = [1, 2, 3, 4, 5]
-	numbers.splice(0,1)
-  console.log(numbers)            // remove the first item
-  const numbers = [1, 2, 3, 4, 5, 6]
-	numbers.splice(3, 3, 7, 8, 9)
-  console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item and replace three items
+     const numbers = [1, 2, 3, 4, 5]
+     console.log(numbers.join()) // 1,2,3,4,5
 
 
 
-12. Push: adding item in the end. To add item to the end of an existing array we use the push method.
+<li> Splice method in array
+<p>Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.</p>
+</li>
 
-// syntax
-const arr  = ['item1', 'item2','item3']
-arr.push('new item')
-console.log(arr)
-// ['item1', 'item2','item3','new item']
+     const numbers = [1, 2, 3, 4, 5]
+     numbers.splice()
+     console.log(numbers)                // -> remove all items
+
+     const numbers = [1, 2, 3, 4, 5]
+	   numbers.splice(0,1)
+     console.log(numbers)            // remove the first item
+
+     const numbers = [1, 2, 3, 4, 5, 6]
+	   numbers.splice(3, 3, 7, 8, 9)
+     console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item and replace three items
 
 
 
-13. pop: Removing item in the end.
+<li> Push: 
+<p>Adding item in the end. To add item to the end of an existing array we use the push method.</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5]
-numbers.pop() // -> remove one item from the end
-console.log(numbers) // -> [1,2,3,4]
+     // syntax
+     const arr  = ['item1', 'item2','item3']
+     arr.push('new item')
+     console.log(arr)
+     // ['item1', 'item2','item3','new item']
+
+
+
+<li> pop:
+<p> Removing item in the end.</p>
+</li>
+
+     const numbers = [1, 2, 3, 4, 5]
+     numbers.pop() // -> remove one item from the end
+     console.log(numbers) // -> [1,2,3,4]
 
 
 
