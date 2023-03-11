@@ -92,7 +92,7 @@ switch (whatDay){ //THE SWITCH TAKES THE INPUT DAY AS AN ARGUMENT FOLLOW BY THE 
         console.log(`${dayy} is a working day`);
         break;
     case 'saturday':
-        console.log(`${dayy} is a working day`);
+        console.log(`${dayy} is a weekend`);
         break;
     case 'sunday':
         console.log(`${dayy} is a weekend`)
