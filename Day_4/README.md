@@ -22,6 +22,16 @@ There are multiple different types of conditionals in JavaScript including
 ## if, else if, else
 <p>On our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use else if when we have multiple conditions.</p>
 
+     // syntax
+     if (condition) {
+           // code
+     } else if (condition) {
+           // code
+     } else {
+          //  code
+
+     }
+
 ## switch
 <p>Switch statement is an alternative for if else if else else. The switch statement starts with a switch keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution does not go down after the condition is satisfied. The default block runs if all the cases don't satisfy the condition.</p>
 
