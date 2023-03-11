@@ -25,6 +25,20 @@ There are multiple different types of conditionals in JavaScript including
 ## switch
 <p>Switch statement is an alternative for if else if else else. The switch statement starts with a switch keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution does not go down after the condition is satisfied. The default block runs if all the cases don't satisfy the condition.</p>
 
+     switch(caseValue){
+        case 1:
+          // code
+          break
+        case 2:
+          // code
+          break
+        case 3:
+          // code
+          break
+        default:
+         // code
+     }
+
 ## ternary operator
 <p>Another way to write conditionals is using ternary operators. We have covered this in other sections, but we should also mention it here.</p>
 
