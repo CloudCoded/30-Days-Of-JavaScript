@@ -166,28 +166,33 @@ What I Learned On 27th Feb 2023
 
 
 
-14. shift: Removing one array element in the beginning of the array.
+<li> shift: 
+<p>Removing one array element in the beginning of the array.</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5]
-numbers.shift() // -> remove one item from the beginning
-console.log(numbers) // -> [2,3,4,5]
-
-
-
-15. unshift: Adding array element in the beginning of the array.
-
-const numbers = [1, 2, 3, 4, 5]
-numbers.unshift(0) // -> add one item from the beginning
-console.log(numbers) // -> [0,1,2,3,4,5]
+     const numbers = [1, 2, 3, 4, 5]
+     numbers.shift() // -> remove one item from the beginning
+     console.log(numbers) // -> [2,3,4,5]
 
 
 
-16. Reversing array order
-reverse: reverse the order of an array.
+<li> unshift:
+<p> Adding array element in the beginning of the array.</p>
+</li>
 
-const numbers = [1, 2, 3, 4, 5]
-numbers.reverse() // -> reverse array order
-console.log(numbers) // [5, 4, 3, 2, 1]
+     const numbers = [1, 2, 3, 4, 5]
+     numbers.unshift(0) // -> add one item from the beginning
+     console.log(numbers) // -> [0,1,2,3,4,5]
+
+
+
+<li> Reversing array order
+<p>Reverse: reverse the order of an array.</p>
+</li>
+
+     const numbers = [1, 2, 3, 4, 5]
+     numbers.reverse() // -> reverse array order
+     console.log(numbers) // [5, 4, 3, 2, 1]
 
 
 
