@@ -58,7 +58,7 @@ const countriesWithFourChars = [];
 
 for (let i = 0; i < countries.length; i++) {
   if (countries[i].length === 4) {
-    countriesWithFiveChars.push(countries[i]); // If a country name with a length of 4 is found, we push it to the countriesWithFiveChars array using the push() method.
+    countriesWithFourChars.push(countries[i]); // If a country name with a length of 4 is found, we push it to the countriesWithFiveChars array using the push() method.
   } else{
     console.log('none of the countries has four letters')
   }
