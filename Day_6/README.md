@@ -33,5 +33,17 @@ What I Learned On the 2nd Of March 2023
      // 0 1 2 3 4 5
 <li><i><b>for of loop:</b></i></li>
 <p>We use for of loop for arrays. It is very hand way to iterate through an array if we are not interested in the index of each element in the array.</p>
- break
+
+<li><i><b>break:</b></i></li>
+<p>Break is used to interrupt a loop.<br>
+The below code stops if 3 found in the iteration process.</p>
+
+     for(let i = 0; i <= 5; i++){
+      if(i == 3){
+        break
+     }
+     console.log(i)
+     }
+
+     // 0 1 2
  continue
