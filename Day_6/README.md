@@ -23,6 +23,14 @@ What I Learned On the 2nd Of March 2023
      // 0 1 2 3 4 5
 
 <li><i><b>do while loop:</b></i></li>
+
+     let i = 0
+     do {
+     console.log(i)
+     i++
+     } while (i <= 5)
+
+     // 0 1 2 3 4 5
  for of loop
  break
  continue
