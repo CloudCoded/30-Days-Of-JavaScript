@@ -49,3 +49,12 @@ The below code stops if 3 found in the iteration process.</p>
 
 <li><i><b>continue:</b></i></li>
 <p>We use the keyword continue to skip a certain iterations.</p>
+
+     for(let i = 0; i <= 5; i++){
+         if(i == 3){
+           continue
+         }
+         console.log(i)
+         }
+
+       // 0 1 2 4 5
