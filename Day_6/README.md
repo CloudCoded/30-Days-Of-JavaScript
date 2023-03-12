@@ -31,6 +31,7 @@ What I Learned On the 2nd Of March 2023
      } while (i <= 5)
 
      // 0 1 2 3 4 5
- for of loop
+<li><i><b>for of loop:</b></i></li>
+<p>We use for of loop for arrays. It is very hand way to iterate through an array if we are not interested in the index of each element in the array.</p>
  break
  continue
