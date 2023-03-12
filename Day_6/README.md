@@ -21,7 +21,8 @@ What I Learned On the 2nd Of March 2023
      }
 
      // 0 1 2 3 4 5
- do while loop
+
+<li><i><b>do while loop:</b></i></li>
  for of loop
  break
  continue
