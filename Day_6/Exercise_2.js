@@ -121,7 +121,7 @@ Question 7: In above countries array, check if there is a country or countries c
 let countriesWithLand = [];
 
 for (let i = 0; i < countries.length; i++) {
-  if (countries[i].toLowerCase().includes('land')) {
+  if (countries[i].includes('land')) {
     countriesWithLand.push(countries[i]);
   }
 }
