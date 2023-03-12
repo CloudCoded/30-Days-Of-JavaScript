@@ -73,7 +73,7 @@ const countriesWithTwoOrThreeChars = [];
 
 for (let i = 0; i < countries.length; i++) {
   if (countries[i].length === 2 || countries[i].length === 3) {
-    countriesWithFiveChars.push(countries[i]); // If a country name with a length of 2 or 3 is found, we push it to the countriesWithFiveChars array using the push() method.
+    countriesWithTwoOrThreeChars.push(countries[i]); // If a country name with a length of 2 or 3 is found, we push it to the countriesWithFiveChars array using the push() method.
   } else{
     console.log('none of the countries has just two or three letters')
   }
