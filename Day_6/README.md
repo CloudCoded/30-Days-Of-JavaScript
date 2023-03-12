@@ -46,4 +46,6 @@ The below code stops if 3 found in the iteration process.</p>
      }
 
      // 0 1 2
- continue
+
+<li><i><b>continue:</b></i></li>
+<p>We use the keyword continue to skip a certain iterations.</p>
