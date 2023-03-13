@@ -19,3 +19,12 @@ A function can be declared or created in couple ways: </p>
         //code goes here
      }
      functionName() // calling a function by its name and parenthesis
+
+<p>In a function we also pass function with parameter(s) or unlimited parameters with an arrow function
+
+     //syntax
+     function concatName(first, last) {
+        let fullName = first + last
+        return fullName
+     }
+     console.log(concatName('Ali ', 'Baba'));
