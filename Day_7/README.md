@@ -67,3 +67,53 @@ A function can be declared or created in couple ways: </p>
      console.log(sumAllNums(1, 2, 3, 4)) // 10
      console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
      console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
+
+## ANONYMOUS FUNCTION
+<p>An anonymous function in javascript is not accessible after its initial creation. Therefore, we need to assign it to a variable, so that we can use its value later. They are always invoked (called) using the variable name. Also, we create anonymous functions in JavaScript, where we want to use functions as values.</p>
+
+     const anonymousFun = function() {
+     console.log(
+       'I am an anonymous function and my value is stored in anonymousFun'
+     )
+    }
+
+
+     //1
+     let variableName = function () {
+          //your code here
+     }
+
+     variableName();     //Can call the anonymous function through this
+<hr>
+
+     //2
+     let demo = function (){
+     console.log("Example of anonymous functions");
+     }
+     demo();
+
+     //Output
+     "Example of anonymous functions"
+ <hr>
+
+     let area = function(length, breadth){
+     return length * breadth 
+     }
+     let x = area(10,5) 
+     console.log("Area of the rectangle is = ", x);
+
+     //Output
+      "Area of the rectangle is = " 50
+<hr>
+
+     button.addEventListener('click', 
+         function(event) {
+         alert('Button is clicked!')
+    })
+
+
+
+
+
+
+
