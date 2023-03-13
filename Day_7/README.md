@@ -14,6 +14,7 @@ A function can be declared or created in couple ways: </p>
 
 ## FUNCTION DECLARATION
 <p>How to declare and how to call a function</p>
+
      //declare a function without a parameter
      function functionName() {
         //code goes here
