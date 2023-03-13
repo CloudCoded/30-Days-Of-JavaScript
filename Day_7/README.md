@@ -41,7 +41,7 @@ A function can be declared or created in couple ways: </p>
      console.log(addSums(10, 20 , 30));
      console.log(addSums(arrNumbers));
 
-### Unlimited number of parameters in arrow function
+<b>Unlimited number of parameters in arrow function</b>
 <p>To implement a function which takes unlimited number of arguments in an arrow function we use spread operator followed by any parameter name. Any thing we passed as argument in the function can be accessed as array in the arrow function.<br> Let us see an example: </p>
 
      //Let's access the arguments object
@@ -110,6 +110,99 @@ A function can be declared or created in couple ways: </p>
          function(event) {
          alert('Button is clicked!')
     })
+
+
+## EXPRESSION FUNCTION
+<p>Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.</p>
+
+     // Function expression
+     const square = function(n) {
+       return n * n
+    }
+
+     console.log(square(2)) // -> 4
+
+## SELF INVOKING FUNCTIONS
+<p>Self invoking functions are anonymous functions which do not need to be called to return a value.</p>
+
+     (function(n) {
+       console.log(n * n)
+     })(2) // 4, but instead of just printing if we want to return and store the data, we do as shown below
+
+     let squaredNum = (function(n) {
+       return n * n
+     })(10)
+
+     console.log(squaredNum)
+
+## ARROW FUNCTION
+<p>Arrow function is an alternative to write a function, however function declaration and arrow function have some minor differences.
+
+Arrow function uses arrow instead of the keyword function to declare a function. Let us see both function declaration and arrow function.</p>
+
+     // This is how we write normal or declaration function
+     // Let us change this declaration function to an arrow function
+     function square(n) {
+      return n * n
+     }
+
+     console.log(square(2)) // 4
+
+     const square = n => {
+       return n * n
+     }
+
+     console.log(square(2))  // -> 4
+
+     // if we have only one line in the code block, it can be written as follows, explicit return
+     const square = n => n * n  // -> 4
+
+     Another example
+     const changeToUpperCase = arr => {
+       const newArr = []
+       for (const element of arr) {
+         newArr.push(element.toUpperCase())
+       }
+       return newArr
+     }
+
+     const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+     console.log(changeToUpperCase(countries))
+
+     // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+
+## FUNCTION WITH DEFAULT PARAMETERS
+<p> Sometimes we pass default values to parameters, when we invoke the function if we do not pass an argument the default value will be used. Both function declaration and arrow function can have a default value or values.</p>
+
+<b>Example: </b>
+
+     function greetings(name = 'Peter') {
+       let message = `${name}, welcome to 30 Days Of JavaScript!`
+       return message
+     }
+
+     console.log(greetings())
+     console.log(greetings('Asabeneh'))
+
+     //Example in arrow function
+     // syntax
+     // Declaring a function
+     const functionName = (param = value) => {
+        //codes
+     }
+
+     // Calling function
+     functionName()
+     functionName(arg)
+
+
+     const greetings = (name = 'Peter') => {
+        let message = name + ', welcome to 30 Days Of JavaScript!'
+        return message
+     }
+
+     console.log(greetings())
+     console.log(greetings('Asabeneh'))
 
 
 
