@@ -61,6 +61,11 @@ Question 6: A volume of a rectangular prism is calculated as follows: volume = l
 */
 
 //Answer
+const volumeOfRectPrism = (length, width, height) => {
+    const volume = length *  width * height;
+    return volume
+}
+volumeOfRectPrism(10, 7, 8);
 
 /*
 Question 7: 
