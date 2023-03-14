@@ -83,6 +83,11 @@ Question 8: Circumference of a circle is calculated as follows: circumference = 
 */
 
 //Answer
+function circumOfCircle(pi, radius){
+    const circum = 2 * pi * radius
+    return circum
+}
+circumOfCircle(3.14, 7);
 
 /*
 Question 9: 
