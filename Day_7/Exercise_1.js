@@ -25,11 +25,21 @@ function fullName (firstName, lastName){
 fullName('Asabeneh', 'Peter')
 
 /*
-Question 3: 
+Question 3: Declare a function addNumbers and it takes two two parameters and it returns sum.
 */
+
+//Answer
+function addNumbers (num1, num2) {
+    return num1 + num2;
+}
+addNumbers(10, 20);
+
 /*
-Question 4: 
+Question 4: An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle.
 */
+
+//Answer
+
 /*
 Question 5: 
 */
