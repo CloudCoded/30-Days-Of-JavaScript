@@ -50,6 +50,11 @@ Question 5: A perimeter of a rectangle is calculated as follows: perimeter= 2x(l
 */
 
 //Answer
+const perimeterOfRectangle = (length, width) => {
+    const perimeter = 2 * (length + width)
+    console.log(perimeter)
+}
+perimeterOfRectangle(10, 7);
 
 /*
 Question 6: A volume of a rectangular prism is calculated as follows: volume = length x width x height. Write a function which calculates volumeOfRectPrism
