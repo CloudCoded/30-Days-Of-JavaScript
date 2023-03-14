@@ -90,11 +90,21 @@ function circumOfCircle(pi, radius){
 circumOfCircle(3.14, 7);
 
 /*
-Question 9: 
+Question 9: Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
 */
+
+//Answer
+
+(function(mass, volume){
+    const density = mass / volume
+    console.log(density)
+})(10, 5);
 /*
-Question 10: 
+Question 10: Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, speed.
 */
+
+//Answer
+
 /*
 Question 11: 
 */
