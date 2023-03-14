@@ -4,14 +4,14 @@ Question 1: Declare a function fullName and it print out your full name.
 
 //Answer
 function fullName (){
-    let firstName = 'Ali '
-    let lastName = 'Baba'
-    let name = firstName.concat(lastName);
+    const firstName = 'Ali '
+    const lastName = 'Baba'
+    const name = firstName.concat(lastName);
 
     console.log(name);
 }
 
-fullName ();
+fullName();
 
 /*
 Question 2: Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
