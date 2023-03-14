@@ -72,6 +72,11 @@ Question 7: Area of a circle is calculated as follows: area = π x r x r. Write 
 */
 
 //Answer
+const areaOfCircle = (pi, r1, r2) => {
+    const area = pi * r1 * r2;
+    return area
+}
+areaOfCircle(3.14, 7, 7);
 
 /*
 Question 8: Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
