@@ -142,6 +142,11 @@ Obese: BMI is 30 or more
 */
 
 //Answer
+const BodyMaxedIndex = (weight, height) => {
+    const bmi = weight / (height * height)
+    return bmi;
+}
+BodyMaxedIndex();
 
 /*
 Question 14: Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
