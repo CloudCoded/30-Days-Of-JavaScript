@@ -167,5 +167,17 @@ const checkSeason = (month) => {
 checkSeason()
 
 /*
-Question 15: 
+Question 15: Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
 */
+
+//Answer
+const findMax = (a, b, c) => {
+    if(a > b && a > c){
+        console.log(a)
+    } else if(b > a && b > c){
+        console.log(b)
+    } else{
+        console.log(c)
+    }
+}
+findMax(10, 100, 500)
