@@ -181,3 +181,4 @@ const findMax = (a, b, c) => {
     }
 }
 findMax(10, 100, 500)
+findMax(10, -100, -500)
