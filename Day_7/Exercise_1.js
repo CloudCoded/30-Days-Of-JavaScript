@@ -114,6 +114,10 @@ Question 11: Weight of a substance is calculated as follows: weight = mass x gra
 */
 
 //Answer
+(function(mass, gravity){
+    const weight = mass * gravity;
+    return weight;
+})(5, 12)
 
 /*
 Question 12: Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
