@@ -110,8 +110,29 @@ Question 10: Speed is calculated by dividing the total distance covered by a mov
 })(20, 5);
 
 /*
-Question 11: 
+Question 11: Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
+*/
+
+//Answer
+
+/*
+Question 12: Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
+*/
+
+//Answer
+function convertCelsiusToFahrenheit(celsius) {
+    var fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+console.log(convertCelsiusToFahrenheit(25));
+  
+
+/*
+Question 13: 
 */
 /*
-Question 12: 
+Question 14: 
+*/
+/*
+Question 15: 
 */
