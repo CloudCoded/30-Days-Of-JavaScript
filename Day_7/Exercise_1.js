@@ -132,11 +132,40 @@ console.log(convertCelsiusToFahrenheit(25));
   
 
 /*
-Question 13: 
+Question 13: Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
+
+The same groups apply to both men and women.
+Underweight: BMI is less than 18.5
+Normal weight: BMI is 18.5 to 24.9
+Overweight: BMI is 25 to 29.9
+Obese: BMI is 30 or more
 */
+
+//Answer
+
 /*
-Question 14: 
+Question 14: Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
 */
+
+//Answer
+const checkSeason = (month) => {
+    const checkMonth = prompt('Enter current month: ')
+    if(checkMonth === 'September' || checkMonth === 'October' || checkMonth === 'November') {
+        console.log('Autumn')
+    } else if(checkMonth === 'December' || checkMonth === 'January' || checkMonth === 'February') {
+        console.log('Winter')
+    } else if(checkMonth === 'March' || checkMonth === 'April' || checkMonth === 'May') {
+        console.log('Spring')
+    } else if(checkMonth === 'June' || checkMonth === 'July' || checkMonth === 'August'){
+        console.log('Summer')
+    } else{
+        console.log('Enter a valid month');
+
+        return checkMonth;
+    }
+}
+checkSeason()
+
 /*
 Question 15: 
 */
