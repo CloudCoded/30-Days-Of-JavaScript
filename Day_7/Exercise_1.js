@@ -125,7 +125,7 @@ Question 12: Temperature in oC can be converted to oF using this formula: oF = (
 
 //Answer
 function convertCelsToFahren(celsius) {
-    var fahrenheit = (celsius * 9/5) + 32;
+    const fahrenheit = (celsius * 9/5) + 32;
     return fahrenheit;
 }
 console.log(convertCelsToFahren(25));
