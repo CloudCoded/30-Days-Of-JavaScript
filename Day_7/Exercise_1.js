@@ -19,7 +19,7 @@ Question 2: Declare a function fullName and now it takes firstName, lastName as 
 
 //Answer
 function fullName (firstName, lastName){
-    let name = `${firstName}  ${lastName}`
+    const name = `${firstName}  ${lastName}`
     console.log(name);
 }
 fullName('Asabeneh', 'Peter')
