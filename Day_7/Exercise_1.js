@@ -40,7 +40,7 @@ Question 4: An area of a rectangle is calculated as follows: area = length x wid
 
 //Answer
 function areaOfRectangle (length, width) {
-    let area = length * width;
+    const area = length * width;
     console.log(area);
 }
 areaOfRectangle(10, 7)
