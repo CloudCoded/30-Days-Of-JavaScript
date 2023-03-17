@@ -1,6 +1,16 @@
 /*
-Question 1: 
+Question 1: Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
 */
+
+//Answer
+function solveLinEquation(a, b, c) {
+    const x = -c / a;
+    const y = -c / b;
+    return [x, y];
+}
+solveLinEquation();
+  
+
 /*
 Question 2: 
 */
