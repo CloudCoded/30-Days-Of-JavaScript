@@ -46,6 +46,15 @@ Question 3: Declare a function name printArray. It takes array as a parameter an
 
 //Answer
 function printArray(arr) {
+    for(let i = 0; i <= arr.length; i++){
+        console.log(arr[i])
+    }
+}
+printArray([1, 2, 3, 4]);
+
+//Or
+
+function printArray(arr){
     console.log(arr)
 }
 printArray([1, 2, 3, 4]);
