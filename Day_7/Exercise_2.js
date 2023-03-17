@@ -79,19 +79,19 @@ const swapValues = (a, b) => {
 swapValues(10, 11);
 
 /*
-Question 1: 
+Question 6: 
 */
 /*
-Question 1: 
+Question 7: 
 */
 /*
-Question 1: 
+Question 8: 
 */
 /*
-Question 1: 
+Question 9: 
 */
 /*
-Question 1: 
+Question 10: 
 */
 /*
 Question 1: 
