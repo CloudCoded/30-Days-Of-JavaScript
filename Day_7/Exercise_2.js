@@ -79,8 +79,19 @@ const swapValues = (a, b) => {
 swapValues(10, 11);
 
 /*
-Question 6: 
+Question 6: Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
 */
+
+//Answer
+const reverseArray = (arr) => {
+    const reverse = [];
+    for(let i = arr.length - 1; i >= 0; i--){
+        reverse.push(arr[i]);
+    }
+    console.log(reverse);
+}
+reverseArray([10, 20, 30, 40])
+
 /*
 Question 7: 
 */
