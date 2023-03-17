@@ -68,8 +68,16 @@ const showDateTime = () => {
 showDateTime()
 
 /*
-Question 5: 
+Question 5: Declare a function name swapValues. This function swaps value of x to y.
 */
+
+//Answer
+const swapValues = (a, b) => {
+    [a, b] = [b, a];
+    console.log(`a = ${a}, b = ${b}`)
+}
+swapValues(10, 11);
+
 /*
 Question 1: 
 */
