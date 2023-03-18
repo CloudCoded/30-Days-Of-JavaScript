@@ -94,20 +94,22 @@ Question 9: Density of a substance is calculated as follows:density= mass/volume
 */
 
 //Answer
-(function(mass, volume){
-    const density = mass / volume
-    console.log(density)
-})(10, 5);
+function density(mass, volume){
+    const calculateDensity = mass / volume
+    return calculateDensity;
+}
+density(10, 2);
 
 /*
 Question 10: Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, speed.
 */
 
 //Answer
-(function(distance, time){
-    const speed = distance / time
-    return speed
-})(20, 5);
+const speed = (dis, time) => {
+    const speedCalcu = dis / time
+    return speedCalcu;
+}
+speed(100, 15)
 
 /*
 Question 11: Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
