@@ -106,7 +106,7 @@ Question 7: Declare a function name capitalizeArray. It takes array as a paramet
 */
 
 //Answer
-function capitalizeArray(arr){
+function capitalizeArray(){
     arr = ['hello', 'world', 'fam']
     const capitalizedArray = []
     for(let i = 0; i < arr.length; i++){
@@ -165,28 +165,28 @@ const sumOfNumbers = (num) => {
 sumOfNumbers(6)
 
 /*
-Question 1: 
+Question 11: 
 */
 /*
-Question 1: 
+Question 12: 
 */
 /*
-Question 1: 
+Question 13: 
 */
 /*
-Question 1: 
+Question 14: 
 */
 /*
-Question 1: 
+Question 15: 
 */
 /*
-Question 1: 
+Question 16: 
 */
 /*
-Question 1: 
+Question 17: 
 */
 /*
-Question 1: 
+Question 18: 
 */
 /*
 Question 1: 
