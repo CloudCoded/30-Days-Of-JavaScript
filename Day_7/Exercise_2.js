@@ -176,6 +176,7 @@ function sumOfOdds(num) {
     }
     return total;
   }
+  sumOfOdds(10)
 
   //Or
 
@@ -188,6 +189,7 @@ function sumOfOdds(num) {
     }
     return total;
   }
+  sumOfOdds(10)
   
   
 
@@ -195,6 +197,17 @@ function sumOfOdds(num) {
 Question 12: Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
 */
 
+//Answer
+function sumOfEven(num) {
+    let total = 0;
+    for (let i = 0; i <= num; i++) {
+      if (i % 2 === 0) {
+        total += i;
+      }
+    }
+    return total;
+  }
+  sumOfEven(20)
 
 /*
 Question 13: Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
