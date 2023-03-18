@@ -116,8 +116,17 @@ function Array(arr = [hello, world, fam]){
 capitalizeArray()
 
 /*
-Question 8: 
+Question 8: Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
 */
+
+//Answer
+function addItem(x){
+    const fruit = ['lemon', 'apple', 'cherry']
+    const arr = fruit.push(x)
+    return arr;
+}
+addItem('mango')
+
 /*
 Question 9: 
 */
