@@ -165,26 +165,91 @@ const sumOfNumbers = (num) => {
 sumOfNumbers(6)
 
 /*
-Question 11: 
+Question 11: Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
+*/
+
+//Answer
+function sumOfOdds(num) {
+    let total = 0;
+    for (let i = 1; i <= num; i += 2) { //i on the first iteration is 1 and on the second we use += to increment by 2 and so on, by doing that we ensure that i takes on only odd values, since we started with an odd value for i
+      total += i;
+    }
+    return total;
+  }
+
+  //Or
+
+  function sumOfOdds(num) {
+    let total = 0;
+    for (let i = 0; i <= num; i++) {
+      if (i % 2 !== 0) {
+        total += i;
+      }
+    }
+    return total;
+  }
+  
+  
+
+/*
+Question 12: Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
+*/
+
+
+/*
+Question 13: Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
 */
 /*
-Question 12: 
-*/
-/*
-Question 13: 
-*/
-/*
-Question 14: 
+Question 14: Write a function which takes any number of arguments and return the sum of the arguments
 */
 /*
 Question 15: 
 */
+
+//Answer
+function randomUserIp() {
+    const num1 = Math.floor(Math.random() * 256);
+    const num2 = Math.floor(Math.random() * 256);
+    const num3 = Math.floor(Math.random() * 256);
+    const num4 = Math.floor(Math.random() * 256);
+    return `${num1}.${num2}.${num3}.${num4}`;
+  }
+  
+
 /*
 Question 16: 
 */
+
+//Answer
+function randomMacAddress() {
+    let mac = '';
+    for (let i = 0; i < 6; i++) {
+      let rand = Math.floor(Math.random() * 256);
+      mac += rand.toString(16).padStart(2, '0');
+      if (i < 5) {
+        mac += ':';
+      }
+    }
+    return mac.toUpperCase();
+  }
+  
+
 /*
 Question 17: 
 */
+
+//Answer
+function userIdGenerator() {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let id = '';
+    for (let i = 0; i < 7; i++) {
+      let randIndex = Math.floor(Math.random() * chars.length);
+      id += chars.charAt(randIndex);
+    }
+    return id;
+  }
+  
+
 /*
 Question 18: 
 */
