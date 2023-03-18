@@ -284,7 +284,7 @@ Question 17:
 //Answer
   
 /*
-Question 18: 
+Question 18: Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
 */
 
 //Answer
