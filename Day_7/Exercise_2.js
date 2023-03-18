@@ -106,12 +106,13 @@ Question 7: Declare a function name capitalizeArray. It takes array as a paramet
 */
 
 //Answer
-function Array(arr = [hello, world, fam]){
-    const capitalizeArray = []
+function capitalizeArray(arr){
+    arr = ['hello', 'world', 'fam']
+    const capitalizedArray = []
     for(let i = 0; i < arr.length; i++){
-        capitalizeArray.push(arr[i].charAt(0).toUpperCase + arr[i].slice(1))
+        capitalizedArray.push(arr[i].charAt(0).toUpperCase() + arr[i].slice(1))
     }
-    return capitalizeArray;
+    return capitalizedArray;
 }
 capitalizeArray()
 
@@ -135,6 +136,7 @@ function addItem(arr, x){
     return fruit;
 }
 addItem()
+
 
 /*
 Question 9: Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
