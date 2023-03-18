@@ -120,12 +120,12 @@ Question 8: Declare a function name addItem. It takes an item parameter and it r
 */
 
 //Answer
-function addItem(x){
+function addItem(arr, x = 'mango'){
     const fruit = ['lemon', 'apple', 'cherry']
-    const arr = fruit.push(x)
-    return arr;
+    fruit.push(x)
+    return fruit;
 }
-addItem('mango')
+addItem()
 
 /*
 Question 9: Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
