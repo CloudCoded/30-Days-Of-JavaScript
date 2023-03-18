@@ -102,8 +102,19 @@ const reverseArray = (arr) => {
 reverseArray([10, 20, 30, 40])
 
 /*
-Question 7: 
+Question 7: Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 */
+
+//Answer
+function Array(arr = [hello, world, fam]){
+    const capitalizeArray = []
+    for(let i = 0; i < arr.length; i++){
+        capitalizeArray.push(arr[i].charAt(0).toUpperCase + arr[i].slice(1))
+    }
+    return capitalizeArray;
+}
+capitalizeArray()
+
 /*
 Question 8: 
 */
