@@ -252,6 +252,12 @@ Question 17:
 */
 
 //Answer
+  
+/*
+Question 18: 
+*/
+
+//Answer
 function userIdGenerator() {
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let id = '';
@@ -260,12 +266,4 @@ function userIdGenerator() {
       id += chars.charAt(randIndex);
     }
     return id;
-  }
-  
-
-/*
-Question 18: 
-*/
-/*
-Question 1: 
-*/
+}
