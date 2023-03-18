@@ -246,7 +246,7 @@ function sum() {
   sum(1, 2, 3);
 
 /*
-Question 15: 
+Question 15: Writ a function which generates a randomUserIp.
 */
 
 //Answer
