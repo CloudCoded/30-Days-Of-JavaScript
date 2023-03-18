@@ -234,6 +234,17 @@ function evenAndOdd(num) {
 /*
 Question 14: Write a function which takes any number of arguments and return the sum of the arguments
 */
+
+//Answer
+function sum() {
+    let result = 0;
+    for (let i = 0; i < arguments.length; i++) {
+      result += arguments[i];
+    }
+    return result;
+  }
+  sum(1, 2, 3);
+
 /*
 Question 15: 
 */
