@@ -212,6 +212,25 @@ function sumOfEven(num) {
 /*
 Question 13: Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
 */
+
+//Answer
+function evenAndOdd(num) {
+    let evenCount = 0;
+    let oddCount = 0;
+    for (let i = 0; i <= num; i++) {
+      if (i % 2 === 0) {
+        evenCount++;
+      } else {
+        oddCount++;
+      }
+    }
+    console.log('The number of evens are ' + evenCount);
+    console.log('The number of odds are ' + oddCount);
+    return evenCount, oddCount;
+  }
+  evenAndOdd(20)
+  
+
 /*
 Question 14: Write a function which takes any number of arguments and return the sum of the arguments
 */
