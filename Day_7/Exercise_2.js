@@ -151,8 +151,19 @@ const removeItem = (arr, index) => {
 removeItem();
 
 /*
-Question 10: 
+Question 10: Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
 */
+
+//Answer
+const sumOfNumbers = (num) => {
+    sum = 0
+    for(let i = 0; i <= num; i++){
+        sum += i
+    }
+    return sum;
+}
+sumOfNumbers(6)
+
 /*
 Question 1: 
 */
