@@ -260,7 +260,7 @@ function randomUserIp() {
   
 
 /*
-Question 16: 
+Question 16: Write a function which generates a randomMacAddress
 */
 
 //Answer
