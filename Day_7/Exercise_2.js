@@ -127,6 +127,15 @@ function addItem(arr, x = 'mango'){
 }
 addItem()
 
+//Or
+function addItem(arr, x){
+    x = 'mango'
+    const fruit = ['lemon', 'apple', 'cherry']
+    fruit.push(x)
+    return fruit;
+}
+addItem()
+
 /*
 Question 9: Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 */
