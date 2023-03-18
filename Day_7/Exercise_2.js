@@ -128,8 +128,17 @@ function addItem(x){
 addItem('mango')
 
 /*
-Question 9: 
+Question 9: Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 */
+
+//Answer
+const removeItem = (arr, index) => {
+    const countries = ['Japan', 'Morocco', 'Brazil', 'Sri Lanka'];
+    countries.splice(index, 1)
+    return countries;
+}
+removeItem();
+
 /*
 Question 10: 
 */
