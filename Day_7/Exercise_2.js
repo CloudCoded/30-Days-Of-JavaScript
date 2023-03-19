@@ -83,7 +83,7 @@ Question 5: Declare a function name swapValues. This function swaps value of x t
 //Answer
 const swapValues = (a, b) => {
     [a, b] = [b, a];
-    console.log(`a = ${a}, b = ${b}`)
+    return `a = ${a}, b = ${b}`
 }
 swapValues(10, 11);
 
