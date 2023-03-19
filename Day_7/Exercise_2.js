@@ -176,7 +176,7 @@ function sumOfOdds(num) {
     }
     return total;
   }
-  sumOfOdds(10)
+  sumOfOdds(20)
 
   //Or
 
@@ -189,7 +189,7 @@ function sumOfOdds(num) {
     }
     return total;
   }
-  sumOfOdds(10)
+  sumOfOdds(20)
   
   
 
