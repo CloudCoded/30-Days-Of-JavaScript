@@ -276,6 +276,7 @@ function randomMacAddress() {
     }
     return mac.toUpperCase();
   }
+  randomMacAddress();
   
 
 /*
