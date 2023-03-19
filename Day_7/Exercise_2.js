@@ -299,3 +299,4 @@ function userIdGenerator() {
     }
     return id;
 }
+userIdGenerator();
