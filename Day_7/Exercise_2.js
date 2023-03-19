@@ -162,7 +162,7 @@ const sumOfNumbers = (num) => {
     }
     return sum;
 }
-sumOfNumbers(6)
+sumOfNumbers(10)
 
 /*
 Question 11: Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
