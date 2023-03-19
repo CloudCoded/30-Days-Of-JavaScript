@@ -280,10 +280,16 @@ function randomMacAddress() {
   
 
 /*
-Question 17: 
+Question 17: Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 */
 
 //Answer
+function randomHexaNumberGenerator(){
+  let hex = Math.floor(Math.random() * 16777215).toString(16); //The number 16,777,215 is the total possible combinations of RGB(255,255,255) && Hexadecimal is base 16
+
+  console.log("#" + hex);
+}
+randomHexaNumberGenerator()
   
 /*
 Question 18: Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
