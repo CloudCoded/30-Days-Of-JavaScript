@@ -257,6 +257,7 @@ function randomUserIp() {
     const num4 = Math.floor(Math.random() * 256);
     return `${num1}.${num2}.${num3}.${num4}`;
   }
+  randomUserIp();
   
 
 /*
