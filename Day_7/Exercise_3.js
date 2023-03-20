@@ -59,8 +59,14 @@ Question 2: Write a function name rgbColorGenerator and it generates rgb colors.
 
 //Answer
 function rgbColorGenerator () {
+    const r = Math.floor(Math.random() * 256)
+    const g = Math.floor(Math.random() * 256)
+    const b = Math.floor(Math.random() * 256)
 
+    const color = `rgb(${r}, ${g}, ${b})`;
+    return color
 }
+rgbColorGenerator();
 
 /*
 Question 3: 
