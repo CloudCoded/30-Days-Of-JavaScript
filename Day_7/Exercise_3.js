@@ -103,7 +103,7 @@ function arrayOfRgbColors(num){
 arrayOfRgbColors(2)
 
 /*
-Question 5: 
+Question 5: Write a function convertHexaToRgb which converts hexa color to rgb and it returns an rgb color.
 */
 
 //Answer
@@ -124,7 +124,7 @@ function hexToRgb(hex) {
 hexToRgb('#FF0000')  
 
 /*
-Question 6: 
+Question 6: Write a function convertRgbToHexa which converts rgb to hexa color and it returns an hexa color.
 */
 
 //Answer
