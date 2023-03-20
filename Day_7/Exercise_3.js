@@ -85,11 +85,32 @@ function arrayOfHexaColors(num){
   arrayOfHexaColors(3)
 
 /*
-Question 4: 
+Question 4: Write a function arrayOfRgbColors which return any number of RGB colors in an array. 
 */
+
+//Answer
+
 /*
 Question 5: 
 */
+
+//Answer
+function hexToRgb(hex) {
+    // Remove the "#" character if present
+    hex = hex.replace("#", "");
+    
+    // Extract the red, green, and blue components
+    let r = parseInt(hex.substring(0, 2), 16);
+    let g = parseInt(hex.substring(2, 4), 16);
+    let b = parseInt(hex.substring(4, 6), 16);
+    
+    // Combine the components into an RGB color value
+    let rgb = `rgb(${r}, ${g}, ${b})`;
+    
+    return rgb;
+}
+hexToRgb('#FF0000')  
+
 /*
 Question 6: 
 */
