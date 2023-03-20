@@ -24,6 +24,22 @@ userIdGen(); // call the function to generate the IDs
 
 // The below programs will generate just one id and while the latter will generate an array of Id numbers
 
+const userIdGen = () => {                     // Declare a constant variable `userIdGen` as an arrow function that takes no arguments
+    let id = parseInt(prompt('Enter id: '))  // Declare a variable `id` and set its value to the integer returned from the user prompt for entering an id
+    let num = parseInt(prompt('Enter num: '))// Declare a variable `num` and set its value to the integer returned from the user prompt for entering a number
+    let ranId = '';                          // Declare a variable `ranId` and initialize its value to an empty string
+    for (let i = 0; i < id; i++) {            // Start a for loop that will execute `id` number of times, incrementing `i` by 1 each time
+        ranId = Math.random().toString(36).substring(2, num);  // Generate a random string using `Math.random()` method, convert it to base 36 using `toString()`, and remove the first two characters using `substring()` and then assign the result to the `ranId` variable
+    }
+    return ranId                              // Return the final value of `ranId`
+}
+
+userIdGen()                                   // Call the `userIdGen()` function
+
+
+//Generate an array ids
+
+
 
 /*
 Question 2: 
