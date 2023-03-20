@@ -74,7 +74,7 @@ Question 3: Write a function arrayOfHexaColors which return any number of hexade
 
 //Answer
 function arrayOfHexaColors(num){
-    const randomHexaNumber = [''];
+    const randomHexaNumber = [];
     for (let i = 0; i < num; i++) {
     let hex = Math.floor(Math.random() * 16777215).toString(16); //The number 16,777,215 is the total possible combinations of RGB(255,255,255) && Hexadecimal is base 16
     randomHexaNumber.push(hex)
@@ -89,6 +89,18 @@ Question 4: Write a function arrayOfRgbColors which return any number of RGB col
 */
 
 //Answer
+function arrayOfRgbColors(num){
+    const arrRgb = [];
+    for (let i = 0; i < num; i++) {
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+      
+        arrRgb.push(`${r}, ${g}, ${b}`)
+    }
+    return arrRgb;
+}
+arrayOfRgbColors(2)
 
 /*
 Question 5: 
@@ -114,6 +126,27 @@ hexToRgb('#FF0000')
 /*
 Question 6: 
 */
+
+//Answer
+function convertRgbToHexa(rgbColor) {
+    // Split the RGB color string into its individual red, green, and blue values
+    const rgbValues = rgbColor.substring(4, rgbColor.length - 1).split(", ");
+    const r = parseInt(rgbValues[0]);
+    const g = parseInt(rgbValues[1]);
+    const b = parseInt(rgbValues[2]);
+  
+    // Convert the RGB values to their equivalent hexadecimal representation
+    const hexR = r.toString(16).padStart(2, "0");
+    const hexG = g.toString(16).padStart(2, "0");
+    const hexB = b.toString(16).padStart(2, "0");
+  
+    // Combine the hexadecimal values to form the final hexadecimal color string
+    const hexColor = `#${hexR}${hexG}${hexB}`;
+  
+    return hexColor;
+}
+convertRgbToHexa()
+
 /*
 Question 7: 
 */
