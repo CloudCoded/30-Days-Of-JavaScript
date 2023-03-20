@@ -69,8 +69,21 @@ function rgbColorGenerator () {
 rgbColorGenerator();
 
 /*
-Question 3: 
+Question 3: Write a function arrayOfHexaColors which return any number of hexadecimal colors in an array.
 */
+
+//Answer
+function arrayOfHexaColors(num){
+    const randomHexaNumber = [''];
+    for (let i = 0; i < num; i++) {
+    let hex = Math.floor(Math.random() * 16777215).toString(16); //The number 16,777,215 is the total possible combinations of RGB(255,255,255) && Hexadecimal is base 16
+    randomHexaNumber.push(hex)
+    }
+    
+    return randomHexaNumber;
+  }
+  arrayOfHexaColors(3)
+
 /*
 Question 4: 
 */
