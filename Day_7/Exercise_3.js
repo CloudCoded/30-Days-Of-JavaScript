@@ -148,7 +148,7 @@ function convertRgbToHexa(rgbColor) {
 convertRgbToHexa()
 
 /*
-Question 7: 
+Question 7: Write a function generateColors which can generate any number of hexa or rgb colors.
 */
 
 //Answer
