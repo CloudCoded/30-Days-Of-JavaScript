@@ -191,8 +191,11 @@ shuffleArray([1, 2, 3, 4, 5])
   
 
 /*
-Question 9: 
+Question 9: Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
 */
+
+//Answer
+
 /*
 Question 10: 
 */
