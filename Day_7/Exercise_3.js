@@ -180,6 +180,15 @@ Question 8: Call your function shuffleArray, it takes an array as a parameter an
 */
 
 //Answer
+function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const randomInt = Math.floor(Math.random() * (i + 1)); //This line generates a random integer between 0 and i (inclusive) using the Math.random() and Math.floor() functions
+      [arr[i], arr[randomInt]] = [arr[randomInt], arr[i]];
+    }
+    return arr;
+}
+shuffleArray([1, 2, 3, 4, 5])
+  
 
 /*
 Question 9: 
