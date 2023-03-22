@@ -195,6 +195,10 @@ Question 9: Call your function factorial, it takes a whole number as a parameter
 */
 
 //Answer
+const factorial = (num) => {
+    return num;
+}
+factorial(5);
 
 /*
 Question 10: 
