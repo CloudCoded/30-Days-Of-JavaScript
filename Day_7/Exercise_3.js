@@ -176,8 +176,11 @@ generateColors();
   
 
 /*
-Question 8: 
+Question 8: Call your function shuffleArray, it takes an array as a parameter and it returns a shuffled array
 */
+
+//Answer
+
 /*
 Question 9: 
 */
