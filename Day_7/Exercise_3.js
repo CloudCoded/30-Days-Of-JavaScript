@@ -201,8 +201,19 @@ const factorial = (num) => {
 factorial(5);
 
 /*
-Question 10: 
+Question 10: Call your function isEmpty, it takes a parameter and it checks if it is empty or not
 */
+
+//Answer
+const isEmpty = (val) => {
+    if(val === null || val === ''){
+        console.log('This is empty')
+    } else{
+        console.log('This is value')
+    }
+}
+isEmpty()
+
 /*
 Question 11: 
 */
