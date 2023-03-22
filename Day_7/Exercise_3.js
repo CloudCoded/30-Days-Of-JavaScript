@@ -150,6 +150,31 @@ convertRgbToHexa()
 /*
 Question 7: 
 */
+
+//Answer
+function generateColors(numColors, colorFormat) {
+    let colors = [];
+    for (let i = 0; i < numColors; i++) {
+      if (colorFormat === "hex") {
+        // generate a random hex color code
+        let color = "#" + Math.floor(Math.random() * 16777215).toString(16);
+        colors.push(color);
+      } else if (colorFormat === "rgb") {
+        // generate a random RGB color tuple
+        let r = Math.floor(Math.random() * 256);
+        let g = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+        let color = `rgb(${r}, ${g}, ${b})`;
+        colors.push(color);
+      } else {
+        throw new Error("Invalid color format. Choose 'hex' or 'rgb'.");
+      }
+    }
+    return colors;
+}
+generateColors();
+  
+
 /*
 Question 8: 
 */
