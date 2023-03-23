@@ -303,6 +303,24 @@ modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
 /*
 Question 15: 
 */
+
+//Answer
+function isPrime(n) {
+    if (n <= 1) {
+      return false;
+    }
+  
+    // Check if n is divisible by any number from 2 to sqrt(n)
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+      if (n % i === 0) {
+        return false;
+      }
+    }
+  
+    return true;
+}
+isPrime(17) 
+
 /*
 Question 16: 
 */
