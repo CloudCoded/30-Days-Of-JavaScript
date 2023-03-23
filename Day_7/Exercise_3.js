@@ -196,9 +196,18 @@ Question 9: Call your function factorial, it takes a whole number as a parameter
 
 //Answer
 const factorial = (num) => {
-    return num;
-}
-factorial(5);
+    if (num === 0 || num === 1) // If num = 0 OR num = 1, the factorial will return 1
+      return 1;
+
+    // We start the FOR loop with i = 4
+    // We decrement i after each iteration
+    for (let i = num - 1; i >= 1; i--) {
+      // We store the value of num at each iteration
+      num *= i;
+    }
+    return num; //120
+  }
+  factorial(5);
 
 /*
 Question 10: Call your function isEmpty, it takes a parameter and it checks if it is empty or not
