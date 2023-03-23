@@ -238,8 +238,27 @@ const sum = (...arg) => {
 sum(5, 10, 15, 20,);
 
 /*
-Question 12: 
+Question 12: Write a function called sumOfArrayItems, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
 */
+
+//Answer
+function sumOfArrayItems(arr) {
+    // Check if all array items are numbers
+    for (let i = 0; i < arr.length; i++) {
+      if (typeof arr[i] !== "number") {
+        return "Error: All array items must be numbers.";
+      }
+    }
+    // Calculate sum of array items
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+      sum += arr[i];
+    }
+    return sum;
+}
+sumOfArrayItems([2.5, 3.75, 1.25, 7, 10]);
+  
+
 /*
 Question 13: 
 */
