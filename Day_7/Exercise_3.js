@@ -301,7 +301,7 @@ modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot'])
 modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
 
 /*
-Question 15: 
+Question 15: Write a function called isPrime, which checks if a number is prime number.
 */
 
 //Answer
@@ -325,8 +325,28 @@ isPrime(17)
 Question 16: 
 */
 /*
-Question 17: 
+Question 17: Write a function which checks if all the items of the array are the same data type.
 */
+
+//Answer
+function allSameType(arr) {
+    // Get the type of the first item in the array
+    const type = typeof arr[0];
+    
+    // Iterate over the rest of the array and check if each item has the same type as the first item
+    for (let i = 1; i < arr.length; i++) {
+      if (typeof arr[i] !== type) {
+        // If any item has a different type, then the array contains items of different types
+        return false;
+      }
+    }
+    
+    // If we made it through the loop, then all items are of the same type
+    return true;
+}
+allSameType(['hello', 'the', 'universe'])
+  
+
 /*
 Question 18: 
 */
