@@ -370,7 +370,7 @@ const generateUniqueNumbers = () => {
     let nums = [];
     while(nums.length < 7){
         let num = Math.floor(Math.random() * 10);
-        if(!nums.includes(num)){
+        if(!nums.includes(num)){ //If the generated number is not already in nums, it is added to the array using the push() method.
             nums.push(num)
         }
     }
