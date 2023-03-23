@@ -283,8 +283,23 @@ const average = (arr) => {
 average([1, 2, 3, 4, 5]);
 
 /*
-Question 14: 
+Question 14: Write a function called modifyArray takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
 */
+
+//Answer
+const modifyArray = (arr) => {
+    if(arr.length < 5){
+        return 'item not found'
+    }
+
+    if(typeof arr[4] === 'string'){
+        arr[4] = arr[4].toUpperCase()
+    }
+    return arr;
+}
+modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot'])
+modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
+
 /*
 Question 15: 
 */
