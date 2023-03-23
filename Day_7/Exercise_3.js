@@ -326,7 +326,7 @@ Question 16:
 */
 
 //Answer
-function areAllItemsUnique(arr) {
+const areAllItemsUnique = (arr) => {
     const set = new Set(arr);
     return set.size === arr.length;
     //This function first creates a Set from the input array arr. A Set is a collection of unique values, so any duplicates in arr will be automatically removed.
@@ -359,8 +359,10 @@ allSameType(['hello', 'the', 'universe'])
   
 
 /*
-Question 18: 
+Question 18: JavaScript variable name does not support special characters or symbols except $ or _. Write a function isValidVariable which check if a variable is valid or invalid variable.
 */
+
+
 /*
 Question 19: Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
 */
@@ -379,5 +381,25 @@ const generateUniqueNumbers = () => {
 generateUniqueNumbers();
 
 /*
-Question 20: 
+Question 20: Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
 */
+
+//Answer
+const reverseCountries = () => {
+    const countries = [
+        'Albania',
+        'Bolivia',
+        'Canada',
+        'Denmark',
+        'Ethiopia',
+        'Finland',
+        'Germany',
+        'Hungary',
+        'Ireland',
+        'Japan',
+        'Kenya'
+    ].slice()
+
+    return countries.reverse()
+}
+reverseCountries();
