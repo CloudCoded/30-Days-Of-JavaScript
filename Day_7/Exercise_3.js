@@ -351,8 +351,22 @@ allSameType(['hello', 'the', 'universe'])
 Question 18: 
 */
 /*
-Question 19: 
+Question 19: Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
 */
+
+//Answer
+const generateUniqueNumbers = () => {
+    let nums = [];
+    while(nums.length < 7){
+        let num = Math.floor(Math.random() * 10);
+        if(!nums.includes(num)){
+            nums.push(num)
+        }
+    }
+    return nums
+}
+generateUniqueNumbers();
+
 /*
 Question 20: 
 */
