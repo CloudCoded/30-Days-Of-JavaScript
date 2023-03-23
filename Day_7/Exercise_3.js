@@ -322,7 +322,7 @@ function isPrime(n) {
 isPrime(17) 
 
 /*
-Question 16: 
+Question 16: Write a functions which checks if all items are unique in the array.
 */
 
 //Answer
