@@ -324,6 +324,17 @@ isPrime(17)
 /*
 Question 16: 
 */
+
+//Answer
+function areAllItemsUnique(arr) {
+    const set = new Set(arr);
+    return set.size === arr.length;
+    //This function first creates a Set from the input array arr. A Set is a collection of unique values, so any duplicates in arr will be automatically removed.
+    //Next, the function checks if the size of the Set is equal to the length of the original array. 
+}
+areAllItemsUnique([1, 2, 3, 4, 5]); //finally, the function will return a boolean if there's a duplicate number or not
+  
+
 /*
 Question 17: Write a function which checks if all the items of the array are the same data type.
 */
