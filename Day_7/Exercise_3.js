@@ -224,8 +224,19 @@ const isEmpty = (val) => {
 isEmpty()
 
 /*
-Question 11: 
+Question 11: Call your function sum, it takes any number of arguments and it returns the sum.
 */
+
+//Answer
+const sum = (...arg) => {
+    let sum = 0
+    for(let i = 0; i < arg.length; i++){
+        sum += arg[i];
+    }
+    return sum;
+}
+sum(5, 10, 15, 20,);
+
 /*
 Question 12: 
 */
