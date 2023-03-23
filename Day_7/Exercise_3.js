@@ -260,8 +260,28 @@ sumOfArrayItems([2.5, 3.75, 1.25, 7, 10]);
   
 
 /*
-Question 13: 
+Question 13: Write a function called average, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
 */
+
+//Answer
+const average = (arr) => {
+    //check if arr items are number types
+    for(let i = 0; i < arr.length; i++){
+        if(typeof arr[i] !== 'number'){
+            return 'Error: Array must be number'
+        }
+    }
+
+    //find average
+    let sum = 0
+    for(let i = 0; i < arr.length; i++){
+       sum += arr[i]
+    }
+    const findAverage = sum / arr.length;
+    return findAverage;
+}
+average([1, 2, 3, 4, 5]);
+
 /*
 Question 14: 
 */
