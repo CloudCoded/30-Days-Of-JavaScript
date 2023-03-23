@@ -15,7 +15,7 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 let sortAges = ages.sort(); //sort the array
 let minAge = Math.min.apply(Math, sortAges); //Math.min method uses the apply method to print the min age
-let maxAge = Math.max.apply(Math, sortAges); //Math.min method uses the apply method to print the min age
+let maxAge = Math.max.apply(Math, sortAges); //Math.max method uses the apply method to print the max age
 
 console.log(sortAges); //output sorted array
 console.log(minAge); //min age 19
