@@ -59,3 +59,21 @@ A variable declared with var only scoped to function but variable declared with 
 
 # OBJECT
 <p>An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where key is a string (also called a “property name”), and value can be anything.</p>
+
+An example:
+     const person = {};
+
+
+## Getting values from an object
+<p>We can access values of object using two methods:</p>
+
+<ul>
+  <li>using . followed by key name if the key-name is a one word</li>
+  <li>using square bracket and a quote</li>
+</ul>
+
+## Setting new key for an object
+<p>An object is a mutable data structure and we can modify the content of an object after it gets created.</p>
+
+## Creating object methods
+<p>Now, the person object has getFullName properties. The getFullName is function inside the person object and we call it an object method. The this key word refers to the object itself. We can use the word this to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:</p>
