@@ -13,8 +13,18 @@ Question 2: Print the the dog object on the console
 console.log(dog);
 
 /*
-Question 3: 
+Question 3: Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return woof woof
 */
+
+//Answer
+const dogg = {
+    nameOfDog: 'Ghost',
+    legs: 'paw print',
+    color: 'brown',
+    bark: 'woof'
+}
+console.log(dogg);
+
 /*
 Question 4: 
 */
