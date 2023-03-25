@@ -77,3 +77,12 @@ An example:
 
 ## Creating object methods
 <p>Now, the person object has getFullName properties. The getFullName is function inside the person object and we call it an object method. The this key word refers to the object itself. We can use the word this to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:</p>
+
+## There are different methods to manipulate an object. Let us see some of the available methods.
+
+<p>Object.assign: To copy an object without modifying the original object <br><br>
+Object.keys: To get the keys or properties of an object as an array <br><br>
+Object.values:To get values of an object as an array<br><br>
+Object.entries:To get the keys and values in an array<br><br>
+hasOwnProperty: To check if a specific key or property exist in an object</p>
+
