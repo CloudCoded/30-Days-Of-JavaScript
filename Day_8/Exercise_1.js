@@ -31,6 +31,7 @@ Question 4: Get name, legs, color, age and bark value from the dog object
 
 //Answer
 const value = Object.values(dogg);
+value;
 
 /*
 Question 5: Set new properties the dog object: breed, getDogInfo
