@@ -26,8 +26,12 @@ const dogg = {
 console.log(dogg);
 
 /*
-Question 4: 
+Question 4: Get name, legs, color, age and bark value from the dog object
 */
+
+//Answer
+const value = Object.values(dogg);
+
 /*
 Question 5: 
 */
