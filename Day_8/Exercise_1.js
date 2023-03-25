@@ -33,5 +33,19 @@ Question 4: Get name, legs, color, age and bark value from the dog object
 const value = Object.values(dogg);
 
 /*
-Question 5: 
+Question 5: Set new properties the dog object: breed, getDogInfo
 */
+
+//Answer
+const dugg = {
+    nameOfDog: 'Ghost',
+    legs: 'paw print',
+    color: 'brown',
+    bark: 'woof',
+    breed: 'German Shepherd',
+    getDogInfo: function (){
+        return `${this.nameOfDog} is a ${this.color} ${this.breed} dog with ${this.legs} footprint, he ${this.bark} when everywhere is good`
+    }
+}
+console.log(dugg.getDogInfo());
+
