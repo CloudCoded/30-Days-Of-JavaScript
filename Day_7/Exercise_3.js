@@ -363,6 +363,16 @@ Question 18: JavaScript variable name does not support special characters or sym
 */
 
 //Answer
+function isValidVariable(variableName) {
+  // Check if the variable name starts with a letter, underscore, or dollar sign
+  if (/^[a-zA-Z_$][a-zA-Z0-9_$]*$/.test(variableName)) {
+    return true;
+  }
+
+  // If the variable name doesn't meet the above condition, it is invalid
+  return false;
+}
+isValidVariable();
 
 /*
 Question 19: Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
