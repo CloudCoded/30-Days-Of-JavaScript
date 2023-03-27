@@ -362,6 +362,7 @@ allSameType(['hello', 'the', 'universe'])
 Question 18: JavaScript variable name does not support special characters or symbols except $ or _. Write a function isValidVariable which check if a variable is valid or invalid variable.
 */
 
+//Answer
 
 /*
 Question 19: Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
