@@ -43,6 +43,27 @@ console.log("Users with 50+ points: ", highPointsCount); // Output: Users with 5
 /*
 Question 3: 
 */
+
+//Answer
+// Initializing an empty array to store MERN stack developers
+let mernStackDevelopers = [];
+
+// Looping through the users object
+for (let user in users) {
+  if (
+    users[user].skills.includes("MongoDB") &&
+    users[user].skills.includes("Express") &&
+    users[user].skills.includes("React") &&
+    users[user].skills.includes("Node")
+  ) {
+    mernStackDevelopers.push(user);
+  }
+}
+
+// Output the MERN stack developers
+console.log("MERN stack developers: ", mernStackDevelopers); // Output: MERN stack developers: ['Asab', 'Paul']
+
+
 /*
 Question 4: 
 */
