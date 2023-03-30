@@ -41,7 +41,7 @@ console.log("Users with 50+ points: ", highPointsCount); // Output: Users with 5
 
 
 /*
-Question 3: 
+Question 3: Find people who are MERN stack developer from the users object
 */
 
 //Answer
