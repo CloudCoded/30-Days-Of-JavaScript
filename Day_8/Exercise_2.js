@@ -65,8 +65,26 @@ console.log("MERN stack developers: ", mernStackDevelopers); // Output: MERN sta
 
 
 /*
-Question 4: 
+Question 4: Set your name in the users object without modifying the original users object
 */
+
+//Answer
+// Creating a new object with the spread operator
+const updatedUsers = { ...users };
+
+// Adding a new user with your name to the new object
+updatedUsers["abdul"] = {
+  email: "abdul@example.com",
+  skills: ["HTML", "CSS", "JavaScript"],
+  age: 25,
+  isLoggedIn: true,
+  points: 100
+};
+
+// Output the updated object
+console.log(updatedUsers);
+
+
 /*
 Question 5: 
 */
