@@ -94,8 +94,11 @@ const key = Object.keys(users)
 console.log(key);
 
 /*
-Question 6: 
+Question 6: Get all the values of users object
 */
+
+
+
 /*
 Question 7: 
 */
