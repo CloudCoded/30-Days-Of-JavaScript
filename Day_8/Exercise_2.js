@@ -102,8 +102,10 @@ const value = Object.values(users)
 console.log(value);
 
 /*
-Question 7: 
+Question 7: Use the countries object to print a country name, capital, populations and languages.
 */
+
+//Answer
 
 
 
