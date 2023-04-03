@@ -86,8 +86,13 @@ console.log(updatedUsers);
 
 
 /*
-Question 5: 
+Question 5: Get all keys or properties of users object
 */
+
+//Answer
+const key = Object.keys(users)
+console.log(key);
+
 /*
 Question 6: 
 */
