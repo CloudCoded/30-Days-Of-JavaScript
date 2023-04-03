@@ -106,6 +106,13 @@ Question 7: Use the countries object to print a country name, capital, populatio
 */
 
 //Answer
+const countries = {
+  name: 'Maldives',
+  capital: 'UAE',
+  population: '15million',
+  languages: 'arabic'
+}
+console.log(countries);
 
 
 
