@@ -212,6 +212,72 @@ signUp(newUser);
 /*
 Question 3: 
 */
+
+//Answer (A)
+function rateProduct(productId, userId, rating, products) {
+    function findProduct(p) {
+      return p._id === productId;
+    }
+    
+    function findUserRating(r) {
+      return r.userId === userId;
+    }
+    
+    // Find the product with the given productId
+    let product = products.find(findProduct);
+    
+    // If product is not found, return undefined
+    if (!product) {
+      return undefined;
+    }
+    
+    // Check if the user has already rated this product
+    let userRating = product.ratings.find(findUserRating);
+    
+    // If user has already rated, update the existing rating
+    if (userRating) {
+      userRating.rate = rating;
+    } else {
+      // If user has not already rated, add a new rating to the ratings array
+      product.ratings.push({ userId: userId, rate: rating });
+    }
+    
+    // Return the updated product
+    return product;
+}
+rateProduct('eedfcf', 'zwf8md', 4.0, products);
+console.log(products[0].ratings);
+
+ //(B)
+ function averageRating(productId, products) {
+    let sum = 0;
+    let count = 0;
+  
+    products.forEach((product) => {
+      if (product._id === productId && product.ratings.length > 0) {
+        product.ratings.forEach((rating) => {
+          sum += rating.rate;
+          count++;
+        });
+      }
+    });
+  
+    if (count === 0) {
+      return undefined;
+    }
+  
+    return sum / count; //or
+    return (sum / count).toFixed(1); // return the result rounded to 1 decimal place using the toFixed() method.
+}
+// Call averageRating to get the average rating of a product
+let avgRating = averageRating('eedfcf', products);
+
+// Log the average rating to the console
+console.log('Average rating:', avgRating);
+
+  
+  
+
 /*
 Question 4: 
 */
