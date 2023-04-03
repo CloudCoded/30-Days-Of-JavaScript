@@ -210,7 +210,7 @@ signUp(newUser);
   
 
 /*
-Question 3: 
+Question 3: The products array has three elements and each of them has six properties. a. Create a function called rateProduct which rates the product b. Create a function called averageRating which calculate the average rating of a product
 */
 
 //Answer (A)
@@ -279,5 +279,35 @@ console.log('Average rating:', avgRating);
   
 
 /*
-Question 4: 
+Question 4: Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
 */
+
+//Answer
+function likeProduct(productId, userId, products) {
+    let productFound = false;
+  
+    products.forEach((product) => {
+      if (product._id === productId) {
+        productFound = true;
+  
+        const userIndex = product.likes.indexOf(userId);
+  
+        if (userIndex === -1) {
+          // User hasn't liked the product yet, so add the like
+          product.likes.push(userId);
+          console.log(`User with ID ${userId} liked the product`);
+        } else {
+          // User has already liked the product, so remove the like
+          product.likes.splice(userIndex, 1);
+          console.log(`User with ID ${userId} unliked the product`);
+        }
+      }
+    });
+  
+    if (!productFound) {
+      console.log(`Product with ID ${productId} not found`);
+    }
+}
+// Call likeProduct to like or unlike a product
+likeProduct('aegfal', 'fg12cy', products);
+  
