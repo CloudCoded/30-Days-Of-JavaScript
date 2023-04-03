@@ -97,7 +97,9 @@ console.log(key);
 Question 6: Get all the values of users object
 */
 
-
+//Answer
+const value = Object.values(users)
+console.log(value);
 
 /*
 Question 7: 
