@@ -239,3 +239,15 @@ Let us see were we use call back functions. For instance the forEach method uses
 
      const score = scores.find((user) => user.score > 80)
      console.log(score) //{ name: "Asabeneh", score: 95 }
+
+## findIndex
+<p>findIndex: Return the position of the first element which satisfies the condition</p>
+
+     const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+     const ages = [24, 22, 25, 32, 35, 18]
+
+     const result = names.findIndex((name) => name.length > 7)
+     console.log(result) // Asabeneh
+
+     const age = ages.findIndex((age) => age < 20)
+     console.log(age) // 18
