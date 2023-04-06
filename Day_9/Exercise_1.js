@@ -27,3 +27,19 @@ const result = words.filter(word => word.length > 6);
 
 console.log(result);
 // Expected output: Array ["exuberant", "destruction", "present"]
+
+//reduce
+'The reducer walks through the array element-by-element, at each step adding the current array value to the result from the previous step (this result is the running sum of all the previous steps) — until there are no more elements to add.'
+
+//Example
+const arr1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = arr1.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+);
+
+console.log(sumWithInitial);
+// Expected output: 10
