@@ -32,3 +32,17 @@ What I Learned On The 6th April 2023
        return doSomething
      }
      console.log(higherOrder(2)(3)(10))
+
+Let us see were we use call back functions. For instance the forEach method uses call back.
+
+     const numbers = [1, 2, 3, 4, 5]
+     const sumArray = arr => {
+       let sum = 0
+       const callback = function(element) {
+         sum += element
+       }
+       arr.forEach(callback)
+       return sum
+
+     }
+     console.log(sumArray(numbers)) //15
