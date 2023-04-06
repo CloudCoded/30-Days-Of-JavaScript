@@ -207,3 +207,35 @@ Let us see were we use call back functions. For instance the forEach method uses
      const sum = numbers.reduce((acc, cur) => acc + cur, 0)
 
      console.log(sum) //15
+
+## every
+<p>every: Check if all the elements are similar in one aspect. It returns boolean</p>
+
+     const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+     const areAllStr = names.every((name) => typeof name === 'string') // Are all strings?
+
+     console.log(areAllStr) //true
+
+
+## find
+<p>find: Return the first element which satisfies the condition</p>
+
+     const ages = [24, 22, 25, 32, 35, 18]
+     const age = ages.find((age) => age < 20)
+
+     console.log(age) //18
+
+     const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+     const result = names.find((name) => name.length > 7)
+     console.log(result) //Asabeneh
+
+     const scores = [
+       { name: 'Asabeneh', score: 95 },
+       { name: 'Mathias', score: 80 },
+       { name: 'Elias', score: 50 },
+       { name: 'Martha', score: 85 },
+       { name: 'John', score: 100 },
+     ]
+
+     const score = scores.find((user) => user.score > 80)
+     console.log(score) //{ name: "Asabeneh", score: 95 }
