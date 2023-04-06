@@ -38,15 +38,9 @@ Question 5: Set new properties the dog object: breed, getDogInfo
 */
 
 //Answer
-const dugg = {
-    nameOfDog: 'Ghost',
-    legs: 'paw print',
-    color: 'brown',
-    bark: 'woof',
-    breed: 'German Shepherd',
-    getDogInfo: function (){
-        return `${this.nameOfDog} is a ${this.color} ${this.breed} dog with ${this.legs} footprint, he ${this.bark} when everywhere is good`
-    }
+dogg.breed = 'German shepherd'
+dogg.getDogInfo = function (){
+    return `${this.nameOfDog} is a ${this.color} ${this.breed} dog with ${this.legs} footprint, he ${this.bark} when everywhere is good`
 }
-console.log(dugg.getDogInfo());
+console.log(dogg.getDogInfo());
 
