@@ -46,3 +46,26 @@ Let us see were we use call back functions. For instance the forEach method uses
 
      }
      console.log(sumArray(numbers)) //15
+
+## Setting time
+<p>In JavaScript we can execute some activities in a certain interval of time or we can schedule(wait) for some time to execute some activities.</p>
+
+<ul>
+ <li>setInterval</li>
+ <li>setTimeout</li>
+</ul>
+
+<i><b>Setting Interval using a setInterval function</b></i>
+
+<p>In JavaScript, we use setInterval higher order function to do some activity continuously with in some interval of time. The setInterval global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback will be always called in that interval of time.</p>
+
+     // syntax
+     function callback() {
+       // code goes here
+     }
+     setInterval(callback, duration)
+
+     function sayHello() {
+       console.log('Hello')
+     }
+     setInterval(sayHello, 1000) // it prints hello in every second, 1000ms is 1s
