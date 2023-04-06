@@ -69,3 +69,18 @@ Let us see were we use call back functions. For instance the forEach method uses
        console.log('Hello')
      }
      setInterval(sayHello, 1000) // it prints hello in every second, 1000ms is 1s
+
+<i><b>Setting a time using a setTimeout</i></b>
+
+<p>In JavaScript, we use setTimeout higher order function to execute some action at some time in the future. The setTimeout global method take a callback function and a duration as a parameter. The duration is in milliseconds and the callback wait for that amount of time.</p>
+
+     // syntax
+     function callback() {
+       // code goes here
+     }
+     setTimeout(callback, duration) // duration in milliseconds
+
+     function sayHello() {
+       console.log('Hello')
+     }
+     setTimeout(sayHello, 2000) // it prints hello after it waits for 2 seconds.
