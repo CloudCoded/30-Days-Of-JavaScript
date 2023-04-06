@@ -251,3 +251,18 @@ Let us see were we use call back functions. For instance the forEach method uses
 
      const age = ages.findIndex((age) => age < 20)
      console.log(age) // 18
+
+## some
+<p>some: Check if some of the elements are similar in one aspect. It returns boolean</p>
+
+     const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+     const bools = [true, true, true, true]
+
+     const areSomeTrue = bools.some((b) =>  b === true)
+
+     console.log(areSomeTrue) //true
+
+     const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
+     console.log(areAllStr) // false
+
+## sort
