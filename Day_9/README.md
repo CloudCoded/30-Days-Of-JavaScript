@@ -84,3 +84,84 @@ Let us see were we use call back functions. For instance the forEach method uses
        console.log('Hello')
      }
      setTimeout(sayHello, 2000) // it prints hello after it waits for 2 seconds.
+
+
+## Functional Programming
+
+<p>Instead of writing regular loop, latest version of JavaScript introduced lots of built in methods which can help us to solve complicated problems. All builtin methods take callback function. In this section, we will see forEach, map, filter, reduce, find, every, some, and sort.</p>
+
+## forEach
+
+<p>forEach: Iterate an array elements. We use forEach only with arrays. It takes a callback function with elements, index parameter and array itself. The index and the array optional.</p>
+
+     arr.forEach(function (element, index, arr) {
+       console.log(index, element, arr)
+     })
+     // The above code can be written using arrow function
+     arr.forEach((element, index, arr) => {
+       console.log(index, element, arr)
+     })
+     // The above code can be written using arrow function and explicit return
+     arr.forEach((element, index, arr) => console.log(index, element, arr))
+
+     let sum = 0;
+     const numbers = [1, 2, 3, 4, 5];
+     numbers.forEach(num => console.log(num))
+     console.log(sum) //1 2 3 4 5
+
+     let sum = 0;
+     const numbers = [1, 2, 3, 4, 5];
+     numbers.forEach(num => sum += num)
+
+     console.log(sum) //15
+
+     const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+     countries.forEach((element) => console.log(element.toUpperCase())) //All to uppercase
+
+
+## map
+<p>map: Iterate an array elements and modify the array elements. It takes a callback function with elements, index , array parameter and return a new array.</p>
+
+     /*Arrow function and explicit return
+     const modifiedArray = arr.map((element,index) => element);
+     */
+     //Example
+     const numbers = [1, 2, 3, 4, 5]
+     const numbersSquare = numbers.map((num) => num * num)
+
+     console.log(numbersSquare) //[1 4 9 16 25]
+
+     const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+     const namesToUpperCase = names.map((name) => name.toUpperCase())
+     console.log(namesToUpperCase) //['ASABENEH', 'MATHIAS', 'ELIAS', 'BROOK']
+
+     const countries = [
+       'Albania',
+       'Bolivia',
+       'Canada',
+       'Denmark',
+       'Ethiopia',
+       'Finland',
+       'Germany',
+       'Hungary',
+       'Ireland',
+       'Japan',
+       'Kenya',
+     ]
+     const countriesToUpperCase = countries.map((country) => country.toUpperCase())
+     console.log(countriesToUpperCase)
+
+    
+     // Arrow function
+     const countriesToUpperCase = countries.map((country) => {
+       return country.toUpperCase();
+     })
+     //Explicit return arrow function
+     const countriesToUpperCase = countries.map(country => country.toUpperCase());
+
+
+     const countriesFirstThreeLetters = countries.map((country) =>
+       country.toUpperCase().slice(0, 3)
+     )
+
+      ["ALB", "BOL", "CAN", "DEN", "ETH", "FIN", "GER", "HUN", "IRE", "JAP", "KEN"]
