@@ -16,3 +16,14 @@ array1.forEach(element => console.log(element)) // a b c
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const toUpperCase = names.map((name) => name.toUpperCase());
 console.log(toUpperCase) //['ASABENEH', 'MATHIAS', 'ELIAS', 'BROOK']
+
+//filter
+'The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.'
+
+//Example
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// Expected output: Array ["exuberant", "destruction", "present"]
