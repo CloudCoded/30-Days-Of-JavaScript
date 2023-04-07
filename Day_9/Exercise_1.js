@@ -43,3 +43,7 @@ const sumWithInitial = arr1.reduce(
 
 console.log(sumWithInitial);
 // Expected output: 10
+
+/*
+Question 2: 
+*/
