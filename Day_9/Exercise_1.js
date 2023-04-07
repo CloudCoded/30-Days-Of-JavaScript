@@ -45,5 +45,5 @@ console.log(sumWithInitial);
 // Expected output: 10
 
 /*
-Question 2: 
+Question 2: Define a callback function before you use it in forEach, map, filter or reduce.
 */
