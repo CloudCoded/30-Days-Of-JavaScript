@@ -68,3 +68,8 @@ countries.forEach(function(country){
 })
 console.log(countriesUp);
 
+//filter
+const places = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+
+const placesContainingLand = places.filter((place) => place.includes('land'))
+console.log(placesContainingLand);
