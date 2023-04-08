@@ -47,3 +47,14 @@ console.log(sumWithInitial);
 /*
 Question 2: Define a callback function before you use it in forEach, map, filter or reduce.
 */
+
+//Answer
+//Define the callback function
+const squareValue = (n) => {
+  return n * n
+}
+
+//Use the callback function with map.
+const numbers = [1, 2, 3, 4];
+const squareValues = numbers.map(squareValue)
+console.log(squareValues);
