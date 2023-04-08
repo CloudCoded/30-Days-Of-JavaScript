@@ -58,3 +58,13 @@ const squareValue = (n) => {
 const numbers = [1, 2, 3, 4];
 const squareValues = numbers.map(squareValue)
 console.log(squareValues);
+
+//forEach
+const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+const countriesUp = [];
+
+countries.forEach(function(country){
+  countriesUp.push(country.toUpperCase())
+})
+console.log(countriesUp);
+
