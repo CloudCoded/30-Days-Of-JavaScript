@@ -73,3 +73,9 @@ const places = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
 
 const placesContainingLand = places.filter((place) => place.includes('land'))
 console.log(placesContainingLand);
+
+//reduce
+const figures = [1, 2, 3, 4, 5];
+const sum = figures.reduce((acc, cur) => acc + cur)
+
+console.log(sum);
