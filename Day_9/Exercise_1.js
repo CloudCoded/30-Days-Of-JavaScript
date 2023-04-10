@@ -144,6 +144,7 @@ console.log(countriesLength);
 Question 8: Use map to create a new array by changing each number to square in the numbers array
 */
 
+//Answer
 const nums = [1, 2, 3, 4, 5];
 
 const sqrNum = nums.map((number) => number * number);
@@ -154,9 +155,31 @@ console.log(sqrNum);
 Question 9: Use map to change to each name to uppercase in the names array
 */
 
+//Answer
 const nameUp = []; 
 
 namess.map(function(element){
   nameUp.push(element.toUpperCase())
 })
 console.log(nameUp);
+
+/*
+Question 10: Use map to map the products array to its corresponding prices.
+*/
+
+//Answer
+const products = [
+  { product: 'banana', price: 3 },
+  { product: 'mango', price: 6 },
+  { product: 'potato', price: ' ' },
+  { product: 'avocado', price: 8 },
+  { product: 'coffee', price: 10 },
+  { product: 'tea', price: '' },
+];
+
+const prices = products.map((product) => {
+  return product.price;
+})
+console.log(prices);
+
+
