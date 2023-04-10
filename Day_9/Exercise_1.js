@@ -140,3 +140,12 @@ const countriesArr = [
 const countriesLength = countriesArr.map((country) => country.length)
 console.log(countriesLength);
 
+/*
+Question 8: Use map to create a new array by changing each number to square in the numbers array
+*/
+
+const nums = [1, 2, 3, 4, 5];
+
+const sqrNum = nums.map((number) => number * number);
+console.log(sqrNum);
+
