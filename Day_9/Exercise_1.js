@@ -107,3 +107,14 @@ const numberss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 numberss.forEach(num => console.log(num));
 
+/*
+Question 6: Use map to create a new array by changing each country to uppercase in the countries array.
+*/
+
+//Answer
+countryToUppercase = [];
+
+countriess.forEach(function(country){
+  countryToUppercase.push(country.toUpperCase())
+})
+console.log(countryToUppercase);
