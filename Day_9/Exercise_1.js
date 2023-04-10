@@ -84,6 +84,16 @@ console.log(sum);
 Question 3: Use forEach to console.log each country in the countries array.
 */
 
+//Answer
 const countriess = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
 
 countriess.forEach(element => console.log(element));
+
+/*
+Question 4: Use forEach to console.log each name in the names array.
+*/
+
+//Answer
+const namess = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+
+namess.forEach(element => console.log(element));
