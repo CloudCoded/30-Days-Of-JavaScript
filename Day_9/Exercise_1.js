@@ -191,3 +191,11 @@ Question 11: Use filter to filter out countries containing land.
 const countryIncludesLand = countriess.filter((country) => country.includes('land'));
 
 console.log(countryIncludesLand);
+
+/*
+Question 12: Use filter to filter out countries having six characters.
+*/
+
+//Answer
+const countriesHaveSixLetters = countriess.filter((country) => country.length === 6);
+console.log(countriesHaveSixLetters);
