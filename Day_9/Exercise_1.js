@@ -149,3 +149,14 @@ const nums = [1, 2, 3, 4, 5];
 const sqrNum = nums.map((number) => number * number);
 console.log(sqrNum);
 
+
+/*
+Question 9: Use map to change to each name to uppercase in the names array
+*/
+
+const nameUp = []; 
+
+namess.map(function(element){
+  nameUp.push(element.toUpperCase())
+})
+console.log(nameUp);
