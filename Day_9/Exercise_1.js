@@ -124,4 +124,19 @@ Question 7: Use map to create an array of countries length from countries array.
 */
 
 //Answer
+const countriesArr = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya',
+]
+const countriesLength = countriesArr.map((country) => country.length)
+console.log(countriesLength);
 
