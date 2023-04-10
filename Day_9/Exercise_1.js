@@ -114,7 +114,14 @@ Question 6: Use map to create a new array by changing each country to uppercase 
 //Answer
 countryToUppercase = [];
 
-countriess.forEach(function(country){
+countriess.map(function(country){
   countryToUppercase.push(country.toUpperCase())
 })
 console.log(countryToUppercase);
+
+/*
+Question 7: Use map to create an array of countries length from countries array.
+*/
+
+//Answer
+
