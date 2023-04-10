@@ -199,3 +199,11 @@ Question 12: Use filter to filter out countries having six characters.
 //Answer
 const countriesHaveSixLetters = countriess.filter((country) => country.length === 6);
 console.log(countriesHaveSixLetters);
+
+/*
+Question 13: Use filter to filter out countries containing six letters and more in the country array.
+*/
+
+//Answer
+const countriesHaveSixLettersAndMore = countriess.filter((country) => country.length >= 6);
+console.log(countriesHaveSixLettersAndMore);
