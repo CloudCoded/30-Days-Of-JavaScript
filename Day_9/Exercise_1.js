@@ -207,3 +207,11 @@ Question 13: Use filter to filter out countries containing six letters and more 
 //Answer
 const countriesHaveSixLettersAndMore = countriess.filter((country) => country.length >= 6);
 console.log(countriesHaveSixLettersAndMore);
+
+/*
+Question 14: Use filter to filter out country start with 'E';
+*/
+
+//Answer
+const countryWithE = countriess.filter((country) => country[0].includes('E'));
+console.log(countryWithE);
