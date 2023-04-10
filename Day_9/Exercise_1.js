@@ -183,3 +183,11 @@ const prices = products.map((product) => {
 console.log(prices);
 
 
+/*
+Question 11: Use filter to filter out countries containing land.
+*/
+
+//Answer
+const countryIncludesLand = countriess.filter((country) => country.includes('land'));
+
+console.log(countryIncludesLand);
