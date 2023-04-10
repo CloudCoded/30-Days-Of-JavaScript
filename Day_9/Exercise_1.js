@@ -79,3 +79,11 @@ const figures = [1, 2, 3, 4, 5];
 const sum = figures.reduce((acc, cur) => acc + cur)
 
 console.log(sum);
+
+/*
+Question 3: Use forEach to console.log each country in the countries array.
+*/
+
+const countriess = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+
+countriess.forEach(element => console.log(element));
