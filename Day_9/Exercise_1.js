@@ -224,4 +224,4 @@ Question 15: Use filter to filter out only prices with values.
 const priceWithValues = products.filter((product) => {
   return typeof product.price === 'number'
 })
-console.log(priceWithValues);
+console.log(priceWithValues)
