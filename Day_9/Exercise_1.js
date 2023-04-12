@@ -235,3 +235,11 @@ const getStringLists = (arr) => {
   return arr.toString()
 }
 getStringLists(['love it is']);
+
+/*
+Question 17: Use reduce to sum all the numbers in the numbers array.
+*/
+
+//Answer
+const sumNum = numberss.reduce((acc, curr) => acc + curr);
+console.log(sumNum);
