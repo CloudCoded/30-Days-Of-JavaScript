@@ -243,3 +243,13 @@ Question 17: Use reduce to sum all the numbers in the numbers array.
 //Answer
 const sumNum = numberss.reduce((acc, curr) => acc + curr);
 console.log(sumNum);
+
+/*
+Question 18: Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
+*/
+
+//Answer
+const countrie = ['Estonia', ' Finland', ' Sweden', ' Denmark', ' Norway' + ' and' + ' Iceland']
+
+const concatCount = countries.reduce((acc, curr) => acc + curr) + ' are not north European countries'
+console.log(concatCount)
