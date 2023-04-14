@@ -252,4 +252,4 @@ Question 18: Use reduce to concatenate all the countries and to produce this sen
 const countrie = ['Estonia', ' Finland', ' Sweden', ' Denmark', ' Norway' + ' and' + ' Iceland']
 
 const concatCount = countries.reduce((acc, curr) => acc + curr) + ' are not north European countries'
-console.log(concatCount)
+console.log(concatCount);
