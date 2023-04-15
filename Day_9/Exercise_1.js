@@ -265,8 +265,13 @@ Every: Check if all elements are the same in an aspect and returns a boolean.
 */
 
 /*
-Question 20: 
+Question 20: Use some to check if some names' length greater than seven in names array
 */
+
+//Answer
+const greaterThanSeven = names.some((name) => name > 7);
+console.log(greaterThanSeven);
+
 /*
 Question 21: 
 */
