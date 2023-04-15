@@ -253,3 +253,26 @@ const countrie = ['Estonia', ' Finland', ' Sweden', ' Denmark', ' Norway' + ' an
 
 const concatCount = countries.reduce((acc, curr) => acc + curr) + ' are not north European countries'
 console.log(concatCount);
+
+/*
+Question 19: Explain the difference between some and every
+*/
+
+//Answer
+/*
+Some: Check if some elements are similar in an aspect and returns a boolean.
+Every: Check if all elements are the same in an aspect and returns a boolean.
+*/
+
+/*
+Question 20: 
+*/
+/*
+Question 21: 
+*/
+/*
+Question 22: 
+*/
+/*
+Question 23: 
+*/
