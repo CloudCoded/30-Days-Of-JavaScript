@@ -281,8 +281,15 @@ const containLand = countries.every((country) => country.includes('land'));
 console.log(containLand);
 
 /*
-Question 22: 
+Question 22: Explain the difference between find and findIndex.
 */
+
+//Answer
+ /*
+ find: Returns the first element that satisfies the condition
+ findIndex: Returns the first position of the first element which satisfies the condition.
+ */
+
 /*
 Question 23: 
 */
