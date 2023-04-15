@@ -290,6 +290,21 @@ Question 22: Explain the difference between find and findIndex.
  findIndex: Returns the first position of the first element which satisfies the condition.
  */
 
+
+/*
+Question 23: Use find to find the first country containing only six letters in the countries array
+*/
+
+//Answer
+const containSixLetters = countries.find((country) => country > 6);
+console.log(containSixLetters);
+
+/*
+Question 23: 
+*/
+/*
+Question 23: 
+*/
 /*
 Question 23: 
 */
