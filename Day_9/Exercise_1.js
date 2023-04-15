@@ -180,7 +180,7 @@ Question 11: Use filter to filter out countries containing land.
 */
 
 //Answer
-const countryIncludesLand = countriess.filter((country) => country.includes('land'));
+const countryIncludesLand = countries.filter((country) => country.includes('land'));
 
 console.log(countryIncludesLand);
 
@@ -189,7 +189,7 @@ Question 12: Use filter to filter out countries having six characters.
 */
 
 //Answer
-const countriesHaveSixLetters = countriess.filter((country) => country.length === 6);
+const countriesHaveSixLetters = countries.filter((country) => country.length === 6);
 console.log(countriesHaveSixLetters);
 
 /*
@@ -197,7 +197,7 @@ Question 13: Use filter to filter out countries containing six letters and more 
 */
 
 //Answer
-const countriesHaveSixLettersAndMore = countriess.filter((country) => country.length >= 6);
+const countriesHaveSixLettersAndMore = countries.filter((country) => country.length >= 6);
 console.log(countriesHaveSixLettersAndMore);
 
 /*
@@ -205,7 +205,7 @@ Question 14: Use filter to filter out country start with 'E';
 */
 
 //Answer
-const countryWithE = countriess.filter((country) => country[0].includes('E'));
+const countryWithE = countries.filter((country) => country[0].includes('E'));
 console.log(countryWithE);
 
 /*
@@ -233,7 +233,7 @@ Question 17: Use reduce to sum all the numbers in the numbers array.
 */
 
 //Answer
-const sumNum = numberss.reduce((acc, curr) => acc + curr);
+const sumNum = numbers.reduce((acc, curr) => acc + curr);
 console.log(sumNum);
 
 /*
@@ -243,7 +243,7 @@ Question 18: Use reduce to concatenate all the countries and to produce this sen
 //Answer
 const countrie = ['Estonia', ' Finland', ' Sweden', ' Denmark', ' Norway' + ' and' + ' Iceland']
 
-const concatCount = countries.reduce((acc, curr) => acc + curr) + ' are not north European countries'
+const concatCount = countrie.reduce((acc, curr) => acc + curr) + ' are not north European countries'
 console.log(concatCount);
 
 /*
