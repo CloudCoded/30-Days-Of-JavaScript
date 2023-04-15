@@ -85,27 +85,21 @@ Question 3: Use forEach to console.log each country in the countries array.
 */
 
 //Answer
-const countriess = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
-
-countriess.forEach(element => console.log(element));
+countries.forEach(element => console.log(element));
 
 /*
 Question 4: Use forEach to console.log each name in the names array.
 */
 
 //Answer
-const namess = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-
-namess.forEach(element => console.log(element));
+names.forEach(element => console.log(element));
 
 /*
 Question 5: Use forEach to console.log each number in the numbers array.
 */
 
 //Answer
-const numberss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-numberss.forEach(num => console.log(num));
+numbers.forEach(num => console.log(num));
 
 /*
 Question 6: Use map to create a new array by changing each country to uppercase in the countries array.
