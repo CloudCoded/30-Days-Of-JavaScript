@@ -273,8 +273,13 @@ const greaterThanSeven = names.some((name) => name > 7);
 console.log(greaterThanSeven);
 
 /*
-Question 21: 
+Question 21: Use every to check if all the countries contain the word land
 */
+
+//Answer
+const containLand = countries.every((country) => country.includes('land'));
+console.log(containLand);
+
 /*
 Question 22: 
 */
