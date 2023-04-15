@@ -316,5 +316,9 @@ const indexOfNorway = countries.findIndex((country) => country === 'Norway')
 console.log(indexOfNorway);
 
 /*
-Question 26: 
+Question 26: Use findIndex to find the position of Russia if it doesn't exist in the array you will get -1.
 */
+
+//Answer
+const indexOfRussia = countries.findIndex((country) => country === 'Norway')
+console.log(indexOfNorway);
