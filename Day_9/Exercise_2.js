@@ -7,3 +7,5 @@ Question 1: Find the total price of products by chaining two or more array itera
 /*
 Question 2: 
 */
+
+//Answer
