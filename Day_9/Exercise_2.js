@@ -5,7 +5,7 @@ Question 1: Find the total price of products by chaining two or more array itera
 //Answer
 
 /*
-Question 2: 
+Question 2: Find the sum of price of products using only reduce reduce(callback))
 */
 
 //Answer
