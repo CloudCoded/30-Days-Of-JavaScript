@@ -13,3 +13,5 @@ Question 2: Find the sum of price of products using only reduce reduce(callback)
 /*
 Question 3:
 */
+
+//Answer
