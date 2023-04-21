@@ -19,3 +19,5 @@ Question 3: Declare a function called categorizeCountries which returns an array
 /*
 Question 4: 
 */
+
+//Answer
