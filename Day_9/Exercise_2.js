@@ -87,3 +87,11 @@ Question 5:
 */
 
 //Answer
+//const countries = require('./countries')
+
+function getFirstTenCountries() {
+  return countries.filter((country, index) => index < 10)
+                 .map(country => country.toUpperCase())
+}
+
+console.log(getFirstTenCountries())
