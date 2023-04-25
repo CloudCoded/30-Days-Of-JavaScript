@@ -144,4 +144,40 @@ const statistics = {
   console.log("Max:", statistics.max()); // 10
   console.log("Count:", statistics.count()); // 10
   console.log("Percentile (25th):", statistics.percentile(25)); // 
+
+
+/*
+Question 2: *** Find the 10 most spoken languages:
+*/
+
+//Answer
+function mostSpokenLanguages(countries, numLanguages) {
+    const languages = {};
+  
+    countries.forEach(country => {
+      const countryLanguages = country.languages.split(", ");
+  
+      countryLanguages.forEach(language => {
+        if (!languages[language]) {
+          languages[language] = 1;
+        } else {
+          languages[language]++;
+        }
+      });
+    });
+  
+    const sortedLanguages = Object.entries(languages)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, numLanguages);
+  
+    const topLanguages = sortedLanguages.map(([language, count]) => {
+      return { country: language, count };
+    });
+  
+    return topLanguages;
+  }
+  
+  console.log(mostSpokenLanguages(countries, 10));
+  console.log(mostSpokenLanguages(countries, 3));
+  
   
