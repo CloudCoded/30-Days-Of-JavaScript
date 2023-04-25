@@ -95,3 +95,16 @@ function getFirstTenCountries() {
 }
 
 console.log(getFirstTenCountries());
+
+/*
+Question 6: Declare a getLastTenCountries function which which returns the last ten countries in the countries array.
+*/
+
+//Answer
+//const countries = require('./countries')
+
+function getLastTenCountries() {
+  return countries.slice(-10)
+}
+
+console.log(getLastTenCountries())
