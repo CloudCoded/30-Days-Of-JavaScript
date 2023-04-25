@@ -83,7 +83,7 @@ function countStartingLetters(countryArray) {
   
 
 /*
-Question 5: 
+Question 5: Declare a getFirstTenCountries function and return an array of ten countries. Use different functional programming to work on the countries.js array
 */
 
 //Answer
@@ -94,4 +94,4 @@ function getFirstTenCountries() {
                  .map(country => country.toUpperCase())
 }
 
-console.log(getFirstTenCountries())
+console.log(getFirstTenCountries());
