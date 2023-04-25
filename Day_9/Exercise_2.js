@@ -55,10 +55,32 @@ console.log(categorizedCountries)
 
 
 /*
-Question 4: 
+Question 4: Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
 */
 
 //Answer
+function countStartingLetters(countryArray) {
+    const letterCount = countryArray.reduce((accumulator, country) => {
+      const firstLetter = country[0].toUpperCase()
+      if (firstLetter in accumulator) {
+        accumulator[firstLetter]++
+      } else {
+        accumulator[firstLetter] = 1
+      }
+      return accumulator
+    }, {})
+    
+    const resultArray = Object.keys(letterCount).map((letter) => {
+      return {letter: letter, count: letterCount[letter]}
+    })
+    
+    return resultArray
+  }
+  
+  const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+  const startingLetters = countStartingLetters(countries)
+  console.log(startingLetters)
+  
 
 /*
 Question 5: 
