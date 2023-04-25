@@ -108,3 +108,34 @@ function getLastTenCountries() {
 }
 
 console.log(getLastTenCountries())
+
+/*
+Question 7: Find out which letter is used many times as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
+*/
+
+//Answer
+//const countries = require('./countries')
+
+function findMostCommonInitialLetter() {
+  const letters = {}
+  countries.forEach(country => {
+    const initialLetter = country.charAt(0).toUpperCase()
+    if (letters[initialLetter]) {
+      letters[initialLetter]++
+    } else {
+      letters[initialLetter] = 1
+    }
+  })
+  let mostCommonLetter = ''
+  let highestCount = 0
+  for (const letter in letters) {
+    if (letters[letter] > highestCount) {
+      highestCount = letters[letter]
+      mostCommonLetter = letter
+    }
+  }
+  return mostCommonLetter
+}
+
+console.log(findMostCommonInitialLetter())
+
