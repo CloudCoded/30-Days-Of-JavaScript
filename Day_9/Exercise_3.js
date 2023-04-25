@@ -26,21 +26,30 @@ fetch('data/countries.csv')
 });
 
 /*
-This code uses the PapaParse library to parse the CSV data into an array of objects. Then, it sorts the array by name, capital, and population using the sort method and the localeCompare function (for sorting by name and capital) and the minus operator (for sorting by population). Finally, it logs the sorted arrays to the console.
+This code uses the PapaParse library to parse the CSV data into an array of objects. 
+Then, it sorts the array by name, capital, and population using the sort method and the localeCompare function (for sorting by name and capital) and the minus operator (for sorting by population).
+ Finally, it logs the sorted arrays to the console.
 */
 
 
-/*
-Question 2: 
-*/
-
-//Answer
 
 /*
 Question 3: 
 */
 
 //Answer
+function getTenMostPopulatedCountries(countriesData) {
+    // sort the countries by population in descending order
+    const sortedCountries = countriesData.sort((a, b) => b.population - a.population);
+    // get the top 10 countries by population
+    const topTenCountries = sortedCountries.slice(0, 10);
+    // return an array of objects with country names and populations
+    return topTenCountries.map(country => ({ name: country.name, population: country.population }));
+}
+
+const mostPopulatedCountries = getTenMostPopulatedCountries(countriesData);
+console.log(mostPopulatedCountries); // should output an array of objects with country names and populations
+  
 
 /*
 Question 4: 
