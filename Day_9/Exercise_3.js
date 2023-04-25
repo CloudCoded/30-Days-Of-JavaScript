@@ -25,6 +25,10 @@ fetch('data/countries.csv')
     console.log(sortedByPopulation);
 });
 
+/*
+This code uses the PapaParse library to parse the CSV data into an array of objects. Then, it sorts the array by name, capital, and population using the sort method and the localeCompare function (for sorting by name and capital) and the minus operator (for sorting by population). Finally, it logs the sorted arrays to the console.
+*/
+
 
 /*
 Question 2: 
