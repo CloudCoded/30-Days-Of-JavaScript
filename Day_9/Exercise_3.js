@@ -179,5 +179,11 @@ function mostSpokenLanguages(countries, numLanguages) {
   
   console.log(mostSpokenLanguages(countries, 10));
   console.log(mostSpokenLanguages(countries, 3));
+
+/*
+This program defines a function mostSpokenLanguages that takes in an array of country objects and a number indicating how many languages to include in the output. The program first creates an object called languages to keep track of the count of each language in the countries array. It then loops through each country in the array and adds the count of each language to the languages object.
+
+Next, the program sorts the languages object by count in descending order, selects the top numLanguages, and maps each language and its count to an object with country and count properties. Finally, the function returns the topLanguages array.
+*/
   
   
