@@ -34,7 +34,7 @@ Then, it sorts the array by name, capital, and population using the sort method 
 
 
 /*
-Question 3: 
+Question 3: *** Use countries_data.js file create a function which create the ten most populated countries
 */
 
 //Answer
