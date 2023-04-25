@@ -36,6 +36,23 @@ Question 3: Declare a function called categorizeCountries which returns an array
 */
 
 //Answer
+const countries = require('./countries') // Assuming countries.js is in the same directory
+
+function categorizeCountries(countryArray) {
+  const patternArray = ['land', 'ia', 'island', 'stan']
+  const resultArray = []
+  
+  patternArray.forEach(pattern => {
+    const filteredCountries = countryArray.filter(country => country.toLowerCase().endsWith(pattern))
+    resultArray.push(...filteredCountries)
+  })
+  
+  return resultArray
+}
+
+const categorizedCountries = categorizeCountries(countries)
+console.log(categorizedCountries)
+
 
 /*
 Question 4: 
