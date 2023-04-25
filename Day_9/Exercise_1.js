@@ -205,8 +205,10 @@ Question 14: Use filter to filter out country start with 'E';
 */
 
 //Answer
-const countryWithE = countries.filter((country) => country[0].includes('E'));
-console.log(countryWithE);
+const countriesStartingWithE = countries.filter(country => !country.startsWith('E'));
+
+console.log(countriesStartingWithE);
+
 
 /*
 Question 15: Use filter to filter out only prices with values.
