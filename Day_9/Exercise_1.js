@@ -205,9 +205,7 @@ Question 14: Use filter to filter out country start with 'E';
 */
 
 //Answer
-const countriesStartingWithE = countries.filter(country => !country.startsWith('E'));
-
-console.log(countriesStartingWithE)
+console.log(countries.filter(country => country.startsWith('E')));
 
 
 /*
