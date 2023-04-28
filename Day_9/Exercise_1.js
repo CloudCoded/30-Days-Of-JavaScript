@@ -283,7 +283,13 @@ Question 20: Use some to check if some names' length greater than seven in names
 */
 
 //Answer
-const greaterThanSeven = names.some((name) => name > 7);
+const greaterThanSeven = names.some((name) => name.length > 7);
+/*if(greaterThanSeven){
+  console.log('At least some names in the array has more than seven characters.')
+} else{
+  console.log("No name in the array has more than seven characters.");
+}
+*/
 console.log(greaterThanSeven);
 
 /*
