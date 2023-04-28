@@ -224,9 +224,9 @@ Question 16: Declare a function called getStringLists which takes an array as a 
 
 //Answer
 const getStringLists = (arr) => {
-  return arr.toString()
+  return arr.filter(arr => typeof arr === 'string')
 }
-getStringLists(['love it is']);
+getStringLists(['love it is', 1, 20, 'hello']);
 
 /*
 Question 17: Use reduce to sum all the numbers in the numbers array.
