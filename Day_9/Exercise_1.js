@@ -228,6 +228,20 @@ const getStringLists = (arr) => {
 }
 getStringLists(['love it is', 1, 20, 'hello']);
 
+//Another Method
+function getStringLists(arr) {
+  const stringArr = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] === "string") {
+      stringArr.push(arr[i]);
+    }
+  }
+
+  return stringArr;
+}
+getStringLists([1, "hello", 2, "world", true, "foo", "bar", false]);
+
 /*
 Question 17: Use reduce to sum all the numbers in the numbers array.
 */
