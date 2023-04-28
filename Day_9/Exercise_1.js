@@ -298,7 +298,13 @@ Question 21: Use every to check if all the countries contain the word land
 
 //Answer
 const containLand = countries.every((country) => country.includes('land'));
-console.log(containLand)
+console.log(containLand);
+
+/* EXPLANATION:
+The code I provided uses the every method and the arrow function (country) => country.includes('land') to check if every country name in the countries array contains the substring "land".
+
+The result of this operation is stored in the variable containLand, which will be a boolean value. If every country name in the array contains "land", containLand will be true. Otherwise, containLand will be false.
+*/
 
 /*
 Question 22: Explain the difference between find and findIndex.
