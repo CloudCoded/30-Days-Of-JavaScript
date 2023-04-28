@@ -255,10 +255,18 @@ Question 18: Use reduce to concatenate all the countries and to produce this sen
 */
 
 //Answer
-const countrie = ['Estonia', ' Finland', ' Sweden', ' Denmark', ' Norway' + ' and' + ' Iceland']
+const concatenated = countries.reduce((accumulator, currentValue, index, array) => {
+  if (index === array.length - 1) { //checks if the currentValue equals to the last index of the array (i.e., if we're currently processing the last country name).
+    return `${accumulator}and ${currentValue}`;
+  } else {
+    return `${accumulator}${currentValue}, `;
+  }
+});
 
-const concatCount = countrie.reduce((acc, curr) => acc + curr) + ' are not north European countries'
-console.log(concatCount);
+const sentence = `${concatenated} are north European countries.`;
+
+console.log(sentence); // Output: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries.
+
 
 /*
 Question 19: Explain the difference between some and every
