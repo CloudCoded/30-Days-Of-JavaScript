@@ -330,7 +330,7 @@ Question 24: Use findIndex to find the position of the first country containing 
 */
 
 //Answer
-const indexOfTheCountry = countries.findIndex((country) => country > 6);
+const indexOfTheCountry = countries.findIndex((country) => country.length === 6);
 console.log(indexOfTheCountry);
 
 /*
