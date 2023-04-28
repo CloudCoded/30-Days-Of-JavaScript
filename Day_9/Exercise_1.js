@@ -322,7 +322,7 @@ Question 23: Use find to find the first country containing only six letters in t
 */
 
 //Answer
-const containSixLetters = countries.find((country) => country > 6)
+const containSixLetters = countries.find((country) => country.length === 6)
 console.log(containSixLetters);
 
 /*
