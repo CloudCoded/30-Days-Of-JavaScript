@@ -248,7 +248,7 @@ Question 17: Use reduce to sum all the numbers in the numbers array.
 
 //Answer
 const sumNum = numbers.reduce((acc, curr) => acc + curr);
-console.log(sumNum);
+console.log(sumNum)
 
 /*
 Question 18: Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
