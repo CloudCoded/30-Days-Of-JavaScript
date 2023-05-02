@@ -263,7 +263,7 @@ const concatenated = countries.reduce((accumulator, currentValue, index, array) 
   }
 });
 
-const sentence = `${concatenated} are north European countries.`
+const sentence = `${concatenated} are north European countries.`;
 
 console.log(sentence); // Output: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries.
 
