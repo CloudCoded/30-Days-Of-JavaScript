@@ -87,3 +87,10 @@ What I learnt on 03-May-23
      console.log(companies.has('Apple')) // false
      console.log(companies.has('Facebook')) // true
 
+## Clearing the set
+<p>It removes all the elements from a set.</p>
+
+     companies.clear()
+     console.log(companies)
+
+     Set(0) {}
