@@ -81,3 +81,9 @@ What I learnt on 03-May-23
      console.log(companies.delete('Google'))
      console.log(companies.size) // 4 elements left in the set
 
+## Checking an element in the set
+<p>The has method can help to know if a certain element exists in a set.</p>
+
+     console.log(companies.has('Apple')) // false
+     console.log(companies.has('Facebook')) // true
+
