@@ -62,3 +62,5 @@ What I learnt on 03-May-23
      companies.add('Microsoft')
      console.log(companies.size) // 5 elements in the set
      console.log(companies)
+
+     Set(5) {"Google", "Facebook", "Amazon", "Oracle", "Microsoft"}
