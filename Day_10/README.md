@@ -241,3 +241,11 @@ What I learnt on 03-May-23
      (2) ["Finland", "Helsinki"]
      (2) ["Sweden", "Stockholm"]
      (2) ["Norway", "Oslo"]
+
+     for (const [country, city] of countriesMap){
+       console.log(country, city)
+     }
+
+     Finland Helsinki
+     Sweden Stockholm
+     Norway Oslo
