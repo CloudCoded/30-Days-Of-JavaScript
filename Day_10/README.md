@@ -136,3 +136,6 @@ What I learnt on 03-May-23
      console.log(setOfNumbers)
 
      Set(5) {5, 3, 2, 9, 4}
+
+## Union of sets
+<p>To find a union to two sets can be achieved using spread operator. Lets find the union of set A and set B (A U B)</p>
