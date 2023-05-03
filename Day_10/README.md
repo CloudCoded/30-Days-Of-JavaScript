@@ -119,3 +119,11 @@ What I learnt on 03-May-23
        counts.push({ lang: l, count: filteredLang.length })
      }
      console.log(counts)
+     
+
+     [
+       { lang: 'English', count: 3 },
+       { lang: 'Finnish', count: 1 },
+       { lang: 'French', count: 2 },
+       { lang: 'Spanish', count: 1 },
+     ]  
