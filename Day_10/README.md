@@ -28,3 +28,19 @@ What I learnt on 03-May-23
      Set(4) {"English", "Finnish", "French", "Spanish"}
 
 <p>Set is an iterable object and we can iterate through each elements.</p>
+
+      const languages = [
+        'English',
+        'Finnish',
+        'English',
+        'French',
+        'Spanish',
+        'English',
+        'French',
+     ]
+
+     const setOfLanguages = new Set(languages)
+
+     for (const language of setOfLanguages) {
+             console.log(language)
+     }
