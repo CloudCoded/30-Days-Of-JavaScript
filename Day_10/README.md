@@ -75,3 +75,9 @@ What I learnt on 03-May-23
 
      Set(5) {"Google", "Facebook", "Amazon", "Oracle", "Microsoft"}
 
+## Deleting an element a set
+<p>We can delete an element from a set using a delete method.</p>
+
+     console.log(companies.delete('Google'))
+     console.log(companies.size) // 4 elements left in the set
+
