@@ -224,3 +224,20 @@ What I learnt on 03-May-23
      console.log(countriesMap.get('Finland'))
 
      Helsinki
+
+## Checking key in Map
+<p>Check if a key exists in a map using has method. It returns true or false.</p>
+
+     console.log(countriesMap.has('Finland'))
+
+     true
+
+<p>Getting all values from map using loop</p>
+
+     for (const country of countriesMap) {
+       console.log(country)
+     }
+
+     (2) ["Finland", "Helsinki"]
+     (2) ["Sweden", "Stockholm"]
+     (2) ["Norway", "Oslo"]
