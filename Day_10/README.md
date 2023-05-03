@@ -119,7 +119,7 @@ What I learnt on 03-May-23
        counts.push({ lang: l, count: filteredLang.length })
      }
      console.log(counts)
-     
+
 
      [
        { lang: 'English', count: 3 },
@@ -127,3 +127,12 @@ What I learnt on 03-May-23
        { lang: 'French', count: 2 },
        { lang: 'Spanish', count: 1 },
      ]  
+
+<p>Other use case of set. For instance to count unique item in an array.</p>
+
+     const numbers = [5, 3, 2, 5, 5, 9, 4, 5]
+     const setOfNumbers = new Set(numbers)
+
+     console.log(setOfNumbers)
+
+     Set(5) {5, 3, 2, 9, 4}
