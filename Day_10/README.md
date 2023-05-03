@@ -218,3 +218,9 @@ What I learnt on 03-May-23
 
      Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
      3
+
+## Getting a value from Map
+
+     console.log(countriesMap.get('Finland'))
+
+     Helsinki
