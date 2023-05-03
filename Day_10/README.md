@@ -151,3 +151,6 @@ What I learnt on 03-May-23
      console.log(C)
 
      Set(6) {1, 2, 3, 4, 5,6}
+
+## Intersection of sets
+<p>To find an intersection of two sets can be achieved using filter. Lets find the intersection of set A and set B (A ∩ B)</p>
