@@ -183,3 +183,11 @@ What I learnt on 03-May-23
      console.log(C)
 
      Set(2) {1, 2}
+
+# MAP
+## Creating an empty Map
+
+     const map = new Map()
+     console.log(map)
+
+     Map(0) {}
