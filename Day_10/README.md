@@ -192,7 +192,7 @@ What I learnt on 03-May-23
 
      Map(0) {}
 
-## Creating an Map from array
+## Creating a Map from array
 
      countries = [
        ['Finland', 'Helsinki'],
@@ -202,6 +202,19 @@ What I learnt on 03-May-23
      const map = new Map(countries)
      console.log(map)
      console.log(map.size)
+
+     Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
+     3
+
+## Adding values to the Map
+
+     const countriesMap = new Map()
+     console.log(countriesMap.size) // 0
+     countriesMap.set('Finland', 'Helsinki')
+     countriesMap.set('Sweden', 'Stockholm')
+     countriesMap.set('Norway', 'Oslo')
+     console.log(countriesMap)
+     console.log(countriesMap.size)
 
      Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
      3
