@@ -44,3 +44,9 @@ What I learnt on 03-May-23
      for (const language of setOfLanguages) {
              console.log(language)
      }
+
+       English
+       Finnish
+       French
+       Spanish
+
