@@ -149,3 +149,5 @@ What I learnt on 03-May-23
      let C = new Set(c)
 
      console.log(C)
+
+     Set(6) {1, 2, 3, 4, 5,6}
