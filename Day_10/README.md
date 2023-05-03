@@ -27,3 +27,4 @@ What I learnt on 03-May-23
 
      Set(4) {"English", "Finnish", "French", "Spanish"}
 
+<p>Set is an iterable object and we can iterate through each elements.</p>
