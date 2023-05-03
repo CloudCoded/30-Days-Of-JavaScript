@@ -167,3 +167,6 @@ What I learnt on 03-May-23
      console.log(C)
 
      Set(3) {3, 4, 5}
+
+## Difference of sets
+<p>To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)</p>
