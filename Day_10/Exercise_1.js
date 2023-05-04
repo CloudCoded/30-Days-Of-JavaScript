@@ -7,7 +7,7 @@ const emptySet = new Set()
 console.log(emptySet);
 
 /*
-Question 2:
+Question 2: Create a set containing 0 to 10 using loop
 */
 
 //Answer
