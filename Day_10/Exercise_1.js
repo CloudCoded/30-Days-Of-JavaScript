@@ -21,3 +21,9 @@ for(const num of setOfNumbers){
 /*
 Question 3: Remove an element from a set
 */
+
+//Answer
+const companies = new Set();
+companies.add('Nigeria');
+
+console.log(companies.delete('Nigeria'));
