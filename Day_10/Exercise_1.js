@@ -17,3 +17,7 @@ const setOfNumbers = new Set(num)
 for(const num of setOfNumbers){
     console.log(num)
 }
+
+/*
+Question 3: Remove an element from a set
+*/
