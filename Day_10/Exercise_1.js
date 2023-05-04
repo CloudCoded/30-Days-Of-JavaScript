@@ -27,3 +27,9 @@ const companies = new Set();
 companies.add('Nigeria');
 
 console.log(companies.delete('Nigeria'));
+
+/*
+Question 4: Clear a set
+*/
+
+//Answer
