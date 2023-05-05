@@ -39,3 +39,9 @@ console.log(companies);
 /*
 Question 5: Create a set of 5 string elements from array
 */
+
+//Answer
+const myStates = ['Madrid', 'Barcelona', 'Berlin', 'Paris', 'London'];
+const fiveStrings = new Set(myStates);
+
+console.log(fiveStrings);
