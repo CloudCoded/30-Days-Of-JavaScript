@@ -51,4 +51,9 @@ Question 6: Create a map of countries and number of characters of a country
 */
 
 //Answer
+const countries = ['Finland', 'Sweden', 'Norway']
+const mapCountries = new Map(countries);
 
+for(const country of countries){
+    console.log(country.length);
+}
