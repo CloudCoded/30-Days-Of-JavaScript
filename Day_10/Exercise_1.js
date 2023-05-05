@@ -62,3 +62,7 @@ for (const country of mapCountries.keys()) {
   console.log(country.length);
 }
 
+
+/*This code first creates an empty Map object, then uses a for...of loop to iterate over the countries array and add a key-value pair to the mapCountries object for each country.
+
+Finally, it uses another for...of loop to iterate over the keys of the mapCountries object and log the length of each country name.*/
