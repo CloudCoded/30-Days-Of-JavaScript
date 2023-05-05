@@ -35,3 +35,7 @@ Question 4: Clear a set
 //Answer
 companies.clear();
 console.log(companies);
+
+/*
+Question 5:
+*/
