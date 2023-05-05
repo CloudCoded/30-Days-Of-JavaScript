@@ -45,3 +45,7 @@ const myStates = ['Madrid', 'Barcelona', 'Berlin', 'Paris', 'London'];
 const fiveStrings = new Set(myStates);
 
 console.log(fiveStrings);
+
+/*
+Question 6: Create a map of countries and number of characters of a country
+*/
