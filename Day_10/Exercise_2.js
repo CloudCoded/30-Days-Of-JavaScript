@@ -16,8 +16,11 @@ Question 2: Find a intersection b
 */
 
 //Answer
-let cIntersect = a.filter((num) => bSet.has(num))
-let newC = new Set(cIntersect);
+let A = new Set(a)
+let B = new Set(b)
+let intersect = a.filter((num) => B.has(num))
+
+console.log(intersect);
 
 /*
 Question 3: Find a with b
