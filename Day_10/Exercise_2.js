@@ -27,3 +27,5 @@ Question 3: Find a with b
 */
 
 //Answer
+const aB = a.concat(b);
+console.log(aB)
