@@ -24,3 +24,5 @@ let newC = new Set(cIntersect);
 /*
 Question 3: 
 */
+
+//Answer
