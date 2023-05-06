@@ -14,10 +14,11 @@ let cSet = new Set(c)
 console.log(cSet);
 
 /*
-Question 2: 
+Question 2: Find a intersection b
 */
 
 //Answer
+
 
 /*
 Question 3: 
