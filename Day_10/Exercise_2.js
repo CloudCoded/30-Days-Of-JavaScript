@@ -22,7 +22,7 @@ let cIntersect = a.filter((num) => bSet.has(num))
 let newC = new Set(cIntersect);
 
 /*
-Question 3: 
+Question 3: Find a with b
 */
 
 //Answer
