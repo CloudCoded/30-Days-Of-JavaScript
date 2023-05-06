@@ -18,7 +18,8 @@ Question 2: Find a intersection b
 */
 
 //Answer
-
+let cIntersect = a.filter((num) => bSet.has(num))
+let newC = new Set(cIntersect);
 
 /*
 Question 3: 
