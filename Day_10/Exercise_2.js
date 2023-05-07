@@ -17,9 +17,9 @@ Question 2: Find a intersection b
 */
 
 //Answer
-let A = new Set(a)
-let B = new Set(b)
-let intersect = a.filter((num) => B.has(num))
+const A = new Set(a)
+const B = new Set(b)
+const intersect = a.filter((num) => B.has(num))
 
 console.log(intersect);
 
