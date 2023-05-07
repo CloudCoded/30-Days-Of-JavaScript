@@ -6,9 +6,9 @@ Question 1: Find a union b
 */
 
 //Answer
-let union = [...a, ...b] //spread method
+const union = [...a, ...b] //spread method
 
-let c = new Set(union)
+const c = new Set(union)
 
 console.log(c);
 
