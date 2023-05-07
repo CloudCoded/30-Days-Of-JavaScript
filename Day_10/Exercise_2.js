@@ -1,10 +1,11 @@
+const a = [1, 2, 3, 4, 5]
+const b =[3, 4, 5, 6]
+
 /*
 Question 1: Find a union b
 */
 
 //Answer
-let a = [1, 2, 3, 4, 5]
-let b =[3, 4, 5, 6]
 let union = [...a, ...b] //spread method
 
 let c = new Set(union)
