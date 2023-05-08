@@ -41,3 +41,25 @@ Question 2: *** Use the countries data to find the 10 most spoken languages:
   {Arabic:25}
   ]
 */
+
+//Answer
+const mostSpokenLanguages = (arr, num) => {
+    const lanCount = new Map();
+    arr.forEach(country => {
+        country.language.forEach(lang => {
+            if(!lanCount.has(lang)){
+                lanCount.set(lang, 1);
+            }
+            else{
+                lanCount.set(lang, lanCount.get(lang) + 1);
+            }
+        });
+    });
+
+    const sorted = [...lanCount.entries()].sort((a, b) => b[1] - a[1]);
+    console.log(sorted.slice(0, num));
+    return sorted.slice(0, num);
+};
+
+mostSpokenLanguages(countries, 10);
+mostSpokenLanguages(countries, 3);
