@@ -5,14 +5,20 @@ Question 1: How many languages are there in the countries object file.
 //Answer
 import countries from '/countries.js'
 
-const allLang = () => {
-    let count = 0;
-    for(let i = 0; i < countries.length; i++){
-        count++;
-    }
-    console.log(count);
-}
-allLang();
+// Initialize an empty object to store the languages
+const languages = {};
+
+// Loop through each object in the countries array
+countries.forEach(country => {
+     // Loop through each language in the current country's languages array
+     country.languages.forEach(language => {
+        // Add the language to the languages object if it doesn't exist
+        if (!languages[language]) {
+            languages[language] = true;
+        }
+  
+     })
+})
 
 /*
 Question 2: *** Use the countries data to find the 10 most spoken languages:
