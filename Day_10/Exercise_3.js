@@ -16,9 +16,12 @@ countries.forEach(country => {
         if (!languages[language]) {
             languages[language] = true;
         }
-  
-     })
-})
+     });
+});
+
+// Count the number of keys in the languages object to get the total number of languages
+const numLanguages = Object.keys(languages).length;
+console.log(numLanguages);
 
 /*
 Question 2: *** Use the countries data to find the 10 most spoken languages:
