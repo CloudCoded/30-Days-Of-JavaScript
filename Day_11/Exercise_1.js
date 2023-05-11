@@ -11,6 +11,13 @@ console.log(e, pi, gravity, humanBodyTemp, waterBoilingTemp);
 /*
 Question 2: Destructure and assign the elements of countries array to fin, est, sw, den, nor
 */
+
+//Answer
+const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway']
+
+let [fin, est, sw, den, nor] = countries //Destructing
+console.log(fin, est, sw, den, nor);
+
 /*
 Question 3: 
 */
