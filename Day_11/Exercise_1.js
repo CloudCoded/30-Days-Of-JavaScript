@@ -27,48 +27,31 @@ const rectangle = {
   area: 200,
   perimeter: 60
 }
-const users = [
-{
-  name:'Brook',
-  scores:75,
-  skills:['HTM', 'CSS', 'JS'],
-  age:16
-},
-{
-  name:'Alex',
-  scores:80,
-  skills:['HTM', 'CSS', 'JS'],
-  age:18
-},
-{
-  name:'David',
-  scores:75,
-  skills:['HTM', 'CSS'],
-  age:22
-},
-{
-  name:'John',
-  scores:85,
-  skills:['HTML'],
-  age:25
-},
-{
-  name:'Sara',
-  scores:95,
-  skills:['HTM', 'CSS', 'JS'],
-  age: 26
-},
-{
-  name:'Martha',
-  scores:80,
-  skills:['HTM', 'CSS', 'JS'],
-  age:18
-},
-{
-  name:'Thomas',
-  scores:90,
-  skills:['HTM', 'CSS', 'JS'],
-  age:20
-}
-]
+
 */
+
+//Answer
+const rectangle = {
+    width: 20,
+    height: 10,
+    area: 200,
+    perimeter: 60
+}
+
+const destructRectangle = ({ width, height, area, perimeter}) => {
+    const wid = width * 2;
+    const hei = height * 2;
+    const ar = wid * hei;
+    const peri = 2 * (wid + hei);
+
+    console.log(`wid: ${wid}`);
+    console.log(`hei: ${hei}`);
+    console.log(`ar: ${ar}`);
+    console.log(`peri: ${peri}`);
+}
+destructRectangle(rectangle);
+
+//Or
+const { wid, hei, ar, peri } = rectangle; //Destructing by changing the property names
+console.log({ wid, hei, ar, peri });
+
