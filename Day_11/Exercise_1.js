@@ -9,7 +9,7 @@ let [e, pi, gravity, humanBodyTemp, waterBoilingTemp] = constants //Destructing
 console.log(e, pi, gravity, humanBodyTemp, waterBoilingTemp);
 
 /*
-Question 2: 
+Question 2: Destructure and assign the elements of countries array to fin, est, sw, den, nor
 */
 /*
 Question 3: 
