@@ -55,3 +55,7 @@ const users = [
 /*
 Question 2: Find the persons who have less than two skills
 */
+
+//Answer
+const lessThanTwoSkills = users.filter(user => user.skills.length < 2);
+console.log(lessThanTwoSkills);
