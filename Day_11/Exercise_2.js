@@ -53,5 +53,5 @@ const users = [
     }
 
 /*
-Question 2: 
+Question 2: Find the persons who have less than two skills
 */
