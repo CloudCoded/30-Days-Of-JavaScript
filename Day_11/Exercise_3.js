@@ -43,3 +43,17 @@ Question 3: Write a function called convertArrayToObject which can convert the a
     ]
 */
 
+//Answer
+const convertArrayToObject = (array) => {
+    let object = {};
+    for(const [name, skills, scores] of students){
+        object[name] = {
+            skills,
+            scores
+        };
+
+        return object;
+    }
+}
+convertArrayToObject(student);
+
