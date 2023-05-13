@@ -14,3 +14,32 @@ Question 2: A junior developer structure student name, skills and score in array
 
 const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
 */
+
+//Answer
+const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
+const [name, skills, [, ,jsScore, reactScore]] = student
+console.log(name, skills, jsScore, reactScore);
+
+/*
+Question 3: Write a function called convertArrayToObject which can convert the array to a structure object.
+
+    const students = [
+        ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]],
+        ['John', ['HTM', 'CSS', 'JS', 'React'], [85, 80, 85, 80]]
+      ]
+
+    console.log(convertArrayToObject(students))
+    [
+      {
+        name: 'David',
+        skills: ['HTM','CSS','JS','React'],
+        scores: [98,85,90,95]
+      },
+      {
+        name: 'John',
+        skills: ['HTM','CSS','JS','React'],
+        scores: [85, 80,85,80]
+      }
+    ]
+*/
+
