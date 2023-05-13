@@ -44,6 +44,11 @@ Question 3: Write a function called convertArrayToObject which can convert the a
 */
 
 //Answer
+const students = [
+    ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]],
+    ['John', ['HTM', 'CSS', 'JS', 'React'], [85, 80, 85, 80]]
+]
+
 const convertArrayToObject = (array) => {
     let object = {};
     for(const [name, skills, scores] of students){
