@@ -50,15 +50,15 @@ const students = [
 ]
 
 const convertArrayToObject = (array) => {
-    let object = {};
-    for(const [name, skills, scores] of students){
+    const object = {};
+    for(const [name, skills, scores] of array){
         object[name] = {
             skills,
             scores
         };
-
-        return object;
     }
+    return object;
 }
-convertArrayToObject(student);
+const studentsObject = convertArrayToObject(students);
+console.log(studentsObject);
 
