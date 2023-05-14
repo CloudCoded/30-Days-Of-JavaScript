@@ -1,14 +1,14 @@
-const a = [1, 2, 3, 4, 5]
-const b =[3, 4, 5, 6]
+const a = [1, 2, 3, 4, 5];
+const b =[3, 4, 5, 6];
 
 /*
 Question 1: Find a union b
 */
 
 //Answer
-const union = [...a, ...b] //spread method
+const union = [...a, ...b]; //spread method
 
-const c = new Set(union)
+const c = new Set(union);
 
 console.log(c);
 
