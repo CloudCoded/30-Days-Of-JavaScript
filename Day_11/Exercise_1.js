@@ -52,6 +52,6 @@ const destructRectangle = ({ width, height, area, perimeter}) => {
 destructRectangle(rectangle);
 
 //Or
-const { wid, hei, ar, peri } = rectangle; //Destructing by changing the property names
+const { wid, hei, ar, peri } = rectangle //Destructing by changing the property names
 console.log({ wid, hei, ar, peri });
 
