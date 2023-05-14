@@ -3,10 +3,10 @@ Question 1: Destructure the countries object print name, capital, population and
 */
 
 //Answer
-require('./countries_data')
+require('./countries_data');
 
 for(const {name, capital, population, languages} of countries){
-    console.log({name, capital, population, languages})
+    console.log({name, capital, population, languages});
 }
 
 /*
