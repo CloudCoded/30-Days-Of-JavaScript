@@ -95,7 +95,7 @@ const studentss = {
 
   const newStudent = {...studentss};
    newStudent.skills.frontEnd.push({ skill: 'Bootstrap', level: 8});
-   newStudent.skills.backEnd.push({ skill: 'Express', level: 9})
+   newStudent.skills.backEnd.push({ skill: 'Express', level: 9});
    newStudent.skills.dataBase.push({ skill: 'SQL', level: 8})
    newStudent.skills.dataScience.push({ skill: 'SQL'})
 
