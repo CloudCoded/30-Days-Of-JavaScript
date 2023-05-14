@@ -11,11 +11,11 @@ Question 2: Create a set containing 0 to 10 using loop
 */
 
 //Answer
-const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const setOfNumbers = new Set(num)
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const setOfNumbers = new Set(num);
 
 for(const num of setOfNumbers){
-    console.log(num)
+    console.log(num);
 }
 
 /*
