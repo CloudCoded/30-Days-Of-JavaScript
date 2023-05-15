@@ -131,7 +131,7 @@ const countriesArr = [
   'Japan',
   'Kenya',
 ]
-const countriesLength = countriesArr.map((country) => country.length)
+const countriesLength = countriesArr.map((country) => country.length);
 console.log(countriesLength);
 
 /*
