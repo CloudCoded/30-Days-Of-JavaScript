@@ -8,3 +8,11 @@ What I learnt on 20th of may 2023
 
 ### Pattern
 <p>A pattern could be a text or any form of pattern which have similarities. For instance the word spam in an email could be a pattern we are interested to look for in an email or a phone number format number might be our interest to look for</p>
+
+### Flags
+<p>Flags are optional parameters in regular expression which determines the type of searching. Examples:</p>
+<ul>
+  <li>g: a global flag which means looking for a pattern in whole text</li>
+  <li>i: case insensitive flag(it searches for both lowercase and uppercase)</li>
+  <li>m: multiline</li>
+</ul>
