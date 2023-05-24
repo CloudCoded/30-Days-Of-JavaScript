@@ -16,3 +16,6 @@ What I learnt on 20th of may 2023
   <li>i: case insensitive flag(it searches for both lowercase and uppercase)</li>
   <li>m: multiline</li>
 </ul>
+
+### Creating a pattern with and without RegExp Constructor
+### RegExpp Object Methods
