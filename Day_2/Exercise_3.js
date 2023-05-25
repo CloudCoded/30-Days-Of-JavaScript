@@ -27,9 +27,9 @@ Quesrtion 4: Calculate the total annual income of the person by extracting the n
 
 const calcu = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 const extraction = calcu.match(/\d+/g);
-const monthSalary = parseInt(number[0]);
-const annualBonus = parseInt(number[1]);
-const onlineCourse = parseInt(number[2]);
+const monthSalary = parseInt(extraction[0]);
+const annualBonus = parseInt(extraction[1]);
+const onlineCourse = parseInt(extraction[2]);
 const annualIncome = (monthSalary * 12) + annualBonus + (onlineCourse * 12);
 console.log(annualIncome);
 
