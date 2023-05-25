@@ -35,3 +35,16 @@ Question 3: Write a pattern which identify if a string is a valid JavaScript var
 */
 
 //Answer
+const is_valid_variable = (str) => {
+    // Regular expression pattern to match valid variable names
+    const variablePattern = /^[a-zA-Z_$][a-zA-Z0-9_$]*$/;
+  
+    return variablePattern.test(str);
+}
+
+console.log(is_valid_variable('first_name'));   // true
+console.log(is_valid_variable('first-name'));   // false
+console.log(is_valid_variable('1first_name'));  // false
+console.log(is_valid_variable('firstname'));    // true
+
+  
