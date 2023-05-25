@@ -33,3 +33,5 @@ console.log('Distance between the two furthest particles:', distance);
 /*
 Question 3: Write a pattern which identify if a string is a valid JavaScript variable
 */
+
+//Answer
