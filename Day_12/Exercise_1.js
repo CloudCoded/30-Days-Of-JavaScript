@@ -13,8 +13,23 @@ const annualIncome = (monthSalary * 12) + bonus + (onlineMonie * 12)
 console.log(annualIncome);
 
 /*
-Question 2:
+Question 2: The position of some particles on the horizontal x-axis -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
 */
+
+//Answer
+const positions = [-12, -4, -3, -1, 0, 4, 8];
+
+// Find the minimum and maximum positions
+const minPosition = Math.min(...positions);
+const maxPosition = Math.max(...positions);
+
+// Calculate the distance
+const distance = maxPosition - minPosition;
+
+console.log('Minimum Position:', minPosition);
+console.log('Maximum Position:', maxPosition);
+console.log('Distance between the two furthest particles:', distance);
+
 /*
 Question 3:
 */
