@@ -1,5 +1,5 @@
 /*
-Question 1: 
+Question 1: Write a function called tenMostFrequentWords which get the ten most frequent word from a string?
 */
 
 //Answer
