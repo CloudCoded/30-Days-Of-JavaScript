@@ -3,8 +3,8 @@ Question 1: Write a function called tenMostFrequentWords which get the ten most 
 */
 
 //Answer
-function tenMostFrequentWords(text) {
-    const words = text.split(/\s+/);
+function tenMostFrequentWords(paragraph) {
+    const words = paragraph.split(/\s+/);
     const wordFreq = {};
   
     words.forEach((word) => {
@@ -22,3 +22,6 @@ function tenMostFrequentWords(text) {
     return wordFreqArray.slice(0, 10); // Return only the top 10 entries
 }
   
+const paragraph = "I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.";
+const mostFrequentWords = tenMostFrequentWords(paragraph);
+console.log(mostFrequentWords);
