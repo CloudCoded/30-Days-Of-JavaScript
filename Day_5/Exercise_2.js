@@ -15,7 +15,7 @@ console.log(words.length)
 let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 let removeAllPunctuation = text.replace(/[^\s\w]/gi, ''); //remove all special characters, punctuations
 let stringToArr = removeAllPunctuation.split(' '); //string to an array
-console.log(stringToArr.length()); //count the number of words
+console.log(stringToArr.length); //count the number of words
 
 
 
