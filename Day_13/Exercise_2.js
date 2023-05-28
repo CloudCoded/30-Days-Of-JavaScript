@@ -10,3 +10,10 @@ Question 2: Write a warning message using console.warn()
 */
 
 console.warn('Tailwind is not inline styling');
+
+/*
+Question 3: Write an error message using console.error()
+*/
+
+console.log(countries.length());
+console.error('length is not a function')
