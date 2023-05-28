@@ -9,3 +9,11 @@ const countries = [
     ['Norway', 'Oslo']
 ]
 console.table(countries);
+
+/*
+Question 2: Display the countries object as a table
+*/
+
+//Answer
+import './countries_data'
+console.table(countries);
