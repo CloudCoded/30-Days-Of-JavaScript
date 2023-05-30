@@ -23,4 +23,17 @@ JavaScript similar to python or Java provides an error-handling mechanism to cat
 
 <b>finally</b>: finally block will always be executed regardless of the occurrence of an error. The finally block can be used to complete the remaining task or reset variables that might have changed before error occurred in try block.</p>
 
+     try {
+           let lastName = 'Yetayeh'
+           let fullName = fistName + ' ' + lastName
+         } catch (err) {
+            console.error(err) // we can use console.log() or console.error()
+         } finally {
+           console.log('In any case I will be executed')
+         }
+
+         ReferenceError: fistName is not defined
+            at <anonymous>:4:20
+         In any case it  will be executed
+
 
