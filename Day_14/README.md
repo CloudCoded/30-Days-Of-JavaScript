@@ -60,9 +60,10 @@ JavaScript similar to python or Java provides an error-handling mechanism to cat
      throwErrorExampleFun()
 
 ## Erro Types
-~ ReferenceError: An illegal reference has occurred. A ReferenceError is thrown if we use a variable that has not been declared.
+~ReferenceError: An illegal reference has occurred. A ReferenceError is thrown if we use a variable that has not been declared.
 
-~ SyntaxError: A syntax error has occurred
-~ TypeError: A type error has occurred
+~SyntaxError: A syntax error has occurred
+
+~TypeError: A type error has occurred
 
 
