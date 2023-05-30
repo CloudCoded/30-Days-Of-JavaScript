@@ -37,3 +37,24 @@ JavaScript similar to python or Java provides an error-handling mechanism to cat
          In any case it  will be executed
 
 
+<p><b>throw</b>: the throw statement allows us to create a custom error. We can through a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:</p>
+
+     throw 'Error2' // generates an exception with a string value
+     throw 42 // generates an exception with the value 42
+     throw true // generates an exception with the value true
+     throw new Error('Required') // generates an error object with the message of Required
+
+     const throwErrorExampleFun = () => {
+       let message
+       let x = prompt('Enter a number: ')
+       try {
+         if (x == '') throw 'empty'
+         if (isNaN(x)) throw 'not a number'
+         x = Number(x)
+         if (x < 5) throw 'too low'
+         if (x > 10) throw 'too high'
+       } catch (err) {
+         console.log(err)
+       }
+     }
+     throwErrorExampleFun()
