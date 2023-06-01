@@ -51,3 +51,11 @@ console.log(myDog.age)
 console.log(myDog.color)
 console.log(myDog.legs)
 console.log(myDog.pet1)
+
+
+const myCat = new Cat('Kim', 4, 'goldish', 4, 'leo');
+console.log(myCat.name)
+console.log(myCat.age)
+console.log(myCat.color)
+console.log(myCat.legs)
+console.log(myCat.pet2)
