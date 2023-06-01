@@ -15,3 +15,7 @@ class Animal {
 
 const dog = new Animal('Ghost', 6, 'Black', 'transparent');
 console.log(dog);
+
+/*
+Question 2: Create a Dog and Cat child class from the Animal Class.
+*/
