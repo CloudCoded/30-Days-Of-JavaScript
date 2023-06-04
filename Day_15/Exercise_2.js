@@ -18,12 +18,22 @@ class Dog extends Animal {
         super(name, age, color, legs)
         this.pet1 = pet1
     }
+    
+    //Ovverride the color property
+    get color(){
+        return 'brown';
+    }
 }
 
 class Cat extends Animal {
     constructor(name, age, color, legs){
         super(name, age, color, legs)
         this.pet2 = pet2;
+    }
+    
+    //Override the color property
+    get color(){
+        return 'white';
     }
 }
 
