@@ -11,6 +11,10 @@ class Animal {
         this.color = color;
         this.legs = legs;
     }
+
+    makeSound(){
+        console.log('The animal makes a sound.')
+    }
 }
 
 class Dog extends Animal {
@@ -19,9 +23,9 @@ class Dog extends Animal {
         this.pet1 = pet1
     }
     
-    //Ovverride the color property
-    get color(){
-        return 'brown';
+    //Ovverride 
+    makeSound(){
+        console.log('The dog bark');
     }
 }
 
@@ -31,9 +35,9 @@ class Cat extends Animal {
         this.pet2 = pet2;
     }
     
-    //Override the color property
-    get color(){
-        return 'white';
+    //Override
+    makeSound(){
+        console.log('The cat meow');
     }
 }
 
