@@ -64,7 +64,7 @@ console.log(parseInt('9.8') === 10) //The parseInt() prototype will convert the 
             console.log(false);
         }//1. The includes() check if 'A' is in the string and will returns false because all the chars are smallletters
 
-        if(mynName.startsWith('O')){
+        if(myName.startsWith('O')){
             console.log(true);
         } else{
             console.log(false);
