@@ -59,7 +59,7 @@ class Statistics {
           maxFrequency = frequency
           modes = [num];
         } else if (frequency === maxFrequency) {
-          modes.push(num);
+          modes.push(num)
         }
       });
   
