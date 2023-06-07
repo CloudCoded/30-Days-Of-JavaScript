@@ -56,7 +56,7 @@ class Statistics {
         frequencyMap.set(num, frequency);
   
         if (frequency > maxFrequency) {
-          maxFrequency = frequency;
+          maxFrequency = frequency
           modes = [num];
         } else if (frequency === maxFrequency) {
           modes.push(num);
