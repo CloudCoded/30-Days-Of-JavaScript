@@ -47,7 +47,7 @@ class Statistics {
     }
   
     mode() {
-      const frequencyMap = new Map();
+      const frequencyMap = new Map()
       let maxFrequency = 0;
       let modes = [];
   
