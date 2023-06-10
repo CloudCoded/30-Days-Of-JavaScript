@@ -53,7 +53,7 @@ class Statistics {
   
       this.data.forEach((num) => {
         const frequency = (frequencyMap.get(num) || 0) + 1;
-        frequencyMap.set(num, frequency);
+        frequencyMap.set(num, frequency)
   
         if (frequency > maxFrequency) {
           maxFrequency = frequency
