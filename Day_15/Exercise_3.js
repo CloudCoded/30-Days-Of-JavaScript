@@ -48,7 +48,7 @@ class Statistics {
   
     mode() {
       const frequencyMap = new Map()
-      let maxFrequency = 0;
+      let maxFrequency = 0
       let modes = [];
   
       this.data.forEach((num) => {
