@@ -63,7 +63,7 @@ class Statistics {
         }
       });
   
-      return { mode: modes, count: maxFrequency };
+      return { mode: modes, count: maxFrequency }
     }
   
     var() {
