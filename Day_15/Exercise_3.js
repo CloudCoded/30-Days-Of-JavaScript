@@ -74,7 +74,7 @@ class Statistics {
     }
   
     std() {
-      return Math.sqrt(this.var());
+      return Math.sqrt(this.var())
     }
   
     freqDist() {
