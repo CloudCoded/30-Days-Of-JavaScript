@@ -71,7 +71,7 @@ Declare two variables myAge and yourAge and assign them initial values and log t
 */
 
 //Answer: Each variable declared with let keyword and each assigned with values of number and concatenated string using '+' operator and each log to the broswer console with console.log() function
-let myAge = 'I am ' + 25 + ' '+'years old';
+let myAge = 'I am ' + 25 + ' years old';
 let yourAge = 'Your are ' + 30 +' '+'years old';
 console.log(myAge);
 console.log(yourAge);
