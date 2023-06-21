@@ -132,7 +132,7 @@ console.log(challenge.startsWith('30')); //I used the startsWith method to check
 Question 22: Use endsWith() method with the string 30 Days Of JavaScript and make the result true
 */
 
-console.log(updateChallenge.endsWith('JavaScript')); //I used the endsWith method to check if the string starts with ' ', this output true because the string starts with ' '
+console.log(updateChallenge.endsWith('JavaScript')); //I used the endsWith method to check if the string ends with 'JavaScript', this output true because the string starts with 'JavaScript'
 
 /*
 Question 23: Use match() method to find all the a’s in 30 Days Of JavaScript
