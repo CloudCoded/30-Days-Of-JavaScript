@@ -16,12 +16,7 @@ Question 3: Check if typeof '10' is exactly equal to 10. If not make it exactly 
  */
 
 //Answer: This is a tricky question, '10' is number string in javascript
-let checkNum = '10';
-console.log(typeof(checkNum)); //This will output string because the number is inside a quote. I'll change the value in the below function
-let typeChange = 10; //Here I change the value from string to a number type 
-console.log(typeof(typeChange)); // And this log 10 instead of '10' 
-
-//Or, we could use the Casting method and it is best way to solve the question
+// we could use the Casting method and it is best way to solve the question
 
 let strNum = '10'; // strNum variable is declared with let keyword and assigned a value of string '10'
 let intNum = parseInt(strNum); //The parseInt is one of the ways to change a string num to num type
