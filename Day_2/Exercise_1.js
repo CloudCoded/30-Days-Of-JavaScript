@@ -2,7 +2,7 @@
 Question 1: Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'
 */
 
-var challenge = '30 Days Of Javascript'; // A variable "challenge" was declared by var keyword of a value of string was assigned to it
+let challenge = '30 Days Of Javascript'; // A variable "challenge" was declared by var keyword of a value of string was assigned to it
 
 /*
 Question 2: Print the string on the browser console using console.log()
