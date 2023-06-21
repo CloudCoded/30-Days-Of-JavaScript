@@ -18,7 +18,7 @@ Quesrtion 3: Clean the following text and find the most frequent word (hint, use
 */
 
 const cleared = sentence.replace(/[^\s\w]/gi, '') // remove non-alphanumeric characters i.e special chars, whitespaces
-console.log(cleared)
+console.log(cleared);
 
 
 /*
