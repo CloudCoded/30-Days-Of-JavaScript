@@ -173,9 +173,9 @@ const age = currentYear - birthYear;
 
 //statement to check and print output
 if(age >= 18) {
-    console.log(`You are ${age}. You are old enough to drive`)
+    console.log(`You are ${age}. You are old enough to drive`);
 } else {
-    const remainingYears = 18 - age
+    const remainingYears = 18 - age;
     console.log(`You are ${age}. You will be allowed to drive after ${remainingYears} year(s).`);
 }
 
