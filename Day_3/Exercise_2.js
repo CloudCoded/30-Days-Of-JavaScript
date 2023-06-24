@@ -185,7 +185,7 @@ Question 14: Write a script that prompt the user to enter number of years. Calcu
 
 let numOfYears = prompt('Enter number of years you live: '); //number of years
 const timeInSeconds = new Date().getTime() * 100 //current date seconds multiply by 100
-console.log('You lived 167718741777800 seconds.'); //output
+console.log(timeInSeconds); //output
 
 /*
 Question 15: Create a human readable time format using the Date time object 
