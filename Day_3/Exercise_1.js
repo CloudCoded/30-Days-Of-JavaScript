@@ -171,7 +171,7 @@ What is the minutes now?
 Find out the numbers of seconds elapsed from January 1, 1970 to now.
  */
 
-const now = new Date() //creating a new time object
+const now = new Date(); //creating a new time object
 console.log(now) //The time object will provide info about time => Tue Feb 21 2023 12:45:07 GMT-0500 (Eastern Standard Time)
 console.log(now.getFullYear()); //2023
 console.log(now.getMonth()); // 1, the month starts from 0 index
