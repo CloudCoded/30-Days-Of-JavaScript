@@ -150,7 +150,7 @@ let comExNeg = !(4 < 3); //true => The ! operator negates true to false and fals
 let comExNeg1 = !(4 > 3); //false
 let comExNeg2 = !(false); //true
 let comExNeg3 = !(4 > 3 && 10 < 12); //false
-let comExNeg4 = !(4 > 3 && 10 > 12) //true
+let comExNeg4 = !(4 > 3 && 10 > 12); //true
 
 // There is no 'on' in both dragon and python
 let check = 'python', check2 = 'jargon';
