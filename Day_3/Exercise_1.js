@@ -175,9 +175,9 @@ const now = new Date(); //creating a new time object
 console.log(now); //The time object will provide info about time => Tue Feb 21 2023 12:45:07 GMT-0500 (Eastern Standard Time)
 console.log(now.getFullYear()); //2023
 console.log(now.getMonth()); // 1, the month starts from 0 index
-console.log(now.getDate()) // 21
-console.log(now.getDay()) // 2
-console.log(now.getHours()) // 12
+console.log(now.getDate()); // 21
+console.log(now.getDay()); // 2
+console.log(now.getHours()); // 12
 console.log(now.getMinutes()) //45
 console.log(now.getTime()) // 1677001507912
 
