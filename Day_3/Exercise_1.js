@@ -23,8 +23,8 @@ Question 1: Declare firstName, lastName, country, city, age, isMarried, year var
  Question 2: Check if type of '10' is equal to 10
  */
 // data type check
-console.log('10' == 10) //This will print true because values are the same
-console.log('10' === 10) //This will output false because the data types are the different
+console.log('10' == 10); //This will print true because values are the same
+console.log('10' === 10); //This will output false because the data types are the different
 
  /*
  Question 3: Check if parseInt('9.8') is equal to 10
