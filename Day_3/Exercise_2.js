@@ -167,9 +167,9 @@ console.log(`I am ${addAge} years older than you.`); //output
 Question 13: Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
  */
 //prompt box to input birth year
-let birthYear = prompt('Enter birth year: ')
-let currentYear = new Date().getFullYear()
-const age = currentYear - birthYear
+let birthYear = prompt('Enter birth year: ');
+let currentYear = new Date().getFullYear();
+const age = currentYear - birthYear;
 
 //statement to check and print output
 if(birthYear >= 18) {
