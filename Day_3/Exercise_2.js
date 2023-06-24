@@ -172,10 +172,11 @@ let currentYear = new Date().getFullYear();
 const age = currentYear - birthYear;
 
 //statement to check and print output
-if(birthYear >= 18) {
-    console.log(`You are ${birthYear}. You are old enough to drive`)
+if(age >= 18) {
+    console.log(`You are ${age}. You are old enough to drive`)
 } else {
-    console.log('You are 15. You will be allowed to drive after 3 years.');
+    const remainingYears = 18 - age
+    console.log(`You are ${age}. You will be allowed to drive after ${remainingYears} year(s).`);
 }
 
 /*
