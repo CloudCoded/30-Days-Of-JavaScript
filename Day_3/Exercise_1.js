@@ -52,7 +52,7 @@ console.log(parseInt('9.8') === 10) //The parseInt() prototype will convert the 
             console.log(false);
         } //2. The num variable is less than 100 so the statement is true, we jus need one argument to be true when using the  || operator
 
-        if(num > -1) console.log(true) //3. This statement is true because num is greater than negative num
+        if(num > -1) console.log(true); //3. This statement is true because num is greater than negative num
 
 
         //FALSY VALUES
