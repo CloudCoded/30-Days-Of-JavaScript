@@ -120,9 +120,9 @@ console.log(parseInt('9.8') === 10) //The parseInt() prototype will convert the 
  str1.length; // 6
  str2.length; // 6
  if(str1.length != str2.length){
-    console.log(true)
+    console.log(true);
  } else {
-    console.log(false)
+    console.log(false);
  } // false statement
 
 
