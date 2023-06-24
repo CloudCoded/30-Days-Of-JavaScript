@@ -178,7 +178,7 @@ console.log(now.getMonth()); // 1, the month starts from 0 index
 console.log(now.getDate()); // 21
 console.log(now.getDay()); // 2
 console.log(now.getHours()); // 12
-console.log(now.getMinutes()) //45
-console.log(now.getTime()) // 1677001507912
+console.log(now.getMinutes()); //45
+console.log(now.getTime()); // 1677001507912
 
 
