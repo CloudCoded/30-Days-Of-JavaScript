@@ -117,8 +117,8 @@ console.log(parseInt('9.8') === 10) //The parseInt() prototype will convert the 
 
  // Find the length of 'jargon' and 'python' and return a falsy statement
  let str1 = 'jargon', str2 = 'python';
- console.log(str1.length); // 6
- console.log(str2.length); // 6
+ str1.length; // 6
+ str2.length; // 6
  if(str1.length != str2.length){
     console.log(true)
  } else {
