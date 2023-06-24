@@ -71,7 +71,7 @@ console.log(parseInt('9.8') === 10) //The parseInt() prototype will convert the 
         }//2. This statment will return false because the string value assigned to const myName are all small chars
 
         function falStat(getNumber){
-            return(getNumber ? true : false)
+            return(getNumber ? true : false);
         }
         console.log(falStat(false));//3. This ternary operator will return false
 
