@@ -3,5 +3,5 @@ Question 1: Stringify the students object with only firstName, lastName and skil
 */
 
 import student from "./utils"
-const txt = JSON.stringify(student,['firstName', 'lastName', 'skills'],3)
+const txt = JSON.stringify(student,['firstName', 'lastName', 'skills'],3);
 console.log(txt)
