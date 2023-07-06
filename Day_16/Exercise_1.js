@@ -12,7 +12,7 @@ Question 2: Stringify the age variable
 
 import age from "./utils"
 const stringifyAge = JSON.stringify(age);
-console.log(stringifyAge)
+console.log(stringifyAge);
 
 /*
 Question 3: Stringify the isMarried variable
