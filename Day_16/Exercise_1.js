@@ -28,4 +28,4 @@ Question 4: Stringify the student object
 
 import student from "./utils"
 const stringify = JSON.stringify(student);
-console.log(stringify)
+console.log(stringify);
