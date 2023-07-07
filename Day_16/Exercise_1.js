@@ -20,7 +20,7 @@ Question 3: Stringify the isMarried variable
 
 import isMarried from "./utils"
 const toStringify = JSON.stringify(isMarried);
-console.log(toStringify)
+console.log(toStringify);
 
 /*
 Question 4: Stringify the student object
