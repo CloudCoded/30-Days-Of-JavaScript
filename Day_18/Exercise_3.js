@@ -1,3 +1,6 @@
+/*
+Question 1: Read the cats api and find the average weight of cat in metric unit.
+*/
 const catsAPI = 'https://api.thecatapi.com/v1/breeds';
 
 fetch(catsAPI)
@@ -22,3 +25,7 @@ fetch(catsAPI)
   .catch((error) => {
     console.error('Error fetching data:', error);
   });
+
+/*
+Question 2: Read the countries api and find out the 10 largest countries
+*/
