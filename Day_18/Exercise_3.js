@@ -50,3 +50,42 @@ fetch(countriesAPI)
   .catch(error => {
     console.error('Error fetching data:', error);
   });
+
+  /*
+  Question 3: Read the countries api and count total number of languages in the world used as officials.
+  */
+
+
+fetch(countriesAPI)
+  .then(response => response.json())
+  .then(data => {
+    // Create an empty object to store language counts
+    const languageCounts = {};
+
+    // Iterate through each country
+    data.forEach(country => {
+      const officialLanguages = country.languages;
+
+      // Check if the country has official languages
+      if (officialLanguages && officialLanguages.length > 0) {
+        // Iterate through each official language
+        officialLanguages.forEach(language => {
+          // Increment the count for the language in the languageCounts object
+          if (languageCounts[language]) {
+            languageCounts[language] += 1;
+          } else {
+            languageCounts[language] = 1;
+          }
+        });
+      }
+    });
+
+    // Calculate the total number of unique languages
+    const totalLanguages = Object.keys(languageCounts).length;
+
+    // Log the total number of unique languages
+    console.log('Total Number of Languages Used as Official:', totalLanguages);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
