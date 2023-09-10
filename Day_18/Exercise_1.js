@@ -11,7 +11,7 @@ fetch (countriesAPI).then(response => response.json())
     console.log('Capital:', country.capital);
     console.log('Language:', country.languages.map((lang) => lang.name).join(', '));
     console.log('Population:', country.population);
-    console.log('Area:', country.area)
+    console.log('Area:', country.area);
     }) 
 })
 .catch((error) => {
