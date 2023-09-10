@@ -2,7 +2,7 @@
 Question 1: Read the countries API using fetch and print the name of country, capital, languages, population and area.
 */
 
-const countriesAPI = 'https://restcountries.com/v2/all'
+const countriesAPI = 'https://restcountries.com/v2/all';
 
 fetch (countriesAPI).then(response => response.json())
 .then(data =>{
