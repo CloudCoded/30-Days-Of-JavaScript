@@ -8,7 +8,7 @@ fetch (countriesAPI).then(response => response.json())
 .then(data =>{
     data.forEach((country) =>{
     console.log('Country:', country.name);
-    console.log('Capital:', country.capital)
+    console.log('Capital:', country.capital);
     console.log('Language:', country.languages.map((lang) => lang.name).join(', '))
     console.log('Population:', country.population)
     console.log('Area:', country.area)
