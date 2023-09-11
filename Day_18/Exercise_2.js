@@ -11,5 +11,5 @@ fetch (catsAPI).then(response => response.json())
     })
 })
 .catch((error) => {
-    console.log('Error:', error)
+    console.log('Error:', error);
 })
